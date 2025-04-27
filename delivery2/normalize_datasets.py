@@ -56,11 +56,11 @@ def process_file(filepath, output_path):
         df.to_csv(output_path, index=False, encoding="utf-8")
 
     elif ext == ".tsv":
-        df = pd.read_csv(filepath, sep="\t", encoding="utf-8", errors="replace")
-        if "tag" in df.columns:
-            df["tag"] = process_tags(df["tag"])
-        elif "label" in df.columns:
-            df["label"] = process_tags(df["label"])
+        df = pd.read_csv(filepath, sep="\t", encoding="utf-8")
+        if "Tag" in df.columns:
+            df["Tag"] = process_tags(df["Tag"])
+        elif "Word" in df.columns:
+            df["Word"] = process_tags(df["Word"])
         df.to_csv(output_path, sep="\t", index=False, encoding="utf-8")
 
     elif ext == ".json":
