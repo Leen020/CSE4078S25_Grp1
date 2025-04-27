@@ -1,0 +1,1002 @@
+[
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Son kullanma tarıhı 2022 yılı. Paketlemesi gayet özenliydi. Eczanedelerde tablet olanları stoklarda bulunmuyor bir süredir. Tadı jelibon gibi oğlum çok beğendi.",
+    "output": "Tadı jelibon gibi: TAT_KOKU, oğlum: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Merhaba. Ciddi anlamda saç dökülmem devam ediyor. Doktorum da bu markanın ürünlerini kullanmamı istedi. Kapsülün fayda ettiğini anlamam için 3 ay beklemem gerekiyor. Henüz kapsülü kullanmaya başlayalı 1 ay bile olmadı. Kargolama güzeldi. Kargo açısından çok bekletilmedim, ürünüm hemen elime ulaştı. Kutunun içinde yer alan mini şampuan için de çok teşekkür ederim. Kapsülün faydası olup olmadığı hakkında tekrar yorum yapacağım merak etmeyin. Emeği geçen herkese teşekkür ederim. Şimdilik dört yıldız verdim.",
+    "output": "saç dökülmem: HASTALIK, Doktorum: TAVSİYE_EDEN, şampuan: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1 haftayı geçkindir kullanıyorum. Tırnaklarımda senelerdir dönem dönem ortaya çıkan beyaz lekelerim yok oldu resmen. Saç dökülmelerim tamamen bitmesede gözle görülür bir şekilde azaldı. ..... (güncelleme) ikinci kutuya geçeceğim son dönem aralıklı kullanmama rağmen saçlarımın dökülmesi haftada 100 tel ya var ya yok, çok memnun kaldım, sivilcelenme gözlemlemedim.",
+    "output": "sivilcelenme gözlemlemedim: YAN_ETKİ, Tırnaklarımda senelerdir dönem dönem ortaya çıkan beyaz lekelerim: SAĞLIK_ŞİKAYETLERİ, saçlarımın dökülmesi haftada 100 tel ya var ya yok: ETKİ, Tırnaklarımda senelerdir dönem dönem ortaya çıkan beyaz lekelerim yok oldu resmen. Saç dökülmelerim tamamen bitmesede gözle görülür bir şekilde azaldı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Avantajları : şeker yok tuz yok gluten yok. Hamilelerin kullanımına uygun bir ürün değil çünkü aşermeyi azaltıyor. Önerilmemiş. Kronik bir rahatsızlığınız var ise kullanmadan önce doktorunuza danışmanız gerekiyor. Çocuklardan uzak tutulması gerekiyor. Diyabeti olanlar doktor kontrolü altında kullanabilir. Veganlar için uygun. 1 den 3 e kadar kullanılabiliyor lakin günde 1 tane öneriliyor. 90 günden uzun kullanılacak ise karaciğer enzim testi yaptırılması gerekiyor. Gzdeergunofficial Edit : 1.5 gündür - ürün elime ulaştığı günden beri yalnzca az bir şey yemek yedim ve üzerine hapı aldım. Asla acıkmıyorum. Canım şeker - tatlı bile istemiyor. Şaşkınım. Ürün çok başarılı. 2. Kutuyu sipariş ettim. Stok yapacağım. Uzun süreli bir diyet için. Bana gelen ürünün son tüketim tarihi 09 / 24",
+    "output": "şeker yok tuz yok gluten yok: TAT_KOKU, Hamilelerin: KULLANICI_DEMOGRAFİSİ, aşermeyi azaltıyor: YAN_ETKİ, Çocuklardan: KULLANICI_DEMOGRAFİSİ, ürün elime ulaştığı günden beri yalnzca az bir şey yemek yedim ve üzerine hapı aldım. Asla acıkmıyorum. Canım şeker - tatlı bile istemiyor: ETKİ, Veganlar: KULLANICI_DEMOGRAFİSİ, Diyabeti olanlar: KULLANICI_DEMOGRAFİSİ, 1 tane: DOZ, 1 den 3: DOZ, Diyabeti: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şeker paketinin içine şeffaf ambalaj yaparak şekerlerin dökülmemesi için çözüm üretmeniz çok iyi yanındaki hediyeler için tekrar teşekkürler alışverişe devam kızım severek tüketiyor kışın boğaz ağrısı zamanlarında bitki özlü olduğu için hem pastil niyetine miss 😋",
+    "output": "kızım: KULLANICI, boğaz ağrısı: SAĞLIK_ŞİKAYETLERİ, bitki özlü: İÇERİK, pastil: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İYİ OKUYUN 3 gün kullandım inanılmaz derecede baş ağrısı mide bulantısı kas ağrısı üzerimde bir sinir ama çıldıracağım bana ne oluyor derken bunu kullandığım aklıma geldi ve yan etkilerini netten okudum aman allahım tüm yaşadıklarım bundanmış hemen çöpe attım!!!Resmen insan sağlığı ile oynuyorlar umarım bu yorumu yayınlarsınız genelde siliyorlar üstelik bir hemşire olarak bunları yazıyorum dikkat edin",
+    "output": "inanılmaz derecede baş ağrısı mide bulantısı kas ağrısı üzerimde bir sinir ama çıldıracağım bana ne oluyor derken bunu kullandığım aklıma geldi ve yan etkilerini netten okudum aman allahım tüm yaşadıklarım bundanmış: YAN_ETKİ, baş ağrısı: HASTALIK, mide bulantısı: HASTALIK, kas ağrısı: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kızım için aldım tiroidi yavaş çalışıyormuş eczacı tavsiye etti çok çabuk gönderdiler çok da güzel paketlemişlerdi üstelik hediye  de yollamışlar çok teşekkür ederim Nutraxın çok temiz içerikli propolisli çinkolu  spreyi daha önce kullanmıştım çok memnun kalmıştım.",
+    "output": "çinkolu: BİYOMOLEKÜL, Nutraxın: MARKA, Kızım: KULLANICI, propolisli: BİYOMOLEKÜL, tiroidi yavaş çalışıyormuş: SAĞLIK_ŞİKAYETLERİ, propolisli çinkolu  spreyi: ÜRÜN_DİĞER, tiroidi: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "ürün tadını oğlum beğendi bağışıklığını da yükseltti uzun zamandır üst solunum yolu enfeksiyonu yaşamıyoruz",
+    "output": "oğlum: KULLANICI, bağışıklığını da yükseltti: ETKİ, üst solunum yolu enfeksiyonu yaşamıyoruz: ETKİ, tadını oğlum beğendi: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok beğendim.Zayıfım ama göbeğim cıkıyordu hem yağ hem şişlikten dolayı.İlk 1 hafta gece 1 tane sonra 2 tane içtim.Dedikleri abarti gibi göbekli olup sabaha tahta karınla kalkmak cok abartı bi yorum, ben cok hafif alt karınla uyaniyorum.İcerik temiz.Bir de kilo verdirmiyor yağ yakıcılar bile sporsuz bir işe yaramaz mucize beklemeyin",
+    "output": "Bir de kilo verdirmiyor yağ yakıcılar bile sporsuz bir işe yaramaz mucize beklemeyin: ETKİ, 1 tane: DOZ, 2 tane: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Enfeksiyonu atlatamadığım günlerde daha dinç ve iyi hissetmemi sağlıyor.Bağışıklık için,cilt için c vitamini çok önemli.Memnun kaldım tavsiye ederim 🍊",
+    "output": "Enfeksiyonu atlatamadığım günlerde: SAĞLIK_ŞİKAYETLERİ, dinç ve iyi hissetmemi sağlıyor: ETKİ, Enfeksiyonu: HASTALIK, c vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Folik asit kullanacaktım hamilelik öncesi doktorum başlamamı söyledi. Bu ürünün içerisinde birçok vitaminin olması hoşuma gitti. Bu ürünü kullandıktan sonra saçlarım dökülmemeye başladı. Firma çok güzel paketlemiş ve yanında maske hediye göndermişler çok hoşuma gitti.",
+    "output": "doktorum: TAVSİYE_EDEN, vitaminin: ÜRÜN_DİĞER, Bu ürünü kullandıktan sonra saçlarım dökülmemeye başladı: ETKİ, Folik asit: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü yorumlara bakarak aldım. Doktorumun önerisiyle günde 2 kez 2’şer tablet kullandım. Bende süt üretiminde artış yapmadı. Yorumlarda yorgunluğa iyi geldiği de söylenmiş. Ben faydasını göremedim.",
+    "output": "Doktorumun: TAVSİYE_EDEN, günde 2 kez 2’şer tablet: DOZ, Bende: KULLANICI, Bende süt üretiminde artış yapmadı. Yorumlarda yorgunluğa iyi geldiği de söylenmiş. Ben faydasını göremedim: ETKİ, yorgunluğa: HASTALIK, Ben: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kayropraktiğe gitmiştim. Yaşıma göre(30) çok fazla sırt ağrısı şikayetim olduğunu magnezyum eksikliği olabileceğini söylemişti. Takviye edici olarak kullanmaya başladım. Ben farkında değildim ama eşim kullanmaya başladıktan bir hafta sonra \"Sen artık sırtım ağrıyor.\" demiyorsun. Ne yapıyorsun da geçti ağrın dedi. O zaman farkettik ve memnunum. İçeriğini kontrol etmeden yorumlara göre aldım. Piyasa araştırması da yapmadığımı belirtmek isterim. Tesadüfen aldım ve gerçekten memnunum.",
+    "output": "magnezyum eksikliği: HASTALIK, Sen artık sırtım ağrıyor.\" demiyorsun: ETKİ, çok fazla sırt ağrısı: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Aktif spor yapan bireyim kış ayları bağışıklık sistemi düşer yaza göre vucut direnci için c vitamini almak gerek çiğnenebilir güzel tablet tadı güzel bence",
+    "output": "tadı güzel: TAT_KOKU, Aktif spor yapan bireyim kış ayları bağışıklık sistemi düşer yaza göre: SAĞLIK_ŞİKAYETLERİ, c vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünün hiç bir kokusu veya tadı yok asla aklınız kalmasın. Saçlarıma ve tırnaklarıma inanılmaz iyi geldi ama 2-3 kere içip işe yaramadı diye düşünmeyin düzgün ve ara verilmeden kullanılması lazım. Ömür boyu kullanmayı düşünüyorum diğeri biter bitmez yenisini sipariş verdim kesinlikle alınmalı.",
+    "output": "Ürünün hiç bir kokusu veya tadı yok: TAT_KOKU, Saçlarıma ve tırnaklarıma inanılmaz iyi geldi ama 2-3 kere içip işe yaramadı diye düşünmeyin düzgün ve ara verilmeden kullanılması lazım: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "10 gündür kullanıyorum ürünü yüzüme parlaklık verdiğini göz altlarımdaki koyu halkaları götürdüğünü söyleyebilirim metabolizmamı da hızlandırdı. Merve Özcandan görüp aldım. Tadı da içilmiycek kadar kötü değil ağızda tat bırakmıyor.",
+    "output": "yüzüme parlaklık verdiğini göz altlarımdaki koyu halkaları götürdüğünü söyleyebilirim metabolizmamı da hızlandırdı: ETKİ, Tadı da içilmiycek kadar kötü değil ağızda tat bırakmıyor: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Aşırı aşırı iyi bir ürün , ameliyat geçirdiğimde saçlarımda dökülme olmuştu dermatolog aldırmıştı. Hairforte ile birlikte kullanmamı önerdi. Ara ara yine alıyorum saçta ciltte tırnakta çok etkili ,içeriğinde biotin de var zaten. Kırmızı kutulu olan kadın tipi saç dökülmesi iiçin , mavi olan erkek dikkat edin . Satıcıya da dikkat edin fake ürünler için.",
+    "output": "ameliyat geçirdiğimde saçlarımda dökülme olmuştu: SAĞLIK_ŞİKAYETLERİ, saçlarımda dökülme: HASTALIK, dermatolog: TAVSİYE_EDEN, Hairforte: MARKA_DİĞER, saçta ciltte tırnakta çok etkili: ETKİ, biotin: BİYOMOLEKÜL, saç dökülmesi: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Uzun zamandır kullanıyorum,saçlarım ciddi derecede dökülüyordu doktorum yazdı 6 ay boyunca kullanacağım. Şuan 2. ayımdayım saçlarımda az da olsa dökülme azaldı daha canlı.  Ama tırnaklarımda etkisi gerçekten çok güzel oldu. Ayrıca eczanelerde çok daha uygun.",
+    "output": "tırnaklarımda etkisi gerçekten çok güzel oldu: ETKİ, saçlarımda az da olsa dökülme azaldı daha canlı: ETKİ, saçlarım ciddi derecede dökülüyordu: SAĞLIK_ŞİKAYETLERİ, doktorum: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Annem ve babam için aldım. Kullandıktan sonra kendilerini daha enerjik hissediyorlar vücut ağrıları azaldı. Kargo çok hızlıydı. Son kullanma tarihi 10.2022 teşekkürler:)",
+    "output": "enerjik hissediyorlar vücut ağrıları azaldı: ETKİ, Annem: KULLANICI, babam: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tam olarak 1 aydır kullanıyorum. Öncelikle saç dökülme ya da tırnak kırılması problemi yaşayan biri değilim.Amacım sadece saçımı hızlı uzatmaktı, saç dökülme problemi yaşamamama rağmen banyoda elime gelen saçlar büyük oranda azaldı.Tırnaklarım zaten iyi uzar ama olandan da iyi uzattı.Saçlarıma gelirsek bebek saçlarım gözle görülür bir şekilde uzadı, saçlarım da öyle tabi uçuk uzamalar beklememek lazım.Saç DNA’sı ve belli bir skalası var öyle ayda 5-10 cm uzatan ürünler hikaye.Saç uzatma için zaten dıştansa içten takviye tercih edilmeli, saç dışarda ama kökler içerde. Özet olarak ben memnun kaldım 2. Ay sonunda daha net bir sonuç alacağımı düşünüyorum.",
+    "output": "banyoda elime gelen saçlar büyük oranda azaldı.Tırnaklarım zaten iyi uzar ama olandan da iyi uzattı.Saçlarıma gelirsek bebek saçlarım gözle görülür bir şekilde uzadı: ETKİ, saç dökülme: HASTALIK, tırnak kırılması: SAĞLIK_ŞİKAYETLERİ, saç dökülme: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "güzel paketleme uygun fiyat vücut ağrılarıma çok iyi geldi. sindirim sistemine de iyi geliyor kronik kabızlık için.",
+    "output": "sindirim sistemine de iyi geliyor kronik kabızlık için: ETKİ, kronik kabızlık: HASTALIK, vücut ağrılarıma çok iyi geldi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü yaklaşık nir bbuçuk aydır kullanıyorum.diğer demir hapları mide bulantısı ağrısı yapardı eziyet cekerdim adeta.bu hapta öyle bir yan etki görmedim.1hafta kadar çift içtim inanılmaz kabızlık oldu teke düşürünce sorun halloldu.tahlil sonuçlarıma henüz bakılmadı etkisini tam yazamayacagım",
+    "output": "demir: BİYOMOLEKÜL, mide bulantısı ağrısı: HASTALIK, 1hafta kadar çift içtim inanılmaz kabızlık oldu: YAN_ETKİ, kabızlık: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Oğlumun İlk kez bu kadar sevdiği ve alacağı zamanı takip ettiği bir vitamin takviyesi oldu diyebilirim. Yüksek D vitamini içeren , katkı maddeli birbtatlandırıcı kullanılmadan doğal meyvesuyu kullanılan bu özel ürünü biz çok sevdik 2. Kutuyu sipariş edeceğim.  Sevmeyecek olan hiç bir çocuk olacağını da sanmıyorum 😄 Jelibon görünümlü harika bir lezzet.",
+    "output": "Oğlumun: KULLANICI, D vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saçlarım aşırı dökülüyor bu ürünle birlikte solgarın biotin hapını da aldım ikisini birlikte kullanacağım. Daha önce b12 iğnesi oluyordum düzenli ama hiçbir faydası olmadı yorumlara bakarak bu hapı denemek istedim umarım güzel sonuçlar elde ederim. Tablet bittikten sonra yorum güncellemesi yapacağım..",
+    "output": "Saçlarım aşırı dökülüyor: SAĞLIK_ŞİKAYETLERİ, solgarın: MARKA, biotin: ÜRÜN_DİĞER, b12 iğnesi: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "aşırı küçük tablet içimi çok kolay tavsiye ederim saçlarımda gözle görülür bir uzama var güncelleme: arkadaşlar saçlarımda iş gördü fakat cildim sivilceleniyodu araştırdım ve biotin sivilceye sebep oluyomuş bırakmak zorunda kaldım cildim anında düzeldi şampuanımın içine toz haline getirip ekleyip kullanmaya karar verdim sizde öyle yapın",
+    "output": "sivilceye sebep oluyomuş: YAN_ETKİ, saçlarımda gözle görülür bir uzama var: ETKİ, cildim sivilceleniyodu: YAN_ETKİ, biotin: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tek kelimeyle harikaa inanılmaz diz ağrılarım vardı birde pilatese başladığım için dizim kilitleniyordu daha ilk içişimde farkı hissettim çookk güzelll eklem ağrılarınız varsa özellikle dizlerde anında iyi geliyor şuan bacaklarımı güçlenmiş hissediyorum 1 hafta oldu kullanalı ve bence çok işe yaradı tavsiyee ediyorum kesinlikleee 👏🏻👏🏻👏🏻♥️",
+    "output": "diz ağrılarım: HASTALIK, diz ağrılarım vardı birde pilatese başladığım için dizim kilitleniyordu: SAĞLIK_ŞİKAYETLERİ, klem ağrılarınız: HASTALIK, eklem ağrılarınız varsa özellikle dizlerde anında iyi geliyor şuan bacaklarımı güçlenmiş hissediyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "gayet başarılı bir ürün hızlı ve güzel paketlenmiş satıcı güvenilir bir daha almadım cunki biraz iştahı açıldı kızımın zaten kilo olarak uygun fazla kilo almamsi için almadım bir kutu içtik kızım okulda çok hastalniyordu bağışıklık arttırıcı gibi geldi tabi yaz tatilide girdi etkisi olabilir",
+    "output": "iştahı açıldı: ETKİ, kızımın: KULLANICI, çok hastalniyordu: SAĞLIK_ŞİKAYETLERİ, bağışıklık arttırıcı: ETKİ, fazla kilo almamsi: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Daha önce panplus kullanıyordum saç dökülmem için, o hakkaten işe yarıyordu ama fiyatına artık yetişemez oldum. Yorumlar üzerine bu markaya yöneldim, inşallah benzer etkiyi alırım. İlk kutudayım. Kutu bitince yorumumu güncellicem. Bir de bir yıldızı kargonun yavaşlığından verdim. Herkese çabucak ulaşmış bana kaç gün sonra geldi 😒",
+    "output": "panplus: MARKA_DİĞER, o hakkaten işe yarıyordu: ETKİ, saç dökülmem: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İnstagramda Melikeyoga nın önerisi üzerine tanıştım iyiki de ona güvenerek almışım hem saç dökülmemde hemde süt arttırımında faydasını çokca görüyorum",
+    "output": "saç dökülmemde: HASTALIK, Melikeyoga: TAVSİYE_EDEN, saç dökülmemde hemde süt arttırımında faydasını çokca görüyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Paketlemesi gayet iyi geldi. 3 gündür kullanıyorum kullanmaya başladığımdan beri belirgin şekilde iştahımda azalma oldu. Acayipde susatıyor. Gidip gelip su içiyorum. Bence ödem attırıyor gerçekten. Ancak içtiğim gün itibariyle kuru bir karın ağrısı çekiyorum. Bende böyle bir etki mi yaptı yoksa farklı bi sebeple mi karın ağrısı yaşıyorum bilemiyorum. Özge özgenç tavsiyesiyle almıştım yatmadan önce iki tane içiyordum. Belki aynı anda 2 tane fazla gelmiştir. Sabah akşam içmeyi denicem ağrı devam ederse günde 1 taneye düşürücem bakalım. Uzun vadedeki sonuçlarını merak ediyorum.",
+    "output": "kullanmaya başladığımdan beri belirgin şekilde iştahımda azalma oldu. Acayipde susatıyor. Gidip gelip su içiyorum. Bence ödem attırıyor gerçekten: ETKİ, Ancak içtiğim gün itibariyle kuru bir karın ağrısı çekiyorum: YAN_ETKİ, karın ağrısı: HASTALIK, karın ağrısı: HASTALIK, 2 tane: DOZ, 1 taneye: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu üründen çok memnunum hem bereketli hem tadı iyi multivitamin olarak destekleyici balık yağı ile hergün içiriyorum çocuklarıma bittikçede alıyorum fiyatı ise eczanelere nazaran çok uygun bir çok doktorun da bilmeyenler için reçete ettiği vitamindir",
+    "output": "tadı iyi: TAT_KOKU, balık yağı: ÜRÜN_DİĞER, çocuklarıma: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "paketinden, ağzının kapalı olmasından memnunun, kullandım, covid sonrası kas ağrılarıma iyi geldi diyebilirim",
+    "output": "covid sonrası kas ağrılarıma iyi geldi diyebilirim: ETKİ, kas ağrılarıma: HASTALIK, covid: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Düzenli kullanamadım  o yüzden faydası var mı yok mu bilmiyorum lakin saç dökülmem azaldı bunla alakalı ise çok iyi 😀",
+    "output": "saç dökülmem azaldı: ETKİ, saç dökülmem: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "ikinci şişedeyim, cildime iyi geldi bence. ayrıca içilmeyecek gibi bi tadı yok her sabah uyanır uyanmaz bi bardak suya 20 damla içiyorum ben",
+    "output": "ayrıca içilmeyecek gibi bi tadı yok: TAT_KOKU, cildime iyi geldi bence: ETKİ, 20 damla: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Solgar kalitesi tartışılmaz... paketleme çok iyi kargo çok hızlıydı. Corona günlerinde D vitamini ihtiyacım için kullanıyorum enerjim yükseldi diyebilirim",
+    "output": "Solgar: MARKA, D vitamini: BİYOMOLEKÜL, Corona günlerinde D vitamini ihtiyacım için kullanıyorum enerjim yükseldi diyebilirim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "yüzümdeki sivilcelere iyi geldi yüzüm parlıyor geceleri yatmadan 1 damla bile tüm yüzüme yetiyor yağı yoğun çünkü. Şampuanıma da damlattım memnunum zamanla etkisine tam olarak bakacağım",
+    "output": "yüzümdeki sivilcelere iyi geldi yüzüm parlıyor: ETKİ, 1 damla: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Daha önce kullandığımda saç dökülmesini durdurmuş, hatta dökülen saçlarımın yerine yenileri de çıkmıştı. Şimdi yeniden aldım, ara ara kullanıyorum, iyi geldiğini düşünüyorum.",
+    "output": "saç dökülmesini durdurmuş, hatta dökülen saçlarımın yerine yenileri de çıkmıştı: ETKİ, iyi geldiğini düşünüyorum: ETKİ, saç dökülmesini: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kas ağrım ve yorgunluk için aldim ancak sonradan öğrendim. Magnezyum oksit türünde olduğu için kabızlık için etkiliymiş şikayetiniz bu yondeyse alın",
+    "output": "Magnezyum oksit türünde: BİYOMOLEKÜL, Kas ağrım ve yorgunluk: SAĞLIK_ŞİKAYETLERİ, kabızlık için etkiliymiş: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok memnunum annem için aldım sürekli halsizlik oluyordu bi yorgunluk bitkinlik bunu kullandıktan sonra enerjisi baya yerinde iştahıda açıldı çok güzel bi ürün",
+    "output": "yorgunluk: HASTALIK, halsizlik: HASTALIK, bitkinlik: HASTALIK, annem: KULLANICI, bunu kullandıktan sonra enerjisi baya yerinde iştahıda açıldı: ETKİ, sürekli halsizlik oluyordu bi yorgunluk bitkinlik: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün çok iyi faydasını gördüm. omuzlarımda çok ağrılarım vardı 3 kullanımdan sonra ağrılar azalmaya başladı artık rahatça spor yapıyorum kas tutulması yok. tavsiye ederim teşekkür .Emeği geçen herkese teşekkür ederim",
+    "output": "omuzlarımda çok ağrılarım vardı: SAĞLIK_ŞİKAYETLERİ, kas tutulması: HASTALIK, 3 kullanımdan sonra ağrılar azalmaya başladı artık rahatça spor yapıyorum: ETKİ, Ürün çok iyi faydasını gördüm: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yorumları okuyarak daha önce almıştım 2 ay ara verdim ve şimdi 3.5 yaşında kızıma yine alıyorum.   NE FARK GÖRDÜM 1- Şu bir gerçek, kesinlikle kilo aldırıyor. Bizim kızda iştah artması olmadı normal yiyiordu gene normal yemeye devam etti ama yine de bir miktar kilo aldı. Bence Obezite sorunu olan çocuklarda alınmadan doktora danışılmalı.  2- Kızımın saçları daha hızlı uzamaya başladı  3- Bağışıklığı kesinlikle destekliyor. Kızım 4.5 ay antibiyotik kullanmak zorunda kaldı ve sonrasında geniz eti ameliyatı oldu. Ve kızımın topralanmasında faydası olduğu bir gerçek. Çünkü uzun soluklu antibiyotik kullanımı kızımın bağışıklığını mahfetmişti.  4- Çocuğunuz zaten hareketliyse bundan sonra daha da beter hareketli olacak hazırlıklı olun :)  Kötü bir yönünü görmedim. Umarım faydalı olabilmişimdir.",
+    "output": "3.5 yaşında: KULLANICI_DEMOGRAFİSİ, Bağışıklığı kesinlikle destekliyor: ETKİ, Kızımın saçları daha hızlı uzamaya başladı: ETKİ, kızıma: KULLANICI, Kızım 4.5 ay antibiyotik kullanmak zorunda kaldı ve sonrasında geniz eti ameliyatı oldu: SAĞLIK_ŞİKAYETLERİ, Çocuğunuz zaten hareketliyse bundan sonra daha da beter hareketli olacak hazırlıklı olun :)  Kötü bir yönünü görmedim: ETKİ, Obezite: HASTALIK, Çünkü uzun soluklu antibiyotik kullanımı kızımın bağışıklığını mahfetmişti: SAĞLIK_ŞİKAYETLERİ, kesinlikle kilo aldırıyor. Bizim kızda iştah artması olmadı normal yiyiordu gene normal yemeye devam etti ama yine de bir miktar kilo aldı: YAN_ETKİ, Kızımın: KULLANICI, Kızım: KULLANICI, antibiyotik: ÜRÜN_DİĞER, antibiyotik: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tadı kötü evet ama çok az miktar kullanıldığı için sorun olmuyor. Kızımın iştahını açtı ve çinko son derece önemli çocuk gelişiminde. Bu fiyata bu ürünü satın alabilmek bile çok güzel. Tüm takviyelerinizden memnun kaldık.",
+    "output": "Tadı kötü evet ama çok az miktar kullanıldığı için sorun olmuyor: TAT_KOKU, Kızımın iştahını açtı: ETKİ, çinko: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yıllardır b12 eksikligi yasayan biriyim o kadar igne oldum ilac kullandim bıraktığım an hep geri dusuyordu hic bir fayda gorememistim en son bu ilacla tanıştım bir eczaci sayesinde ilk defa b12 im yükseldi testte ve kendimi daha iyi hissediyorum almaya devam edeceğim bir ilaç teslimattan vs de gayet memnunum",
+    "output": "Yıllardır b12 eksikligi yasayan biriyim o kadar igne oldum ilac kullandim bıraktığım an hep geri dusuyordu hic bir fayda gorememistim: SAĞLIK_ŞİKAYETLERİ, b12 eksikligi: HASTALIK, eczaci: TAVSİYE_EDEN, b12 im yükseldi: ETKİ, kendimi daha iyi hissediyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Daha yeni kullanmaya başladım ellerimde büyük sivilceler çıkar bağışıklığım düşünce. Denk geldi kargom geldiğinde elimde yine yara çıkmıştı hem bunu içtim hem de çay ağacı yağı kullandım geçti büyümeden çok sevindim",
+    "output": "ellerimde büyük sivilceler çıkar bağışıklığım düşünce: SAĞLIK_ŞİKAYETLERİ, çay ağacı yağı: ÜRÜN_DİĞER, elimde yine yara çıkmıştı hem bunu içtim hem de çay ağacı yağı kullandım geçti büyümeden: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü 4.kez alışım. Hızlı ve sorunsuz bir kargolama oldu. Paketler sağlam geldi bana. Magnezyum etkisine gelecek olursak günlük geceleri yatmadan önce 2 kapsül arka arkaya alıyorum. Etkisi daha iyi yansıyor. Kas ağrılarım olmadı çok şükür. İsteyen sabahları kahvaltıdan 2,3 saat sonra da alabilir. Güne enerjik devam etmek isterseniz. Kısacası satıcısına ve ürüne güveniyorum.",
+    "output": "Magnezyum: BİYOMOLEKÜL, 2 kapsül: DOZ, Kas ağrılarım: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kargolama güzel,hız kötü 2 haftaya geldi, ürünü 2 aydır kullanıyorum dökülmem azaldı  işe yarıyor gibi",
+    "output": "dökülmem azaldı  işe yarıyor gibi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Zade Vital C Vitamini  Efervesan tableti  yanımdan ayırmıyorum. Yorgunluk ve bitkinliğin  azalmasında katkı  sağlıyor, enerji veriyor Vee bu mevsimlerde destek sart  kesinlikle güvenle kullanabilirsiniz 👌😊",
+    "output": "C Vitamini: BİYOMOLEKÜL, Zade Vital: MARKA, Yorgunluk ve bitkinliğin  azalmasında katkı  sağlıyor, enerji veriyor: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Spor yapıyorum kas ağrılarım oluyor zma kullanmadığım zaman. Hardline kullanıyordum, solgarın içeriği daha düşük ama denemek istedim. Unutmazsam bir aylık kullanımdan sonra bana göre hangisinin daha iyi olduğunu yazarım. Şimdilik söyleyebileceğim, hardline'ı neredeyse 2 yıldır kullanıyordum ve ne zaman bıraksam kas ağrım oldu, ne zaman kullansam ağrılar hemen geçiyordu. Şimdi solgar'ı deneyimleyip göreceğiz bakalım. Paketleme güzeldi ve kargo hızlıydı. Skt 2024.",
+    "output": "Spor yapıyorum kas ağrılarım oluyor: SAĞLIK_ŞİKAYETLERİ, kas ağrılarım: HASTALIK, zma: ÜRÜN_DİĞER, Hardline: MARKA_DİĞER, solgarın: MARKA, hardline'ı: MARKA_DİĞER, kas ağrım: HASTALIK, solgar'ı: MARKA"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Drelifpahsa tavsiyesi ile krilom balik yagi ve corek otu yagini (osende ya da zade vital öneririm) kahvaltidan sonra birer kapsul alarak kullandik. Bir iki ayda farki hissettik. Esim de ben de yillardir cektigimiz alerjiden (geniz akintisi, kulak kasintisi, kuru öksürük ) kurtulduk, insallah siz de kurtulursunuz. Balık yagi ayrica hamileliklerde premleksi ve gebelik sekerini önlüyormuş, ikisi de bende olmadi cok şükür. Balik yağının faydali olabilmesi icin trigliserid formda olmasi ve E vitamini icermesi gerekiyormus, bu ozellikler de krilomda ve ocean plusta mevcut.",
+    "output": "Balık yagi: ÜRÜN_DİĞER, Drelifpahsa: TAVSİYE_EDEN, kulak kasintisi: HASTALIK, krilomda: MARKA, Balik yağının: BİYOMOLEKÜL, premleksi: HASTALIK, osende: MARKA_DİĞER, geniz akintisi: HASTALIK, corek otu yagini: İÇERİK, balik yagi: BİYOMOLEKÜL, ocean plusta: MARKA_DİĞER, zade vital: MARKA_DİĞER, Esim de ben de yillardir cektigimiz alerjiden (geniz akintisi, kulak kasintisi, kuru öksürük ) kurtulduk: ETKİ, E vitamini: BİYOMOLEKÜL, krilom: MARKA, kuru öksürük: HASTALIK, gebelik sekerini: HASTALIK, birer kapsul: DOZ, alerjiden: HASTALIK, hamileliklerde: KULLANICI_DEMOGRAFİSİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Benim için en önemlisi koku olmaması ve midemi rahatsız etmemesi. Herhangi bir sorun olmadı, orjjinal ürün ve çabuk geldi.",
+    "output": "koku olmaması: TAT_KOKU, midemi rahatsız etmemesi: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sabah aç karnına suya 2 damla selenyum ile birlikte içiyorum 1 haftada gün içindeki yorgunluk halsizlik bitti",
+    "output": "gün içindeki yorgunluk halsizlik bitti: ETKİ, 2 damla: DOZ, selenyum: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kargom hızlı geldi yeni kullanmaya başladım tadı kokusu kötü gelmedi iki kutu aldım bittiğinde yorumumu güncelleyeceğim",
+    "output": "tadı kokusu kötü gelmedi: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "eczacıbaşı ürünü helal sertifikalı güvenle kullanabilirsiniz biotin eksikliği saç dökülmesinden tırnak zayıflığı kırılmasına kadar bircok şeyw yokaçıyor biotin kısaca b7 vitamini satıcı tşk sk tarihi01.24",
+    "output": "eczacıbaşı: MARKA, biotin eksikliği: HASTALIK, biotin eksikliği saç dökülmesinden tırnak zayıflığı kırılmasına kadar: SAĞLIK_ŞİKAYETLERİ, saç dökülmesinden: HASTALIK, tırnak zayıflığı kırılmasına: HASTALIK, biotin: BİYOMOLEKÜL, b7 vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Effsane bişey bu. Kullandığım bir üründü 1 aylık düzenli kullanımda tırnaklarım inanılmaz güçlendi, saç için etkisi ise saçlarım daha az dökülmeye başladı ve baby saçlarım hızlı uzamaya başladı. Normal şartlarda eczaneden alıyordum fakat eczane fiyatları uçtuğu için burdan Parbeo company firmasından 3 paket satın aldım, ayrıca satıcının başka bir ürününden yine sipariş verdim 3 tane. Yanında C vitamini hediye olarak yollamışlar. Çok teşekkürler.",
+    "output": "tırnaklarım inanılmaz güçlendi, saç için etkisi ise saçlarım daha az dökülmeye başladı ve baby saçlarım hızlı uzamaya başladı: ETKİ, C vitamini: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "2. Kutum çook iyi Saç dökülmem için almıştım kesinlikle dökülmem azaldı.kaç yıldır dökülmeyle sorunum vardı ama bu gerçekten işe yaradı. Aşırı üşüyen biriyim ve aşırı üşümem de geçti. Sanırım kan değerlerim düzeldi işe yaradı. 59 tl ye almıştım fiyat düşünce bir daha alacağım",
+    "output": "Saç dökülmem: HASTALIK, kesinlikle dökülmem azaldı.kaç yıldır dökülmeyle sorunum vardı ama bu gerçekten işe yaradı. Aşırı üşüyen biriyim ve aşırı üşümem de geçti. Sanırım kan değerlerim düzeldi işe yaradı: ETKİ, Aşırı üşüyen biriyim ve aşırı üşümem: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Benim iştahımı azalttı, tadı yok bence. Ancak eminim bende baş ağrısı yapıyor. Bu sebeple devam edip etmemeye karar veremedim henüz.",
+    "output": "tadı yok: TAT_KOKU, baş ağrısı: YAN_ETKİ, iştahımı azalttı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü annem için doktor tavsiyesi ile alıyoruz.  Öncelikle fiyatı eczanelere göre daha uygun. Annemin dizlerinden olan şikayetini epey azalttı. Umarım tamamen mevcut sıkıntıyı giderir.",
+    "output": "epey azalttı: ETKİ, dizlerinden olan şikayetini: SAĞLIK_ŞİKAYETLERİ, doktor: TAVSİYE_EDEN, annem: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu ürünü bana denemek için firma kendisi göndermişti çok memnun kaldım sonra satın aldım bu ürünü kullandığınızda antibiyotik kullanmadan boğaz ağrınızı geçirebiliyorsunuz günde 2 3 defa kullanmanız yeterli gerçekten çok güzel mutlaka alın aldırın bu satıcıya da ayrıca teşekkürler 1 günde elime ulaştı ve eczane de 12lisi 25 e satılırken 24lüsünü 26 ya aldım mükemmelsiniz 💞",
+    "output": "antibiyotik: İÇERİK, günde 2 3 defa: DOZ, bu ürünü kullandığınızda antibiyotik kullanmadan boğaz ağrınızı geçirebiliyorsunuz: ETKİ, firma: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Önceden kullanmıştım memnun kaldığım için tekrar sipariş verdim. Saç dökülmemi durdurdu, tırnaklarıma iyi geldi",
+    "output": "Saç dökülmemi durdurdu, tırnaklarıma iyi geldi: ETKİ, Saç dökülmemi: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ben geniz akıntısını kurutmak için almıştım, bu konuda işe yaramıyor maalesef ama ödem attırıyor, tuvalet konusunda çok yardımcı, ishal yapmıyor ama düzenli ve sık tuvalete çıkmaya yardımcı oluyor. Beraberinde bol su içmeli. Sadece regl kanamasını çok arttırıyor belki regl haftası ve bir hafta önceden kullanmayı bırakmalı. Günde 1 tane sabah kahvaltısı ile birlikte kullandım.",
+    "output": "geniz akıntısını: SAĞLIK_ŞİKAYETLERİ, bu konuda işe yaramıyor maalesef ama ödem attırıyor, tuvalet konusunda çok yardımcı: ETKİ, düzenli ve sık tuvalete çıkmaya yardımcı oluyor: ETKİ, 1 tane: DOZ, ishal yapmıyor: YAN_ETKİ, Sadece regl kanamasını çok arttırıyor: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tek kötü yanı Kalsiyum ve potasyum içermemesi.diyet yaparken az yemek yediğim için halsiz düşüyordum. Plasebo etkisi olmadıysa eğer ben bu üründen sonra kesinlikle daha enerjik hissetmeye başladım. İkinci aya geçtim şu anda. Arada atladığım günler olmuştu ama ben genel olarak iyi geldiğini düşünüyorum ürünün. kalori kısıtlaması olduğunda gerekli mineral ve vitaminleri almak zor oluyor sadece gıda ile.",
+    "output": "potasyum: BİYOMOLEKÜL, Kalsiyum: BİYOMOLEKÜL, Plasebo: ÜRÜN_DİĞER, ben: KULLANICI, genel olarak iyi geldiğini düşünüyorum ürünün: ETKİ, ben: KULLANICI, diyet yaparken az yemek yediğim için halsiz düşüyordum: SAĞLIK_ŞİKAYETLERİ, kesinlikle daha enerjik hissetmeye başladım: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün yeni geldi hediyeler için teşekkürler çok mutlu etti kutuyu açınca, ürünude kullandıkça yorum güncelle yapacağım ama tek sorun suan için kutu görünüyor  çok tıkanıklık yapıyor ilaclar ya çok çıkıp yere dökülüyor yada hiç çıkmıyor buna çözüm bulunursa iyi olabilir benim saç dökülmesi var diye aldım bakalim sonuç ne olacak",
+    "output": "saç dökülmesi: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sürekli kullandığım bir takviye. Doktorumun tavsiyesi üzerine almıştım ve yaklaşık 2 yıldır düzenli olarak kullanıyorum. Gerçekten çok memnunum. Genel tavsiye üzerine akşamları yatmadan önce alıyorum. Uyku kalitemi artırdı, iş yerinde odaklanma süremi uzattı ve kas ağrılarıma çok iyi geldi. Regl dönemlerinde çok ağrım olurdu, kullandığımdan beri neredeyse hiç ağrım olmuyor. Kesinlikle tavsiye edebileceğim bir takviye. Yine de yeni birşey kullanmaya başlamadan önce doktorunuza danışmakta fayda var diye düşünüyorum.",
+    "output": "Doktorumun: TAVSİYE_EDEN, Uyku kalitemi artırdı, iş yerinde odaklanma süremi uzattı ve kas ağrılarıma çok iyi geldi. Regl dönemlerinde çok ağrım olurdu, kullandığımdan beri neredeyse hiç ağrım olmuyor: ETKİ, Regl dönemlerinde çok ağrım olurdu: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün sayesinde bağışıklığımin güçlendigini ve yorgunlugumun bittigini anladim. Çok faydali olduğunu düşünüyorum çok memnunum. Tavsiye ederim.",
+    "output": "Ürün sayesinde bağışıklığımin güçlendigini ve yorgunlugumun bittigini anladim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu ürün sayesinde yıllardır kıramadığım direnç kilomu kırdım. Sindirimi kesinlikle çalıştırıyor. Kokusu ve tadı var ama abartıldığı gibi değil içilebilir. 2. Pakedimi sipariş ettim. Tırnaklarımdaki kırılma azaldı,cildim de düzelmeye başladı. Ama herkeste aynı etkiyi yapmayabilir tabii ki",
+    "output": "Bu ürün sayesinde yıllardır kıramadığım direnç kilomu kırdım. Sindirimi kesinlikle çalıştırıyor: ETKİ, Kokusu ve tadı var ama abartıldığı gibi değil içilebilir: TAT_KOKU, Tırnaklarımdaki kırılma azaldı,cildim de düzelmeye başladı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünle ilgili etkiyi şöyle anlatabilirim. kesinlikle susatiyor. böyle ağzınız kuruyor resmen ve daha çok su içmeye başladım. iştahı kapattığı doğru. daha doğrusu tok böyle sis gibi hissediyorsunuz. ama benim gibi yine de yerseniz daha çok sisiyorsunuz. tek olumsuz etkisi ben de şişkinlik yapması. tuvalate her gün çok rahat çıkardım. ancak bu ürünle daha da hafiflik hissetmek isterken daha bir şişlik hissettim. günde 1 doz alıyorum sabah aç. 2 ye çıkartacağım birde öyle deneyip yorumları ekleyeceğim.",
+    "output": "kesinlikle susatiyor: ETKİ, böyle ağzınız kuruyor resmen ve daha çok su içmeye başladım: ETKİ, iştahı kapattığı doğru. daha doğrusu tok böyle sis gibi hissediyorsunuz: ETKİ, şişkinlik yapması: YAN_ETKİ, bu ürünle daha da hafiflik hissetmek isterken daha bir şişlik hissettim: YAN_ETKİ, günde 1 doz: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü kansızlık,B12 eksikliği şikayetim olduğunda hep kullanırım ve inanılmaz işe yarıyor.Ama ben hep eczaneden alıyordum.İlk kez internetten sipariş verdim ve hiç memnun kalmadım.Normalde kullandıklarımda tableti dilimin altına koyduğumda 5 dakikada falan zorla eriyordu hatta bazen dayanamayıp cignediğim olurdu ama internetten aldığımı ağzıma attığım gibi eriyor hemen.tadı da çok şekerli.Eczaneden almaya devam..",
+    "output": "Ürünü kansızlık,B12 eksikliği şikayetim olduğunda: SAĞLIK_ŞİKAYETLERİ, kansızlık: HASTALIK, B12 eksikliği: HASTALIK, inanılmaz işe yarıyor: ETKİ, tadı da çok şekerli: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "seneler önce saç dökülmemi durdurmuştu Solgar vitaminle beraber kullanmıştım o zamanlar. yenilenmiş tekrar başlamak istedim saç dökülme problemim yok DP çamterebentinli şampuan kullanıyorum. Xpecia sabah tok karnına kullanıp akşamda Perfectil kullanacam.benim kullanma amacım saçımı gürleştirip tellerini kalınlaştırmak bakalım sonucu bekleyecem. Kargo hızı süperdi ilk defa bir ürün 2 günde geldi satıcıya teşekkür ederim",
+    "output": "saç dökülmemi: HASTALIK, saç dökülmemi durdurmuştu: ETKİ, Solgar: MARKA, vitaminle: BİYOMOLEKÜL, Perfectil: MARKA_DİĞER, Xpecia: MARKA_DİĞER, DP: MARKA, çamterebentinli şampuan: ÜRÜN_DİĞER, saçımı gürleştirip tellerini kalınlaştırmak: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok beğendim yüzümdeki saçımdaki yağlanma azaldı saç dökülmem azaldı tırnaklarım güçlendi herkese tavsiyemdir",
+    "output": "yüzümdeki saçımdaki yağlanma: SAĞLIK_ŞİKAYETLERİ, Çok beğendim yüzümdeki saçımdaki yağlanma azaldı saç dökülmem azaldı tırnaklarım güçlendi: ETKİ, saç dökülmem: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ateşli hastalık geçirdikten sonra, kullanmış olduğum ağır ilaçlardan dolayı saçlarım çok şiddetli dökülüyordu. Öyle böyle değil her gün belki 2 belki 3 pança dolusu saç. Kabus gibi... Daha sonra ciddiye doktorumun önerisi ile Velavit biotin i aldım. İyi ki almışım dediğim bir ürün gerçekten. Yorumlarda genelde 2 ay sonra etki gösterdiği yazıyordu ama benim daha 2. haftada baya azalmaya başlayıp 3. haftada durdu gibi. Şu an 1. ay yeni doldu ve günde 3 4 saç ancak geliyor elime. Hayatımda almış olduğum en mantıklı şey olabilir. Yorumumu bilerek uzun tutup yaşadığım olayı anlatıyorum. Çünkü ben almadan önce yapılan bütün yorumları okudum ve işime yarayacak çok bilgi ile karşılaşmadım maalesef. Gözüm hep böyle kullanıp memnuniyet belirten yorumlar aradı. Ya da memnun kalmayıp neden memnun kalmadığını belirten.. Herkes içinde çıkan ilaç sayısını yazmış bazısı 58 bazısı 62, 64 vb. 1-2 eksik ya da fazla çıkabilir çöm normal. Yorumlarda insanlar ilaç sayısını merak etmekten çok etkisini gözlemleyen insanlar arıyor. Gönül rahatlığıyla bu biotin i alabilirsiniz canı gönülden söylüyorum. Ben asla ama asla saçlarım eski gür halini almaz diyordum ama 1 ayda saçlarımın ne kadar çıktığını ve uzadığını gösteren foto size göstereceğim. Yukarı doğru dikilmiş olan saçlarım biotin e başladıktan sonra 1 ay içinde çıkan ve uzayan saçlarım ❤️ Kesinlikle ama kesinlikle tavsiyemdir.",
+    "output": "Ateşli hastalık: HASTALIK, Ateşli hastalık geçirdikten sonra, kullanmış olduğum ağır ilaçlardan dolayı saçlarım çok şiddetli dökülüyordu. Öyle böyle değil her gün belki 2 belki 3 pança dolusu saç: SAĞLIK_ŞİKAYETLERİ, doktorumun: TAVSİYE_EDEN, Velavit: MARKA, biotin: ÜRÜN_DİĞER, 2. haftada baya azalmaya başlayıp 3. haftada durdu gibi. Şu an 1. ay yeni doldu ve günde 3 4 saç ancak geliyor elime: ETKİ, biotin: ÜRÜN_DİĞER, biotin: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Aynı markanının Biotin i ile beraber kullanıyorum çoğu zaman günde 2 tane alıyorum collagenden cilt saç tırnak eklem her konuda faydasınu görüyorum 2.paketteyim fakat şişirdiğini hissediyorum kilo aldırdı",
+    "output": "2 tane: DOZ, Biotin: BİYOMOLEKÜL, şişirdiğini hissediyorum kilo aldırdı: YAN_ETKİ, collagenden: İÇERİK, cilt saç tırnak eklem her konuda faydasınu görüyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hamilelikte imom olanı kullandım . Emzirme döneminde buna geçtim, çok memnunum sütü artırdığını düşünüyorum. Saçlarımda dökülme de yaşamadım. Bunun faydası oldu kesinlikle. Hem de 2 aylık oluşu çok güzel fiyat performans ürünü 👍🏻",
+    "output": "Saçlarımda dökülme: HASTALIK, imom: MARKA, Hamilelikte imom olanı kullandım . Emzirme döneminde buna geçtim, çok memnunum sütü artırdığını düşünüyorum. Saçlarımda dökülme de yaşamadım. Bunun faydası oldu kesinlikle: ETKİ, Hamilelikte: KULLANICI_DEMOGRAFİSİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "ilaç sayesinde koronayi atlattık 14 günden sonra saçlarımın da dökülmesi bitti hem kendimi zinde hissediyorum hemde saçlarım daha da kuvvetlendi bundan sonra tek geçerim. vitamini aldıktan sonra idrar biraz sarı oluyor ama yaptığı etkilere fazlasıyla değer",
+    "output": "koronayi: HASTALIK, saçlarımın da dökülmesi: SAĞLIK_ŞİKAYETLERİ, saçlarımın da dökülmesi bitti hem kendimi zinde hissediyorum hemde saçlarım daha da kuvvetlendi: ETKİ, vitamini aldıktan sonra idrar biraz sarı oluyor: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "bir aydir düzenli kullanıyorum. sac dökülmem azaldı ama ekstradan saç dibime de fair biotin serum kullanıyorum. hem icten hem dıştan destekleyince fayda gördüm.",
+    "output": "sac dökülmem azaldı: ETKİ, icten hem dıştan destekleyince fayda gördüm: ETKİ, fair biotin serum: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tadı kokusu çok kötü. Yorumlardan beklentim çok yüksekti. Elma aroması çok alttan vuruyor. Çocuğuma henüz veremedim ama beklediğim gibi bi tadı yok anason gibi bi aroması var. Beğeneceğini hiç sanmamakla birlikte katkısız oluşuna kesinlikle iknayım. Umarım çocuğum severek tüketir.",
+    "output": "Tadı kokusu çok kötü: TAT_KOKU, anason gibi bi aroması var: TAT_KOKU, Elma aroması çok alttan vuruyor: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diyet yaparken kabızlık normal zamanda da şişkinlik sorunu yaşardım.İki öğün besleniyorum yemek aralarında birer tane içiyorum.Bağırsaklarım düzene girdi ,iki gündür ödemim şişkinliğim azaldı.",
+    "output": "Diyet yaparken kabızlık normal zamanda da şişkinlik sorunu yaşardım: SAĞLIK_ŞİKAYETLERİ, Bağırsaklarım düzene girdi ,iki gündür ödemim şişkinliğim azaldı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diğer takviye gıdamla beraber kullanıyorum o yüzden olsa gerek midemde yanma yasıyorum.  Annemle babamda aynı etkiyi göstermedi. İki madde birleşince oldu sanırım ya da benim bünyeme iyi gelmedi bilmiyorum. Tek basına kullanacağım bi kaç kere daha yine aynı etkiyi gösterirse bırakacağım. Doktor tavsiyesiyle almadım ama muhakkak d vitamini eksikliğim vardır diye aldım. Gereksiz olmuş olabilir sanırım benim icin. Ama fiyata bakınca içinde bulunan haplara göre cok iyi. Baya baya gider bir kutusu bile uygun fiyatlı",
+    "output": "Annemle: KULLANICI, midemde yanma: HASTALIK, d vitamini eksikliğim: HASTALIK, Doktor: TAVSİYE_EDEN, midemde yanma yasıyorum: SAĞLIK_ŞİKAYETLERİ, babamda: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü 1 haftadır deniyorum iştahım açıldı kendimi yorgun hissederken şimdi daha enerjik olmaya başladım denemenizde fayda var tavsiye ederim.",
+    "output": "iştahım açıldı: ETKİ, kendimi yorgun hissederken: SAĞLIK_ŞİKAYETLERİ, enerjik olmaya başladım: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İçeriğindeki 200 mcg yüksek bir doz, günlük 400ü aşmamak gerekiyor. Selenyum özellikle tiroid problemi olanlarda ve bağışıklık desteği olarak önemli bir takviye. Yine de doktora sorulup kullanılmasını öneririm.",
+    "output": "200 mcg: DOZ, 400ü: DOZ, Selenyum: BİYOMOLEKÜL, Selenyum özellikle tiroid problemi olanlarda ve bağışıklık desteği olarak önemli bir takviye.: ETKİ, tiroid problemi: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Paketlemesi güzel, şişesi bayaa büyük ancak açıldıktan sonra 1 ayda tüketilmesi gerekiyormuş o sürede biteceğini sanmıyorım, 1.5 yaşında ki kızım püskürterek tükürdü 9 yaşımdaki oğlum bi daha hayatta içiremezsin bunu bana dedi, ben içiyorum ama iğrenç bir tat bırakıyor ağzımda ve bazen mide bulantısı yapıyor aldığıma pişmanım",
+    "output": "bazen mide bulantısı yapıyor aldığıma pişmanım: YAN_ETKİ, ben içiyorum ama iğrenç bir tat bırakıyor ağzımda: TAT_KOKU, 1.5 yaşında: KULLANICI_DEMOGRAFİSİ, kızım: KULLANICI, oğlum: KULLANICI, 9 yaşımdaki: KULLANICI_DEMOGRAFİSİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "bitti bile icmezsem eksiklik hissediyordum.tadini begenmeyenler var yorumlarda okuyorum ancak sadece C vitamini değil selenyumda içeriyor tadı normal C vitaminlerine göre değişik.ben içine propolis katarak içiyorum çok memnunum👍",
+    "output": "propolis: ÜRÜN_DİĞER, C vitamini: BİYOMOLEKÜL, C vitaminlerine: BİYOMOLEKÜL, selenyumda: BİYOMOLEKÜL, tadı normal C vitaminlerine göre değişik: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Trioit sınırda, ilaç kullanmıyorum … sık sık ses kısıklığı yaşıyordum … menopozla beraber saç dökülmeside yaşadım… iyotu tuzdan alıyorum diye ciddiye almıyordum…. İyotu kullanmaya başladım yaklaşık bir buçuk ayı geçti, ses kısıklığım yok oldu, ayrıca saç tellerim kalınlaştı … bu kadar çabuk etkisi olacağını düşünmemiştim… şimdi yanında selenyum da alacağım …. Tavsiye ederim memnun kaldım … 2-3 damla bir su bardağına damlatıyorum… c vitaminle birlikte alınmaması gerekiyor, yani meyva sularına yada sıcak içeceklere karıştırmayın … günün her saati alabilirsiniz selenyumla birlikte alınırsa etkisi daha fazla oluyormuş…. Hiç bir rahatsızlığınız olmasa bile alın, trioid lerinizi korursunuz… saygılar",
+    "output": "Trioit sınırda, ilaç kullanmıyorum … sık sık ses kısıklığı yaşıyordum … menopozla beraber saç dökülmeside yaşadım… iyotu tuzdan alıyorum diye ciddiye almıyordum: SAĞLIK_ŞİKAYETLERİ, iyotu: BİYOMOLEKÜL, 2-3 damla: DOZ, selenyumla: BİYOMOLEKÜL, Trioit: HASTALIK, İyotu: BİYOMOLEKÜL, trioid: BİYOMOLEKÜL, ses kısıklığım yok oldu, ayrıca saç tellerim kalınlaştı: ETKİ, selenyum: BİYOMOLEKÜL, c vitaminle: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saçlar kalitesizleşti dökülme arttı son bir kaç aydır. O sebepten ötürü aldım. 2 günde bir kullanıyorum. 1 gün multivitamin 1 gün biotin şeklinde. Aslında bu tarz ürünleri doktora danışıp almakta yarar var belki boşuna kullanıyorum bu da özeleştiri olsun. Kullanmak isteyen önce doktor kontrolünde tahlillerini yaptırsın. Öylesinin daha iyi olduğu kesin. Şu anda bir değişiklik yok dökülme mevsimsel olabilir. Psikolojik açıdan kullanıyor gibiyim. Bakalım kutu bitince faydası olacak mı hayırlısı.",
+    "output": "biotin: ÜRÜN_DİĞER, multivitamin: ÜRÜN_DİĞER, Saçlar kalitesizleşti dökülme arttı son bir kaç aydır: SAĞLIK_ŞİKAYETLERİ, Şu anda bir değişiklik yok dökülme mevsimsel olabilir: ETKİ, 2 günde bir: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kronik demir eksikliğinden muzdarip olduğum için aldım. Yaklaşık 10 gündür kullanıyorum biraz daha enerjik hissediyorum kendimi. Karın ağrısı ya da mide ağrısı problemi yap adı bende.",
+    "output": "Karın ağrısı ya da mide ağrısı problemi yap adı bende: ETKİ, Kronik demir eksikliğinden muzdarip olduğum: SAĞLIK_ŞİKAYETLERİ, biraz daha enerjik hissediyorum: ETKİ, Karın ağrısı: HASTALIK, mide ağrısı: HASTALIK, demir eksikliğinden: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kas ağrılarım için almıştım ama hiç iyi gelmedi.Sanki arttırdı .İçmedim öyle duruyor.Bırakınca geçti.Bende böyle etki yaptı ama herkeste farklı etki yapabilir.",
+    "output": "Kas ağrılarım için almıştım ama hiç iyi gelmedi.Sanki arttırdı: ETKİ, Kas ağrılarım: HASTALIK, Bırakınca geçti.Bende böyle etki yaptı ama herkeste farklı etki yapabilir: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Pazartesi sipariş verdim hemen kargoya verildi ve  salı elimdeydi. Bana gelen ürünün TETT 02.2025. Gayet özenli paketlenmiş ve sapasağlam geldi. Bir yakınımın tavsiyesi üzerine aldım faydasını göreceğimi düşünüyorum. fakat tadı çok rahatsız edici aç karnına o kadar zor içiyorum ki bence içindeki aromalar demir tadını bastırmamış aksine daha da kötüleştirmiş tadını önemsiyorsanız almayın onun dışında sorun yok",
+    "output": "yakınımın: TAVSİYE_EDEN, tadı çok rahatsız edici aç karnına o kadar zor içiyorum ki bence içindeki aromalar demir tadını bastırmamış aksine daha da kötüleştirmiş: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok acı, genzimi yakıyor. Yetişkin olarak kullanmakta zorlanıyorum. Zeytinyağı yutuyormuşum gibi, ama epey acı bir zeytinyağı. Daha önce kullandığım ve doktor tarafından reçeteye yazılan  D-K vitaminlerine benzemiyor tat bakımından. Fayda bakımından emin değilim, değişiklik gözlemlemedim kendimde, tahlil yaptırıp bakmak lazım.",
+    "output": "D-K vitaminlerine: BİYOMOLEKÜL, epey acı bir zeytinyağı: TAT_KOKU, Fayda bakımından emin değilim: ETKİ, Yetişkin: KULLANICI_DEMOGRAFİSİ, Çok acı, genzimi yakıyor: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Suplementler isimli satıcıdan aldım. Cam şişede ve birbirime yapışık halde geldi. Skt 2022 olması içimi rahatlattı. Ancak cam şişeyi koklayınca inanılmaz kötü kokuyor ilk defa balık yağı kullanacağım bu tarz ürünler böyle mi kokuyor bilemiyorum ama umarım yutarken zorlanmam",
+    "output": "cam şişeyi koklayınca inanılmaz kötü kokuyor: TAT_KOKU, Suplementler: MARKA_DİĞER, balık yağı: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çabuk kırılan, çatlayan tırnaklara sahibim ve gerçeken bu biotin ilk haftasında tırnaklarıma cok iyi geldi. Tırnaklarım uzamadan kırılırdı şimdi rahatça uzatabiliyorum ve kırılmıyor. Fakat saç dökülmesi için aynı şeyi söyleyemeyeceğim.",
+    "output": "Çabuk kırılan, çatlayan tırnaklara sahibim: SAĞLIK_ŞİKAYETLERİ, biotin: BİYOMOLEKÜL, saç dökülmesi: HASTALIK, gerçeken bu biotin ilk haftasında tırnaklarıma cok iyi geldi. Tırnaklarım uzamadan kırılırdı şimdi rahatça uzatabiliyorum ve kırılmıyor. Fakat saç dökülmesi için aynı şeyi söyleyemeyeceğim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "tip 1-2-3  collagen olması nedeniyle tercih ettim. iş arkadaşım kullanmış. özellikle cildinde bir ay içerisinde gözle görülür olumlu değişiklik olmuş. deneyelim görelim. yorumda güncelleme yapacağım yorumumu güncelliyorum,  diz ağrılarım yok denecek kadar azaldı. saçlarımda hızlı uzuyor ve canlı. 2 kutuya yeni başladım. sabah kahvemin içine katarak tüketiyorsun. düzenli kullanmak önemli 😉",
+    "output": "tip 1-2-3  collagen: BİYOMOLEKÜL, özellikle cildinde bir ay içerisinde gözle görülür olumlu değişiklik olmuş: ETKİ, saçlarımda hızlı uzuyor ve canlı: ETKİ, diz ağrılarım yok denecek kadar azaldı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "arkadaş tavsiyesi  kızım için aldım hasta oluyor ama antibiyotik kullanmadan c vitamini , probiyotik ve d vitamini destekle sonuç harika 👍",
+    "output": "sonuç harika: ETKİ, arkadaş tavsiyesi: TAVSİYE_EDEN, antibiyotik: ÜRÜN_DİĞER, c vitamini: ÜRÜN_DİĞER, probiyotik: ÜRÜN_DİĞER, kızım: KULLANICI, d vitamini: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir tanesi açık geldi .Kıyafetleri leke yapıyor o kadar kötü kokuyor ki bebeğim içmek istemedi. Microfer kullanıyordum pahalı diye bunu deneyeyim dedim ama kesinlikle tavsiye etmem",
+    "output": "Microfer: MARKA_DİĞER, leke yapıyor: YAN_ETKİ, bebeğim: KULLANICI, kötü kokuyor: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir arkadaşımın tavsiyesi üzerine kullanmaya başladım. İnanılmaz etkileri var, kadın hastalıklarından muzderip biri olarak şunu söyleyebilirim tamamen düzene girdi ve her ay yaşadığım o ağrılardan eser yok. Ayrıca göğüslerde büyüme yaptı. Ve cildim inanılmaz derece de ışıl ışıl. İndirimde stokladım artık kesinlikle vazgeçilmezim. Etkileri anlatmakla bitmeyen bir takviye sayın Hocama bu mucize takviyeyi bize sağladığı için minnettarım.",
+    "output": "kadın hastalıklarından: SAĞLIK_ŞİKAYETLERİ, tamamen düzene girdi ve her ay yaşadığım o ağrılardan eser yok. Ayrıca göğüslerde büyüme yaptı. Ve cildim inanılmaz derece de ışıl ışıl: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "B12 haplarını koktuğu için içemiyordum, bu konuda hassasiyetim var. Osende nin kötü bi kokusu ve tadı yok. Ağızda erimesini beklemek gerekiyor. Tadına bayılmadım ama kötü de değil.  Unutkanlık halsizlik gibi birçok belirtim var. 1 kutu bitince etkilerini güncelleyeceğim.",
+    "output": "B12: BİYOMOLEKÜL, Osende: MARKA, kötü bi kokusu ve tadı yok: TAT_KOKU, Tadına bayılmadım ama kötü de değil: TAT_KOKU, Unutkanlık halsizlik gibi birçok belirtim var: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Arkadaşlar, magnezyum ve çinkonun çeşitli emilim formları vardır. Bu magnezyum taurat, en iyi emilim sağlayan depresyona, migrene ve kalp hastalıklarına iyi gelen formudur. Aynı zamanda çinkonun glukonat formu da çinkonun en iyi emilim sağlayan formudur. Magnezyumu d vitamini ve çinko ile almak da çok iyi bir emilim sağlıyor. D vitamini emilimi için de k vitamini gereklidir. Mg’ları da günlük ihtiyacı karşılıyor. Tek bir üründe hepsi var. Ben depresyon ve saç dökülmesi tedavim için aldım fayda görmeyi umuyorum. Çok araştırdım en iyisi buydu. Ayrıca maske hediyeleri için de teşekkür ediyorum. Sadece 70tl ye aldıktan sonra 62 tlye düşmesi hoş olmadı 😂 olsun ben genel olarak memnunum. Umarım işinize yarayan bir değerlendirme olur 👍",
+    "output": "depresyona: HASTALIK, saç dökülmesi: HASTALIK, kalp hastalıklarına: HASTALIK, magnezyum: BİYOMOLEKÜL, çinkonun: BİYOMOLEKÜL, magnezyum taurat: ÜRÜN_DİĞER, migrene: HASTALIK, çinkonun glukonat: BİYOMOLEKÜL, çinkonun: BİYOMOLEKÜL, D vitamini: BİYOMOLEKÜL, k vitamini: BİYOMOLEKÜL, Magnezyumu: BİYOMOLEKÜL, d vitamini: BİYOMOLEKÜL, çinko: BİYOMOLEKÜL, depresyon: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Solgar kkalitesi mükemmel annem için aldım kemikleri eklemleri sırtı ağrıyordu onun için aldim güzel bir ürün",
+    "output": "kemikleri eklemleri sırtı ağrıyordu: SAĞLIK_ŞİKAYETLERİ, Solgar: MARKA, annem: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir ay kullandım ikinci kutuma başlıyorum yani 2. Aya giriyorum . Saç dökülmelerim yeni yeni azalmaya başladı. Dermatoloji doktorum 4 ay yani 4 kuru arka arkaya kullanmamı söyledi. Fiyatı eczanedeki ile aynı. Ancak bende az da olsa sivilce oluşturmaya başladı. Bunu da yan etkisi olarak yazabilirim .",
+    "output": "Saç dökülmelerim: HASTALIK, Dermatoloji doktorum: TAVSİYE_EDEN, az da olsa sivilce oluşturmaya başladı: YAN_ETKİ, Saç dökülmelerim yeni yeni azalmaya başladı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "paketleme güzeldi. haplar biraz büyük geldi bana yutmakta zorlandım ama yine de içeriği güçlü kaliteli bir ürün Tok karnına tüketmeye özen gösterin ve bunu aldığınız günlerde bol su tüketin çünkü çinko böbreklerde ağrı yapabiliyor. 2 HAFTA SONRA EK OLARAK: MIDE RAHATSIZLIĞI OLANLAR DIKKATLI KULLANSIN İKI KUTU ALMIŞTIM BIR KUTUYU YARIYA BILE INDIREMEDIM. ICINDEKI CINKO VE PROPOLIS OLDUKÇA ETKILI VE ÇOK RAHATSİZ EDIYOR. CİDDİ PROBLEMLERE NEDEN OLABİLİR",
+    "output": "çinko: BİYOMOLEKÜL, CINKO: BİYOMOLEKÜL, PROPOLIS: İÇERİK, MIDE RAHATSIZLIĞI: HASTALIK, böbreklerde ağrı: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Uykumu alamama ve sürekli yorgun kalkma şikayetim üzerine psikoloğumun magnezyum takviyesi tasviye etmesi üzerine aldım, gerçekten kullandıktan sonra eskiye kıyasla daha iyi hissediyorum",
+    "output": "psikoloğumun: TAVSİYE_EDEN, magnezyum: BİYOMOLEKÜL, kullandıktan sonra eskiye kıyasla daha iyi hissediyorum: ETKİ, Uykumu alamama ve sürekli yorgun kalkma şikayetim üzerine: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü iki ay boyunca geceleri düzenli olarak kullandım ancak faydasını göremedim saçımın dökülmesi durmadigi gibi daha da arttı ustelik tırnaklarımda da bir fark göremedim",
+    "output": "faydasını göremedim saçımın dökülmesi durmadigi gibi daha da arttı ustelik tırnaklarımda da bir fark göremedim: ETKİ, saçımın dökülmesi: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1.5 aydır kullanıyorum açıkçası tırnaklarıma ve cilde faydası olduğunu düşünüyorum tırnaklarım daha güçlü cildim daha nemli bir yapıda ancak saç dökülmesine etkisi sıfır hatta arttı bile diyebilirim uzatma konusunda da bir etkisini göremedim",
+    "output": "saç dökülmesine: HASTALIK, tırnaklarıma ve cilde faydası olduğunu düşünüyorum tırnaklarım daha güçlü cildim daha nemli bir yapıda ancak saç dökülmesine etkisi sıfır hatta arttı bile diyebilirim uzatma konusunda da bir etkisini göremedim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yaklaşık 2 haftadır kullanıyorum özellikle sivilce problemi sebebiyle kullanmaya başladım ve cildime iyi geldiğini düşünüyorum bitince 2.kutuyu da alırım kesinlikle. **Güncelleme** Gerçekten sivilcelerime çok iyi geliyormuş onu fark ettim bir hafta kullanmadığımda aktif sivilcelerim çıkmaya başladı tekrar kullanmaya başladım. Kullandığım süreçte cildim daha sağlıklı görünüyor.",
+    "output": "cildim daha sağlıklı görünüyor: ETKİ, sivilce problemi: SAĞLIK_ŞİKAYETLERİ, sivilcelerime çok iyi geliyormuş: ETKİ, bir hafta kullanmadığımda aktif sivilcelerim çıkmaya başladı tekrar kullanmaya başladım: YAN_ETKİ, cildime iyi geldiğini: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Faydasını görüyorum. 1 kutu bitirdim. Duygusal yeme ataklarıma da iyi geldi. Uyku konusunda birşey diyemem uykum biraz dirençli ama genel olarak bir tık enerjimin yükseldiğini söyleyebilirim. Kullanmaya devam edeceğim.",
+    "output": "Duygusal yeme ataklarıma da iyi geldi. Uyku konusunda birşey diyemem uykum biraz dirençli ama genel olarak bir tık enerjimin yükseldiğini söyleyebilirim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gayet güzel paketlenmiş ve ileri tarihli geldi ♥️ doğumdan sonra 2 paket kullanmıştım ve hem enerjim çok iyiydi hem kan testlerinde değerlerim hiç olmadığı kadar iyiydi, bebeğim ayda 1,5 kilo alıyordu sütüme çok faydası oldu , ne zaman kullanmayı kestim bebeğimin kilo alımı yavaşladı ben halsizleştim , şimdi tekrar aldım o yüzden emzirmeyi bırakmadan bir kutu daha bitireyim ♥️",
+    "output": "2 paket: DOZ, hem enerjim çok iyiydi hem kan testlerinde değerlerim hiç olmadığı kadar iyiydi, bebeğim ayda 1,5 kilo alıyordu sütüme çok faydası oldu , ne zaman kullanmayı kestim bebeğimin kilo alımı yavaşladı ben halsizleştim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kas ağrısı çekiyordum yürümek bile zor gelmeye başlamıştı ürünü kullandım 2. ci tablette ağrılarım azaldı gün aşırı içiyorum çok faydasını gördüm",
+    "output": "Kas ağrısı: HASTALIK, Kas ağrısı çekiyordum yürümek bile zor gelmeye başlamıştı: SAĞLIK_ŞİKAYETLERİ, 2. ci tablette ağrılarım azaldı gün aşırı içiyorum çok faydasını gördüm: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün elime hızlı ve sağlam şekilde geçti. Süt arttırma konusuna gelince aman aman bi fazlalık olmadı açıkçası. Anne sütünden başka Günde iki kere mama veriyordum, günde bir sefere düştü. Ancak yorgunluğu ve halsizliği biraz azalttı. Daha dinç uyanıyorum",
+    "output": "halsizliği: HASTALIK, yorgunluğu: HASTALIK, Süt arttırma: SAĞLIK_ŞİKAYETLERİ, yorgunluğu ve halsizliği biraz azalttı. Daha dinç uyanıyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok memnunum oğlum için kullanıyorum diş lekesi yapmadı tadıda kötü değil çok rahat içebiliyor oğlum normalde en ufak şeyden tiksinip kusan bir çocuk ama keyifle içiyoruz",
+    "output": "tadıda kötü değil çok rahat içebiliyor oğlum: TAT_KOKU, oğlum: KULLANICI, diş lekesi yapmadı: YAN_ETKİ, oğlum: KULLANICI, tiksinip kusan bir çocuk: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu vitamini aldığımdan beri o kadar memnunumki anlatamam resmen kendimdeki farkı gördüm daha dinç daha iyi hissediyorum, tırnaklarım kırılmıyor eskiden sürekli yanlardan çatlayıp kırılırdır şimdi çok sert, saçlarım daha az dökülüyor bence iyiki almışım stok yaptım hatta sizede kesinlikleee tavsiyemdir👍",
+    "output": "eskiden sürekli yanlardan çatlayıp kırılırdır: SAĞLIK_ŞİKAYETLERİ, şimdi çok sert, saçlarım daha az dökülüyor: ETKİ, daha dinç daha iyi hissediyorum, tırnaklarım kırılmıyor: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok aşırı halsizlik çeken bir insanım maalesef. Diğer ülkelerde ginsengin bu amaçla kullanıldığını duymuştum fakat bizim ülkemizde pek yaygın olmadığı için bilmiyordum bir eczacı olarak iyice araştırdım ve bu ürünü satın aldım. Eskiden yataktan çıkmazken bu ürünü kullandığım zaman bir kere bile yatağa girme ihtiyacı hissetmiyorum eğer bu tarz şikayetleriniz varsa lütfen bir deneyin çünkü halsizlik bu dünyadaki en kötü şey en iyi ben bilirim",
+    "output": "Çok aşırı halsizlik çeken bir insanım maalesef: SAĞLIK_ŞİKAYETLERİ, ginsengin: İÇERİK, Eskiden yataktan çıkmazken bu ürünü kullandığım zaman bir kere bile yatağa girme ihtiyacı hissetmiyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kargo hızlıydı,baş ağrılarıma iyi geldi , çok yoğun uykusuzluk problemleri olanların sorununu gidermiyecektir. Regl ağrılarıma bir etkisini görmedim.",
+    "output": "baş ağrılarıma iyi geldi , çok yoğun uykusuzluk problemleri olanların sorununu gidermiyecektir. Regl ağrılarıma bir etkisini görmedim: ETKİ, baş ağrılarıma: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün tempolu ve yogun calısanlar için cok ideal  bir ürün. Günü dinç birsekilde gecırıyosunuz yorgunluk nedır anlamıyorsunuz bile... uyanırken dinç zinde kalkıyorsunuz.. Yalnız bende kaşıntı yaptı ara ara ilaçtanmı Baska bişey den mi bilemedim.. Sürat kargonuza gelince bu kadar kötü bir kargo olamaz.. Kargomdaki adrese bakmadan kargomu rastgele Bi avm ye  bırakmaları bu kadar kötü bir kargo olamaz acilen kargo şirketinizi degiştirin lütfen",
+    "output": "Günü dinç birsekilde gecırıyosunuz: ETKİ, uyanırken dinç zinde kalkıyorsunuz: ETKİ, kaşıntı yaptı: YAN_ETKİ, yorgunluk nedır anlamıyorsunuz bile: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gözlemlediğim ekstra bir enerji, cildimde canlılık olmadı ama midemi de asla rahatsız etmedi. Beklentileri yüksek tutmadan tüketilebilir.",
+    "output": "Gözlemlediğim ekstra bir enerji, cildimde canlılık olmadı ama midemi de asla rahatsız etmedi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Önceden başka markanın daha düşük mg kullanıyorduk bu ürünü 6 7 aydır kullanıyorum ve kullanmadığım tek gün bile farkı görüp rahatsız oluyorum annemde kullanıyor ayakları bilekleri şişlikten ödemden hareket edemezdi şimdi müthiş bir şekilde bütün ödemleri bitti",
+    "output": "annemde: KULLANICI, ayakları bilekleri şişlikten ödemden hareket edemezdi: SAĞLIK_ŞİKAYETLERİ, ödemden: HASTALIK, bütün ödemleri bitti: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "muhteşem ürün, birinci kutum bitmek üzere, ödem atmama yardımcı oldu, her zaman şikayetçi olduğum şişkinlik hissi bitti, bacaklarındaki ki ağrılar bitti. enerji veriyor, kullanmaya devam edeceğim",
+    "output": "her zaman şikayetçi olduğum şişkinlik hissi: SAĞLIK_ŞİKAYETLERİ, ödem atmama yardımcı oldu, her zaman şikayetçi olduğum şişkinlik hissi bitti, bacaklarındaki ki ağrılar bitti. enerji veriyor: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "vitamin takviyesinde tercih ettiğim marka. gebelik kansızlığı var, ay sonunda tahlil yaptirip sonuca göre yorumumu duzenleyecegim.  ekleme: tahlilde bir tık yükselmiş ama dediğim gibi gebelik kansızlığı var mg yetmiyor daha yüksek kullanmam gerekiyor sanırım. devletin verdikleri gibi yan etkileri de olmadı.",
+    "output": "gebelik kansızlığı: HASTALIK, gebelik kansızlığı: HASTALIK, tahlilde bir tık yükselmiş: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ben değişik markaların da olmak üzere ürünü yıllardır kullanıyorum. Tiroid rahatsızlığım sebebi ile hormonal dengesizlikten ciddi sivilce ve saç dökülmesi problemi yaşıyordum ve gerçekten çok iyi geldi. Özellikle damlalıklı oluşu ayar yapmanızı çok daha kolay hale getiriyor bide diğer markalara oranla cildime daha iyi geldiğini gözlemledim. Bu fiyata kaçmaz kesin alın",
+    "output": "Tiroid rahatsızlığım: HASTALIK, hormonal dengesizlikten ciddi sivilce ve saç dökülmesi problemi yaşıyordum: SAĞLIK_ŞİKAYETLERİ, cildime daha iyi geldiğini gözlemledim: ETKİ, gerçekten çok iyi geldi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Merhabalar içerisindeki çinko sayesinde tırnaklarında kırılmalar ve saçlarımda dökülmeler oluyordu bunun için arkadaşımın tavsiyesi üzerine aldım şu anda memnunum tavsiye edebilirim",
+    "output": "çinko: BİYOMOLEKÜL, arkadaşımın: TAVSİYE_EDEN, tırnaklarında kırılmalar ve saçlarımda dökülmeler oluyordu: SAĞLIK_ŞİKAYETLERİ, saçlarımda dökülmeler: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yabancı tiktokerlarda hep gördüğüm bir üründü türkiyeye geldiğini görünce hemen denemek istedim. Cildime gerçekten güzel bir etkisi oldu daha bir haftadır kullanmama rağmen. Kullanmaya devam edicem etkisi umarım böyle devam eder.",
+    "output": "Cildime gerçekten güzel bir etkisi oldu daha bir haftadır kullanmama rağmen: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün 2 günde elime ulaştı.10 gündür kullanıyorum henüz çok bişey anlamadım bedenimdeki halsizlik ve ağrılarla ilgili ama uzun vadede işe yarayacağını düşünüyorum.Bağışıklığı güçlendirdiği umuduyla aldım…İyotun tadı baticon içiyormuşsunuz gibi ama sağlık diyip katlanıyoruz tabi.C vitamini ile aynı anda kullanılmadığı için portakal suyu limonata gibi içeceklere karıştırmayınız.Sevgiler",
+    "output": "halsizlik: HASTALIK, C vitamini: BİYOMOLEKÜL, bedenimdeki halsizlik ve ağrılarla ilgili: SAĞLIK_ŞİKAYETLERİ, tadı baticon içiyormuşsunuz gibi: TAT_KOKU, İyotun: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Cildimde ki kuruluk çatlaklık kısa bir süre içinde gitti çok memnun kaldım 2. Yi alıcam kesinlikle tavsiye ederim piyasanın en iyisi midede rahatsızlık yapmıyor enerji yüksekliğini hissediyorsun soğuk algınlığına hızlı çözüm",
+    "output": "Cildimde ki kuruluk çatlaklık kısa bir süre içinde gitti: ETKİ, midede rahatsızlık yapmıyor: YAN_ETKİ, enerji yüksekliğini hissediyorsun soğuk algınlığına hızlı çözüm: ETKİ, soğuk algınlığına: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tadı içilmeyecek kadar kötü değil fakat bir aylık kullanımda pek fark gözlemleyemedim. İnternette karşıma çıkan bir bilgide sıvı klorofilin cildi hassaslaştırdığı ve lekelenmeye meyilli hale getirdiği yazıyordu. Doğruluğundan emin değilim fakat kullanmayı bırakmayı düşünüyorum.",
+    "output": "klorofilin: BİYOMOLEKÜL, Tadı içilmeyecek kadar kötü değil: TAT_KOKU, cildi hassaslaştırdığı ve lekelenmeye meyilli hale getirdiği yazıyordu: YAN_ETKİ, bir aylık kullanımda pek fark gözlemleyemedim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "4 yaşında ki oğlum da demir eksikliği olduğu için diğer suruplari iciremediğimiz için dr.umuzun tavsiyesi üzerine aldım.ilk defa meyve suyu içinde farketmedi ve icirebildim çok mutluyum bu yüzden kesinlikle tavsiye ederim ☺️yeniden sipariş verdim ve çok memnunum oğlum artık bilerek ve severek içiyor satıcıya çok teşekkür ederim yanında probiyotik flakon gönderilmiş 🌸",
+    "output": "demir eksikliği: HASTALIK, dr.umuzun: TAVSİYE_EDEN, probiyotik flakon: ÜRÜN_DİĞER, 4 yaşında ki: KULLANICI_DEMOGRAFİSİ, oğlum: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1,5 AYLIK KULLANIM : Saç dökülme probleminden ziyade tırnaklarım için kullanmaya başladım. Aşırı ince ve kırılgan tırnaklara sahibim. Tırnaklarımı güçlendirdi ya da uzamasına yardımcı oldu mu? Hayır. Saçlarımın uzama hızında bir artış var. Bunun dışında şu anlık pek bir etkisini görmedim.",
+    "output": "Saç dökülme: HASTALIK, Saç dökülme probleminden ziyade tırnaklarım için kullanmaya başladım. Aşırı ince ve kırılgan tırnaklara sahibim: SAĞLIK_ŞİKAYETLERİ, Saçlarımın uzama hızında bir artış var: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Merhaba hamileliğimden başladı saç dökülmem doğumdan sonra devam etti. Belime kadar olan saçlarım o kadar azaldı ki kullandığım bir sürü bitkisel ürün işe yaramadı.Bir çok ürün aldım saç dokulmesine hiç biri işe yaramadı. Bu ürün cildiye doktorumun tavsiyesiyle başladım ikinci kutuya geçtim saç dokulmem kesildi. Keşke daha önce tanissaydim bu ürünle boşuna bir sürü aldım.Urun elime de hızlı bir şekilde geldi teşekkür ederim.",
+    "output": "hamileliğimden başladı saç dökülmem doğumdan sonra devam etti: SAĞLIK_ŞİKAYETLERİ, saç dökülmem: HASTALIK, Belime kadar olan saçlarım o kadar azaldı: SAĞLIK_ŞİKAYETLERİ, saç dokulmem kesildi: ETKİ, saç dokulmesine: HASTALIK, cildiye doktorumun: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ağrılarım için diyetisyenim tavsiye etti, memnun kaldım.Agrilarima iyi geldi. Şimdi tekrar sipariş ettim.",
+    "output": "Ağrılarım: HASTALIK, Agrilarima iyi geldi: ETKİ, diyetisyenim: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "tavsiye üzerine aldım enerji vermesine bayıldım kullanmaya devam etcem bende bağışıklık sistemim düzenli çalışması için aldım iyot damlalarının birçok faydası var bu markada güvenilir olduğu için tercih ettim tadı çok güzel rahatsız etmedi",
+    "output": "enerji vermesine bayıldım: ETKİ, iyot damlalarının: ÜRÜN_DİĞER, tadı çok güzel: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Üzerinde günlük 6 tane içiniz diyor ama kilo ve bünyeye göre değişebilir bana bu sayı fazla geldi.Cilde mükemmel faydaları olduğunu duymuştum bira mayası tabletlerinin .Öyle bir şey  gözlemlemedim. Sadece b12 eksikliği için aldım doğal diye. Fena değil",
+    "output": "Cilde mükemmel faydaları olduğunu duymuştum bira mayası tabletlerinin .Öyle bir şey  gözlemlemedim: ETKİ, b12 eksikliği: HASTALIK, 6 tane: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "2.kez alıyorum ve çok memnunum tırnaklarım güçlendi saç dökülmelerim azaldı en önemlisi daha hızlı uzadı",
+    "output": "tırnaklarım güçlendi saç dökülmelerim azaldı en önemlisi daha hızlı uzadı: ETKİ, saç dökülmelerim: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "bu markanın farklı ürünlerinide kullandım ham maddesi çok iyi . piyasada en ucuz biotin .5000mg olmasıda çok iyi .gece yatmadan önce 1 tane alıyorum . saç dökülmesini durduruyor. tırnakları besliyor derim nemlendi. bununla birlikde colejende kullanıyorum ianılmaz etkili. hızlı kargo ve sıkı paketleme için teşekkür ederim",
+    "output": "saç dökülmesini durduruyor. tırnakları besliyor derim nemlendi: ETKİ, saç dökülmesini: HASTALIK, biotin: BİYOMOLEKÜL, colejende: BİYOMOLEKÜL, 1 tane: DOZ, 5000mg: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "3.kez alıyorum gayet memnunum vitamin eksikligi yaşıyordum sorunum tamamen çözüldü tok karnına içilirse mide bulantısı yapmıyor ama aç karnına içilirse ölüm gibi tavsiye ediyorum",
+    "output": "mide bulantısı: YAN_ETKİ, vitamin eksikligi: HASTALIK, aç karnına içilirse ölüm gibi tavsiye ediyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kesinlikle süt arttırıyorrr🥰🙏🏻 günde 3 kere 2 ser tablet alıyorum ve inanılmaz farketti. Bana da iyi geldi yorgunluğum azaldı daha dinç hissediyorum😇",
+    "output": "Kesinlikle süt arttırıyorrr: ETKİ, de 3 kere 2 ser tablet al: DOZ, a da: KULLANICI, gunluğum az: HASTALIK, gunluğum azaldı daha dinç hissediyorum😇: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hızlı ve sorunsuz elime ulaştı. Ilk haftadan etkisini göstermeye başladı. Günde iki kere sabah ve akşam kullanıyorum. 15 gündür kullanıyorum duşta tutam tutam dökülen saçlarım 3 4 tele kadar düştü. Tırnaklarımı da güçlendirdi. Kullanmaya devam edeceğim. Ilk 3 ay günde iki kere, sonraki 3 ay günde 1 kere kullanacağım. Doktor tavsiyesi değil kendi isteğimle kullanıyorum.",
+    "output": "duşta tutam tutam dökülen saçlarım: SAĞLIK_ŞİKAYETLERİ, 3 4 tele kadar düştü. Tırnaklarımı da güçlendirdi: ETKİ, Günde iki kere: DOZ, Ilk 3 ay günde iki kere, sonraki 3 ay günde 1 kere kullanacağım: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Reklamlarına kanıp almanızı önermem, çok yoğun çimen kokusu ve tadı geliyor ve mide bulandırıyor, faydalı olduğuna eminim ama etkisi faydasının önüne geçiyor",
+    "output": "mide bulandırıyor: YAN_ETKİ, çok yoğun çimen kokusu ve tadı geliyor: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Üç buçuk aylık bebeğim var.  Sütümü arttırmak için kullandım bir kutu. Kesinlikle çok faydasını gördüm.  Şimdi ikinci kutuyu sipariş verdim. Emzirmenin yanında sağım da yapıyorum süt üretimini arttırmak için. Formül arayanlara önerimdir.  Bol su, düzenli yemek, solgar vitamin ve sağım yapmak.",
+    "output": "Sütümü arttırmak için kullandım bir kutu. Kesinlikle çok faydasını gördüm: ETKİ, solgar vitamin: MARKA"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "More than markası çok iyi , probiyotik ve iyotunu da kullanıyoruz, hepsinden çok memnunum , ayrıca şase ve herhangi bir katkı maddesinin olmaması daha iyi, 1000mg ve 100 adet olması daha ekonomik olmaktadır.",
+    "output": "More than: MARKA, iyotunu: BİYOMOLEKÜL, probiyotik: İÇERİK, 100 adet: DOZ, 1000mg: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Covid çıktığından beri devamlı kullandığım bir vitamin çok memnunum ve hüç bir yan etkisi yok tok karnına alınmalı , sabah aç karnına biraz mide bulantısı yapıyor",
+    "output": "Covid: HASTALIK, hüç bir yan etkisi yok: YAN_ETKİ, sabah aç karnına biraz mide bulantısı yapıyor: YAN_ETKİ, mide bulantısı: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "nutrigen kalite olarak basarili buldum diger markalara gore degerleri yuksek geldi bana çocuğum severek içiyor tadi guzel istah aciyor diger ürünlerinide aldim dönüşümlü iciriyorum severek iciyorlar hasta olma durumlarında faydali oldu tsk",
+    "output": "çocuğum: KULLANICI, tadi guzel: TAT_KOKU, istah aciyor: ETKİ, nutrigen: MARKA, hasta olma durumlarında faydali oldu: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yorumumu güncelliyorum, evet teslim hızlı ama ben daha önce 2 şişe kullandığım halde bu üründe tüm yanetkileri gördüm, şiddetli karın ağrısı yaşadım hatta çarpıntı bile yaşadım. metabolizmam cok hızlı değildi ve ödemim geçmedi",
+    "output": "şiddetli karın ağrısı: YAN_ETKİ, çarpıntı: YAN_ETKİ, metabolizmam cok hızlı değildi ve ödemim geçmedi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünün tadı cok hafif. Kesinlikle rahatsiz ediciligi yok. Kan tahlili yaptirmadim ancak ise yaradigini dusunuyorum. Kullanmaya basladiktan bir hafta sonra, aylardır bitmeyen kafamdaki sislilik hissi, unutkanlik ve gecmeyen yorgunluk azalmaya basladi. Daha iyi hissediyorum ve daha enerjigim. Ayni etki annemde de var. Bu yüzden cok memnunuz.  Saticiya da tesekkurler. Urunun kullanma tarihi ileri bir tarih ve sorunsuz geldi.",
+    "output": "Ürünün tadı cok hafif. Kesinlikle rahatsiz ediciligi yok: TAT_KOKU, aylardır bitmeyen kafamdaki sislilik hissi, unutkanlik ve gecmeyen yorgunluk azalmaya basladi. Daha iyi hissediyorum ve daha enerjigim. Ayni etki annemde de var: ETKİ, kafamdaki sislilik hissi: HASTALIK, unutkanlik: HASTALIK, yorgunluk: HASTALIK, annemde: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "ertesi gün teslim edildi. satıcıya ve kargo şirketine teşekkürler. eczaneden daha uygun fiyata satılıyor burada.  ürün hakkında. dr tavsiyesiyle sabah akşam tok karnına 1er tane kullanıyordum. kimseyi yönlendirmek istemem ilaçta değil zaten sütü arttırıyor bana göre.  son 2 haftadır günde 1 e düşürdüm. süt  yine var ancak günde 2 tane kullandığımdaki gibi de dolu dolu değil hatta sağmak zorunda kaldığımı biliyorum 2 tane içerken. 1 tane kullandığım hali de yetiyor bebeğime sütüm. malum fiyattan dolayı böyle bir kullanıma gitmiştim. ara ara 1 2 şeklinde kullanmayı düşünüyorum",
+    "output": "2 tane: DOZ, sütü arttırıyor bana göre: ETKİ, 2 tane: DOZ, dr: TAVSİYE_EDEN, sabah akşam tok karnına 1er tane: DOZ, süt  yine var ancak günde 2 tane kullandığımdaki gibi de dolu dolu değil hatta sağmak zorunda kaldığımı biliyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Doktor tavsiyesi üzerine aldım. Memnun kalacağıma eminim çünkü kızım için gerekli olan tüm destekler içinde mevcut.  Özenli bir paketleme ile geldi. Teşekkür ederim/ ikinci siparişimi verdim. Kızım okula başladığı için her gün kullanıyoruz. Memnunuz",
+    "output": "kızım: KULLANICI, Doktor: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "arkadaşlar içten ve samimiyetle söylemeliyim ki ürün baya yarayışlı 1 aydır kullanıyorum .yas 20 çocukluktan gelen kemik ağrları çekiyodum diz olsun kalça olsun birde satış danışmanlığı yapıyorum akşama kadar ayaktayım eve gittiğimde her yerim agriyodu solgari kullanmaya başladım başlayalı ağrılarım azaldı.hic bir zararını mide agritmasini görmedim biraz büyük ama yutuluyo.alacak arkadaşlara tavsiye ederim.",
+    "output": "yas 20 çocukluktan gelen kemik ağrları çekiyodum diz olsun kalça olsun birde satış danışmanlığı yapıyorum akşama kadar ayaktayım eve gittiğimde her yerim agriyodu: SAĞLIK_ŞİKAYETLERİ, solgari: MARKA, ağrılarım azaldı: ETKİ, hic bir zararını mide agritmasini görmedim: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Argivitle yeni tanıştık sayılır.2.şişemiz bitti ama gerçekten iştahında ve bağışıklığına çok iyi geldiğini düşünüyorum.5 yaşında bir kızım var ve herşeyden nem kapıp sürekli hapşırık burun akıntısı yaşardı.Ama  şuan eskisi gibi değil daha dirençli.👍",
+    "output": "Argivitle: MARKA, iştahında ve bağışıklığına çok iyi geldiğini düşünüyorum.5 yaşında bir kızım var ve herşeyden nem kapıp sürekli hapşırık burun akıntısı yaşardı.Ama  şuan eskisi gibi değil daha dirençli: ETKİ, 5 yaşında: KULLANICI_DEMOGRAFİSİ, kızım: KULLANICI, herşeyden nem kapıp sürekli hapşırık burun akıntısı yaşardı: SAĞLIK_ŞİKAYETLERİ, hapşırık: HASTALIK, burun akıntısı: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "normalde eczaneden 85 tlye almıştım, ancak burada 55 tl oldukça uygun geldi.  50 yaş üstünü anne ve babam için alıyorum. eğer kendinizi halsiz hissediyorsanız ve unutkanlığınız varsa kesinlikle öneriyorum. son kullanma tarihi de 2022ye ait. gönül rahatlığı ile alabilirsiniz sağlıklı günler dilerim.",
+    "output": "kendinizi halsiz hissediyorsanız ve unutkanlığınız: SAĞLIK_ŞİKAYETLERİ, 50 yaş üstünü: KULLANICI_DEMOGRAFİSİ, anne: KULLANICI, babam: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "hamilelik donemi icin aldim.hala kullaniyorum.içerik guzel ama demir eksikliğim vardi tamamlamadi.birde hamilelik ssebebiyle yorgun ve uykuluydum.yatmadan 1 saat once alsam bile gece yarisi uykumu almis uyaniyorum.bu da cok hos olmuyor tabi. artik sabahlari aliorm biraz mide bulantisi yapsa da. guncelleme: 2 kutu bitirdim ve hamilelik dolayisiyla tum degerlerim düştü.yani hic ürün  hic bir ise yaramadi.mesela b12 392 idi 2 kutu sonunda 80e düştü. degerlerime hic bi faydasi olmadi.",
+    "output": "biraz mide bulantisi yapsa da: YAN_ETKİ, demir eksikliğim vardi tamamlamadi: ETKİ, birde hamilelik ssebebiyle yorgun ve uykuluydum.yatmadan 1 saat once alsam bile gece yarisi uykumu almis uyaniyorum.bu da cok hos olmuyor tabi: ETKİ, demir eksikliğim: HASTALIK, ürün  hic bir ise yaramadi.mesela b12 392 idi 2 kutu sonunda 80e düştü. degerlerime hic bi faydasi olmadi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Doğum sonrası saç dökülmem için kullanmaya başladım faydasını görüceğime inandığım temiz içerik marka",
+    "output": "Doğum sonrası saç dökülmem için kullanmaya başladım: SAĞLIK_ŞİKAYETLERİ, saç dökülmem: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saç dökülmesine karşı almıştım ama tırnaklarım  daha güçlü artık kırılmıyor, artı ciltte sıkılaşmaya vesile oldu en çok buna sevindim🤗2. Şişeye başladım tavsiye ederim harika bir ürün",
+    "output": "Saç dökülmesine: HASTALIK, tırnaklarım  daha güçlü artık kırılmıyor, artı ciltte sıkılaşmaya vesile oldu: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saç dökülmesi için aldım 1 haftadır sabah akşam kullanıyorum şuanda etkisini gördüm pahalı biotin almaya gerek yok bu gayet iyi",
+    "output": "Saç dökülmesi: HASTALIK, biotin: ÜRÜN_DİĞER, 1 haftadır sabah akşam kullanıyorum şuanda etkisini gördüm pahalı biotin almaya gerek yok bu gayet iyi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bayer güvencesi ve senelerin Supradyn tecrübesine ilave Koenzim Q10 ilave edilmiş, portakal aromalı efervesan tablet tadı güzel. Halsizlik için kullanacağım, iyi geleceğini umut ediyorum, Kargodan hızlı ve sağlam bir şekilde geldi.",
+    "output": "Bayer: MARKA, Supradyn: MARKA, tadı güzel: TAT_KOKU, Halsizlik: HASTALIK, Koenzim Q10: BİYOMOLEKÜL, portakal aromalı: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "yüksek d vitamini eksikliğim çıkınca hemen sipariş verdim, damlalıkla tüketince midem bulanıyor iyi ki fıs fıs koymuşlar içine. Midede ağırlık yapmıyor, sindirimi kolay",
+    "output": "d vitamini: BİYOMOLEKÜL, midem bulanıyor: YAN_ETKİ, Midede ağırlık yapmıyor: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İçeriğinde titanyum dioksit var maalesef. Ve beni ciddi kabız yaptı. Anneme almıştım onun da mide ve bağırsaklarını kötü etkilemiş. Huzursuz bacak sendromu için almıştım ona fayda etti ama bir daha almayı düşünmüyorum.",
+    "output": "Anneme: KULLANICI, mide ve bağırsaklarını kötü etkilemiş: YAN_ETKİ, Huzursuz bacak sendromu: HASTALIK, Huzursuz bacak sendromu için almıştım ona fayda etti: ETKİ, titanyum dioksit: BİYOMOLEKÜL, kabız: HASTALIK, ciddi kabız yaptı: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yorumlara bakarak almıştım hemen de özenli bir şekilde geldi fakat bir haftadır kullanıyorum hala olumlu ya da olumsuz bir etkisini görmedim. Uykusuzluğum geçmedi, iştah kapatmadı, enerji de vermedi. Ayrıca bir şey dikkatimi çekti ! Neden yorumların çoğu 5 Aralık gününe ait buna mantıklı bir açıklama bulamadım. Daha önce okuduğum yorumların da günü değiştirilip tekrar güncellenmiş. İlacı aç karna iç diyen de var tok karna iç diyen de. Neyse umarım bir haftada işe yaramayan ilaç bir ayda işe yarar.",
+    "output": "hala olumlu ya da olumsuz bir etkisini görmedim. Uykusuzluğum geçmedi, iştah kapatmadı, enerji de vermedi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü 2. Kez alıyorum ben memnunum enerjimi yerine getiriyor kendimi iyi hissediyorum yorgunluk hissetmiyorum bana iyi geldi 😍",
+    "output": "yorgunluk: SAĞLIK_ŞİKAYETLERİ, enerjimi yerine getiriyor kendimi iyi hissediyorum yorgunluk hissetmiyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İ na. nıl naz... sıvı kaybı var dizlerimde, ameliyat için çok gençsin dedi doktorlar, birçok tedavi önerdiler ama pandemide de biz yapamayız büyük bir hastaneye gideceksin dediler. Glukozamin içeren bir kaç ilaç kullandım hiç faydasını görmedim bunu da bir arkadaş annesine almış, bı dene dedi annem memnun.. Abartmıyorum, yaşım 53 ama yürüyemiyordum 70 lik nineler gibiydim, geceleri yatakta ağrıdan açıdan donemiyordum, hele bi misafir gelsin bitiyordum. İlacı aldığım ilk gün hemen farkettim ki ağrım yok denecek kadar azaldı. 2.3.4. gün derken ne ağrım ne sizim kaldı . Koşuya bile çıkacak kadar enerjik hissediyorum.👍😊3 ay kullanım öneriliyor. Şimdiden boyleysem, eskiden her sabah çıktığım nefis sabah yürüyüşlerine çıkabileceğim anlaşılan, diz ağrım mazide kalacak kesin. Çevremde diz ağrısı çeken herkese tavsiye ettim. Size de ediyorum. Hiç düşünmeyin. Nerdeymis şimdiye kadar, neden bilemedim bulamadım bilemiyorum. Ama artık var 👍 Çok uzun yazdım biliyorum ama sevincimi mutluluğumu detaylı paylaşmak istedim sizlerle. Geçmiş olsun herkese...",
+    "output": "sıvı kaybı var dizlerimde: HASTALIK, z ağrım m: HASTALIK, Glukozamin: İÇERİK, yaşım 53: KULLANICI_DEMOGRAFİSİ, geceleri yatakta ağrıdan açıdan donemiyordum: SAĞLIK_ŞİKAYETLERİ, z ağrısı ç: HASTALIK, ağrım yok denecek kadar azaldı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hamilelik dönemindeyim ve doktorum boğaz ağrım için önermişti. Diğer pastillere göre tat farkından da anlaşılacağı gibi doğal bir ürün. Çok memnun kaldım, etkili olmasından kaynaklı eşimle birlikte evde her zaman bulundurduğumuz bir ürün.",
+    "output": "eşimle: KULLANICI, boğaz ağrım: SAĞLIK_ŞİKAYETLERİ, pastillere göre tat farkından da anlaşılacağı gibi doğal bir ürün: TAT_KOKU, Hamilelik dönemindeyim: KULLANICI_DEMOGRAFİSİ, doktorum: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "gerçekten çok iyi bir ürün kas ağrılarımı geçirdi ve üzerimde sürekli bir halsizlik vardı onu da götürdü kendimi daha enerjik hissediyorum",
+    "output": "kas ağrılarımı: HASTALIK, kas ağrılarımı geçirdi ve üzerimde sürekli bir halsizlik vardı onu da götürdü kendimi daha enerjik hissediyorum: ETKİ, üzerimde sürekli bir halsizlik vardı: SAĞLIK_ŞİKAYETLERİ, halsizlik: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir çok kişi gibi bende saç dökülmesinden şikayetçiyim. Arkadaşım kullanıyordu onun tavsiyesi üzerine aldım. Memnun kaldım tabiki dökülmelerde bayağı azalma oldu. Kullanmaya devam 👍",
+    "output": "Arkadaşım: TAVSİYE_EDEN, saç dökülmesinden: HASTALIK, Bir çok kişi gibi bende saç dökülmesinden şikayetçiyim: SAĞLIK_ŞİKAYETLERİ, dökülmelerde bayağı azalma oldu: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "bu ğrünü birkaç yıl evvel ünlü bir iç hastalıkları profesörü bir arkadaşıma diyetin yanında önermişti, ben de onun tavsiyesiyle kullanmaya başlamıştım. sonra diğer her şey gibi kenara atıp kullanmamıştım, işe yarayacağını da düşünmüyordum. ama şimdi spor yapıyorum ve sağlıklı besleniyorum. aşırı kilom yok zaten ama yağ oranım yüksek olduğu için tartıda pek bir oynama olmuyor, kaslar geliştikçe kütleleri arttığı için yağ erise de kilom değişmiyor. sonra hem öğünlerimi kontrolde turmak hem de daha fazla yağ kaybetmek için başladım, düzenli kullanmamama rağmen gerçekten işe yarıyor. ben çok memnunum, sabah spordan önce iki tane alıyorum spor sonrası kahvaltı ediyorum. akşama doğru da yemekten yarım saat önce alıyorum. kuzenime de önerdim fakat onun her öğün çalışan bağırsaklarında kabızlık yapmış, bazı bünyelere iyi gelmeyebiliyor demek ki",
+    "output": "iç hastalıkları profesörü: TAVSİYE_EDEN, bağırsaklarında kabızlık yapmış: YAN_ETKİ, düzenli kullanmamama rağmen gerçekten işe yarıyor: ETKİ, bir arkadaşıma: KULLANICI, iki tane: DOZ, kabızlık: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Daha önce başka bir markaya ait K ve D vitamini kullanmıştık. Bu vitaminler yağda çözündükleri için aslında ürün zeytinyağından oluşuyor. Apexise ait bu ürünün yağının biraz bulanık bir görüntüsü var ancak tadı tam zeytinyağı. Geçtiğimiz ay ailece hastalık atlattık ve her gün sabah ve akşam bu üründen kullandık. Bağışıklığımızı geliştirmede faydasının olduğunu düşünüyoruz. Ayrıca ürün sağlam olarak elimize ulaştı. Teşekkürler.",
+    "output": "zeytinyağından: İÇERİK, Apexise: MARKA, tadı tam zeytinyağı: TAT_KOKU, Bağışıklığımızı geliştirmede faydasının: ETKİ, ailece: KULLANICI, K: BİYOMOLEKÜL, D vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "kargo cok hizliydi. henuz kullanmadim. kullandiktan sonra editlicem. 1ay sonra edit: sac dokulmem azaldi. tamamen durdu diyenler var arkadaslar tamamen durduysa bi dermatologa gidin saglikli sac en az 100tel gunde dökülür. neyse. tirnaklarimda ilk iki hafta da sertlesme oldu uzattimi bilmiyorum bariz bi uzama soz konusu degil çünkü. ama ince telli saçlarım birazda olsa kalınlasti. ama en buyuk artisi saclarim esneklesti. bence alip kullananbilirsiniz. sivilcede yapmadi bu arada bende. 2.kutumu siparis verdim. edit. 2.kutu geldi ama markasi degismis. suda vitamin adi altinda geldi neden bilmiyorum.",
+    "output": "sivilcede: HASTALIK, sac dokulmem: HASTALIK, tirnaklarimda ilk iki hafta da sertlesme oldu uzattimi bilmiyorum bariz bi uzama soz konusu degil çünkü. ama ince telli saçlarım birazda olsa kalınlasti. ama en buyuk artisi saclarim esneklesti: ETKİ, sivilcede yapmadi bu arada bende: YAN_ETKİ, bende: KULLANICI, sac dokulmem azaldi. tamamen durdu diyenler var: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "iki kutu aldm cok bereketli minik minik yüz adet. birini de annem kullanıyor. yaklaşık bir ay oldu alalı. annemin tirnak kırılması durdu. tirnaklari baya sertleşti. benimde saclarim cok daha canli görünüyor. ve dökülmesi baya azaldi. tabi benm b 12 kan degerleri ve magnezyumunda düşüktü o hapları da kullaniyorum beraberinde. tirnak sorunum yoktu ama çok daha sertlesti tirnaklarim. sacii da hizli uzatirmi bilmiyorum ben cok memnunum şuan ❤️ saticiya teşekkürler paketleme de çok özenliydi",
+    "output": "tirnak sorunum: SAĞLIK_ŞİKAYETLERİ, çok daha sertlesti tirnaklarim: ETKİ, b 12: BİYOMOLEKÜL, annem: KULLANICI, annemin tirnak kırılması durdu. tirnaklari baya sertleşti.: ETKİ, benimde saclarim cok daha canli görünüyor. ve dökülmesi baya azaldi: ETKİ, magnezyumunda: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Cildiyle doktorum saç dökülmesi için yazmıştı. Bir kutu bitirdim, dökülmenin çok değiştiğini söyleyemem ama uzun vadede etkisine bakacağım. Eksik puan teslimata verdim. PTT kargo 6 günde getirdi. Buna hizli teslimat denmemeli. Diger kargo şirketleri bir günde teslim ediyor. Hızlı teslimat kargoya hemen vermek degil hizli ulaşmasını sağlamak olmalı.",
+    "output": "saç dökülmesi: HASTALIK, dökülmenin çok değiştiğini söyleyemem ama uzun vadede etkisine bakacağım: ETKİ, saç dökülmesi: HASTALIK, doktorum: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "aslında kullanırken çok bişey anlamamıştım ama ne zaman boğazımda biraz yanma olsa 1_2 gün kullanımla iyi geldi ve son olarak çinko hep düşük çıkardı son tahlilde çinko degerim çok iyi çıktı",
+    "output": "ne zaman boğazımda biraz yanma olsa 1_2 gün kullanımla iyi geldi: ETKİ, çinko: BİYOMOLEKÜL, çinko hep düşük çıkardı: SAĞLIK_ŞİKAYETLERİ, son tahlilde çinko degerim çok iyi çıktı: ETKİ, çinko: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Eczacıbaşı güvencesi ile rahatlıkla alınabilir. Ürün faydası ile ilgili yorum yapmayı doğru bulmuyorum çünkü, herkesin ihtiyacı oranında kullanması gerekir, ben akşamları almayı tercih ediyorum çünkü gevşettiğini düşünüyorum ve magnezyum eksikliğinin yarattığı yorgunluk ve halsizlik hissini uykumla tamamlıyorum. Yine de doktorunuza danışıp vitamin değerlerinizi kontrol ederek almalısınız. Gönderi ve paketleme de çok iyiydi teşekkürler",
+    "output": "Eczacıbaşı: MARKA, ben akşamları almayı tercih ediyorum çünkü gevşettiğini düşünüyorum: ETKİ, halsizlik: SAĞLIK_ŞİKAYETLERİ, magnezyum eksikliğinin: HASTALIK, yorgunluk: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "@deniz.argan tavsiyesi ile boğaz ağrımın çok olduğu bir gün,  bir de bunu deneyeyim ne kaybederim diyerek sipariş verdim. Özellikle mevsim geçiş zamanlarında, soğuk kış günlerinde nükseden faranjitime ve yoğun çalışma temposu sonrası yaşadığım boğaz ağrısı ile ses kısıklığıma kısa sürede çözüm oldu. Tadı biraz acı içeriğindeki doğal ürünler gereği diğer pastillerden farklı olarak ama gayet etkili bir ürün.",
+    "output": "@deniz.argan: TAVSİYE_EDEN, boğaz ağrısı: HASTALIK, boğaz ağrımın: HASTALIK, faranjitime: HASTALIK, Tadı biraz acı: TAT_KOKU, ses kısıklığıma: HASTALIK, pastillerden: ÜRÜN_DİĞER, Özellikle mevsim geçiş zamanlarında, soğuk kış günlerinde nükseden faranjitime ve yoğun çalışma temposu sonrası yaşadığım boğaz ağrısı ile ses kısıklığıma kısa sürede çözüm oldu: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "harika otesi. hem sürümü arttırdı hemde saç dokulmelerime çok iyi geldi ayrıca enerji veriyor günlerim artık daha enerjik",
+    "output": "saç dokulmelerime: HASTALIK, hem sürümü arttırdı hemde saç dokulmelerime çok iyi geldi ayrıca enerji veriyor günlerim artık daha enerjik: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ben 43 liraya almıştım denemek için tek şişesi 2 aylık, saçlarımın hızlı uzaması için aldım, ilk şişesini 2 ay düzenli kullandım 2.şişeyi ara ara olacak şekilde devam ediyorum, çok büyük bir etki beklemeden kullandım çünkü aynı zamanda saçlarım için düzenli yağ maskesi de uyguluyorum, gördüğüm etki şu; saçlarımı çok daha hızlı yağlandırıyor, az çok uzama konusunda da destek olduğunu düşünüyorum, aslında bilimsel olarak vücudumuzda biotin vs. eksikliği olmadığı sürece bu tarz ürünlerin pek faydası olmadığını söylüyorlar, bu konuda bir eksiklik yaşıyorsanız kullanmanız daha doğru olur. Bende eksiklik yok fakat biz zarar da görmedim.",
+    "output": "yağ maskesi: ÜRÜN_DİĞER, biotin: BİYOMOLEKÜL, gördüğüm etki şu; saçlarımı çok daha hızlı yağlandırıyor, az çok uzama konusunda da destek olduğunu düşünüyorum, aslında bilimsel olarak vücudumuzda biotin vs. eksikliği olmadığı sürece bu tarz ürünlerin pek faydası olmadığını söylüyorlar, bu konuda bir eksiklik yaşıyorsanız kullanmanız daha doğru olur. Bende eksiklik yok fakat biz zarar da görmedim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün elime çok hızlı ulaştı.Ben normalde alerjik bir bünyeye sahibim.Bugün ilk kullanımım olmasına rağmen bende alerji gibi bir yan etki oluşturmadı.İçerik kontrollü olduğu için bir sorun yaşamayacağımı belirtmişti eczacım öylede oldu.İleriki zamanlarda bir değiliklik olursa yorumumu güncellerim.Dulavrat otu ve bromelaini 10 dk arayla içtim gerçekten iştahımda ilk sefere nazaran kapanma oldu.Zor kahvaltı yaptım.İleriki zamanlarda sonuçları yazarım. GÜNCELLEME: Maalesef anansa karşı hassasiyetim vardı ve bu takviyedede dilimde uyuşma,yanma hissi alerjik reaksiyon gösterdim.Lütfen kullanırken bu ürünü ona göre değerlendirin.İçsesindeki maddelere karşı hassasiyetiniz varsa Birşey olmaz demeyin.",
+    "output": "alerji: HASTALIK, Dulavrat otu ve bromelaini 10 dk arayla içtim gerçekten iştahımda ilk sefere nazaran kapanma oldu: ETKİ, Dulavrat otu: ÜRÜN_DİĞER, dilimde uyuşma,yanma hissi alerjik reaksiyon: YAN_ETKİ, bromelaini: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saç dökülmemi pek engellemedi ama uzun süre kullanımım sonrasında saçımın önlerinde bebek saçlarım çıkmaya başladı. Tırnaklarıma daha çok etkisi oldu. Tırnaklarım daha güçlü ve hızlı uzamaya başladı.",
+    "output": "Tırnaklarım daha güçlü ve hızlı uzamaya başladı: ETKİ, saçımın önlerinde bebek saçlarım çıkmaya başladı: ETKİ, Saç dökülmemi pek engellemedi: ETKİ, Saç dökülmemi: HASTALIK, Tırnaklarıma daha çok etkisi oldu: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saç dökülmesi, tırnak kırıkları ve yüze çıkan pütür sivilceler bu ürünü alma sebebim oldu... ürünün tadı çok güzel olmasada abartilcak kadar kötü değil,gayette icilebilir bence,sebze suyu gibi, içeriğide gayet zengin, fakat ben yorumlarda abartıldığı kadr bir fark göremedim maalesef 1 haftaya yakın kullanıyorum,hemen etkisini gösterdi yazanlar şaşırıyorum....ayrıca düzenli kullanım ve çok kullanımla belki bi düzelme farkedilebilir ama dedikleri gibi hemen bi etkisi yok lütfen alırken bunun bilincinde olur..Bu yüzden şimdilik sabırla bekliycem🥰",
+    "output": "tırnak kırıkları: HASTALIK, pütür sivilceler: HASTALIK, Saç dökülmesi: HASTALIK, ben yorumlarda abartıldığı kadr bir fark göremedim maalesef 1 haftaya yakın kullanıyorum,hemen etkisini gösterdi: ETKİ, Saç dökülmesi, tırnak kırıkları ve yüze çıkan pütür sivilceler bu ürünü alma sebebim oldu: SAĞLIK_ŞİKAYETLERİ, ürünün tadı çok güzel olmasada abartilcak kadar kötü değil,gayette icilebilir bence,sebze suyu gibi: TAT_KOKU, düzenli kullanım ve çok kullanımla belki bi düzelme farkedilebilir ama dedikleri gibi hemen bi etkisi yok: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "öncelikle kargolama konusunda çok çok yavaşsınız . ben kronik idrar yolu enfeksiyonum için aldım.daha önce başka bir marka kullandım o çok iyiydi bu daha ucuz ve dozajı yüksek diye bunuda denemek istedim ve enfeksiyonuma hiçbir etkisi olmadı. hap okadar büyükki yutarker korkuyosunuz. uzun bir süre kullandım ve etkisinin çok çok az olduğunu keşfettim . bu ilaç antibiyotik kullanmaktan beni alıkoyamadı maalesef beğenmedim. diğer kullandığım markaya geçiş yapacağım 😪",
+    "output": "kronik idrar yolu enfeksiyonum: HASTALIK, enfeksiyonuma hiçbir etkisi olmadı: ETKİ, uzun bir süre kullandım ve etkisinin çok çok az olduğunu keşfettim: ETKİ, antibiyotik: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "bu dükkandan aynı ürünü ikinci sipariş edişim d vitamini değerimde kaydadeğer bir yükselme gözlemledim 3 ay içerisinde o sebepten d3k2 içerisinde şiddetle önerebileceğim ve önerdiğim bir marka mutlaka alınmalı heleki bu dönemde .sadece bir noktaya değinecem ilk kargoda yanında hediyede gelmişti bu sipariştede gözlerim hediye aradı alışkanlık olsa gerek iyi günler:)",
+    "output": "d3k2: BİYOMOLEKÜL, d vitamini değerimde kaydadeğer bir yükselme gözlemledim: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Nemlendirici kremime, duş sonrası saç bakım yağıma, yüz yıkama köpüğüme bir pompa koyup karıştırarak kullanıyorum. Bazen cildime veya saçıma direkt olara da uyguluyorum.  Saçı ve cildi yenileyici etkisi var. Ancak benim cildime iyi gelmedi. Hatta nemlendirici kreminin büyük bir kısmını attım. Sivilce yaptı pütürüklük oldu filan. Ama saçıma çok iyi geldi. Cildime sivilce yapıyor.",
+    "output": "benim cildime iyi gelmedi: ETKİ, Ama saçıma çok iyi geldi: ETKİ, Saçı ve cildi yenileyici etkisi var: ETKİ, Sivilce yaptı pütürüklük oldu: YAN_ETKİ, Cildime sivilce yapıyor: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "kızım için alıyorum bizim favori vitaminimiz çok memnunuz yaklaşık iki yıldır kullanıyor kızım saç dökülmesi ve halsizlik vardı kullanmaya başladıktan bir ay sonra etkisini görmeye başladık saticimiza teşekkürler sorunsuz ve hızlıca elimize ulaşıyor 🥰",
+    "output": "kullanmaya başladıktan bir ay sonra etkisini görmeye başladık: ETKİ, kızım: KULLANICI, kızım: KULLANICI, saç dökülmesi: HASTALIK, saç dökülmesi ve halsizlik vardı: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "ürün elime ulaştı ve üç gündür kullanıyorum.inanin çok memnunum.ben normalde kabızlık ve mide problemi olan biriyim.okadar çok şişkinlik ve ödem oluyordu ki üç gündür okadar rahatım ve o şişkinlik inmeye başladı ki inanamadim.ayni zamanda c vitaminide olduğu için yorgunluğumu aldı.gercekten çok tşk ederim.biter bitmez ikinciyi alicam",
+    "output": "c vitaminide: BİYOMOLEKÜL, ben normalde kabızlık ve mide problemi olan biriyim: SAĞLIK_ŞİKAYETLERİ, okadar çok şişkinlik ve ödem oluyordu ki: SAĞLIK_ŞİKAYETLERİ, üç gündür okadar rahatım ve o şişkinlik inmeye başladı ki inanamadim: ETKİ, ayni zamanda c vitaminide olduğu için yorgunluğumu aldı: ETKİ, kabızlık: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün kalitesine sondu güveniyorum ancak ben saçlarımda ve tırnaklarımda herhangi bir etkisini gözlemleyemedim. Düzenli kullanımla etkisi olabilirdi ancak bir kaç haftadan fazla kullanamadım yüzümde çok fazla sivilcelenme yaptı 🤦🏽‍♀️",
+    "output": "ben saçlarımda ve tırnaklarımda herhangi bir etkisini gözlemleyemedim: ETKİ, çok fazla sivilcelenme yaptı: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Anneme aldım. Güzel bir destek içeriği var, doktor olarak öneriyorum. Saç dökülmesi, tırnak güçlenmesi için biyotinle birlikte daha etkili olur. Ayrıca dökülme karşıtı bakımlar da uygulayın. Tam tedavi gibi olur.. Bide iyi beslenin..",
+    "output": "Anneme: KULLANICI, doktor: TAVSİYE_EDEN, Saç dökülmesi: HASTALIK, Saç dökülmesi, tırnak güçlenmesi için: SAĞLIK_ŞİKAYETLERİ, biyotinle: ÜRÜN_DİĞER"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Son kullanma tarihine daha 2 yıl var saç dökülmemi azaltı ve tırnaklarımı güçlendirdi günde 1 defa içiyorum bir kutu 2 ay yetiyor",
+    "output": "saç dökülmemi: HASTALIK, günde 1: DOZ, saç dökülmemi azaltı ve tırnaklarımı güçlendirdi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürün içeriği güvenilir olduğu için ve b12 seviyem 230 civarlarında seyrettiği için sipariş verdim, 1 günde elime ulaştı. Bugün itibariyle kullanmaya başladım. 1/2 ay geçtikten sonra test sonuçlarıma göre değerlendirmemi güncelleyeceğim. Tadı rahatsız etmiyor, hemen dağılıyor dil altında kullanımı basit ve rahat.",
+    "output": "b12: BİYOMOLEKÜL, Tadı rahatsız etmiyor: TAT_KOKU, b12 seviyem 230 civarlarında seyrettiği için sipariş verdim: SAĞLIK_ŞİKAYETLERİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bacaklarımda sızlama ve zaman zaman kramplar ayrıca spordan sonra. kas ağrılarım oluyordu ürünü yatmadan önce 1 tane aldım ve faydasını gördüm tavsiye ederim",
+    "output": "kas ağrılarım: HASTALIK, Bacaklarımda sızlama ve zaman zaman kramplar ayrıca spordan sonra. kas ağrılarım oluyordu: SAĞLIK_ŞİKAYETLERİ, 1 tane: DOZ, faydasını gördüm: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Öne çıkması için 5 yıldız veriyorum ama hiç memnun kalmadım.Yorumlara güvenerek satın aldım fakat bir kişinin yaptığı “alakası bile yok,aksine kilo aldım” dediği şeyi birebir yaşıyorum.bugün 4. Gündür kullanıyorum,aynı zamanda diyet ve spor da yaptığım halde başladığım günden 1.5kg daha fazlayım şu an.sözde ödem atıyordu,şişkinlikten,gaz sancısından ölüyorum.Sinirlerim bozuldu.Diyetimde şişkinlik ve gaz yapacak hiç bir şey yok,aksine detox diyeti zaten.her gün 8-9 km sporumu da yapıyorum ve sonuç bu.Kullanmaya devam edip bi yerden sonra bu durumun geçip geçmeyeceğine bakıcam.ama şu an için memnun değilim kesinlikle.umarım param heba olmamıştır.Tadı da öyle övüldüğü kadar lezzetli değil.Balgam söktürücü efervesanlar gibi bişey. Olumlu bir değişiklik olursa yorumumu güncelleyeceğim.",
+    "output": "Tadı da öyle övüldüğü kadar lezzetli değil.Balgam söktürücü efervesanlar gibi: TAT_KOKU, diyet ve spor da yaptığım halde başladığım günden 1.5kg daha fazlayım şu an.sözde ödem atıyordu,şişkinlikten,gaz sancısından ölüyorum: YAN_ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Harika takviye edici Eczanede 180 TL den başlıyor  buradan uyguna alıyorum yararları sabah aç karne sıkın 1 hafta sonra farkına varacaksınız.Sabahları uyandınız mı yorgun  dinç kalkıyorsunuz birde Mesai saatinde filan uykunuz gelmiyor diyet yapanlar içinde iyi olduğu düşünüyorum çünkü direncinizi toparlıyor yorgunluk bitkinlik yok  2 ay yetiyor  10 ml  sağlıklı günlerde kullanmanız dileğiyle.",
+    "output": "Sabahları uyandınız mı yorgun  dinç kalkıyorsunuz birde Mesai saatinde filan uykunuz gelmiyor diyet yapanlar içinde iyi olduğu düşünüyorum çünkü direncinizi toparlıyor yorgunluk bitkinlik yok: ETKİ, 10 ml: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yorumlarda bahsedildiği gibi biraz büyük bı tablet onun dışında tadı/kokusu pek hoş değil malesef😔bir c vitamini olarak daha güzel bir şey beklemistim.Hoş d vitamini bundan da kötü 😔😁kargolanmasi güzeldi.",
+    "output": "tadı/kokusu pek hoş değil: TAT_KOKU, vitamini: BİYOMOLEKÜL, vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürünü ilk defa kullanacağım..Yorumlara bakarak aldım. Saç dökülmem ve tırnaklarım kırılıyordu..Denicem ..Firmaya teşekkür ederim.Günümüz koşullarında iletişim,Ürün ambalajı,kargo gayet iyiydi  ..",
+    "output": "Saç dökülmem ve tırnaklarım kırılıyordu..: SAĞLIK_ŞİKAYETLERİ, Saç dökülmem: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "daha oncede c vitamini kullandım fakat bunun gibi asitli degildi tadı kotü değil ama benim mideme iyi gelmedi sanirım bu yüzden İADE.",
+    "output": "c vitamini: ÜRÜN_DİĞER, mideme iyi gelmedi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "son zamanlarda bağışıklık sistemi için iyi olduğunu düşünüyorum. içinde kara mürver ekstresi 10 mg, tatlandırıcı yazmıyor.. vitamin c 1000mg çinko 10 mg. tadı su gibi ama çinko ve c vitamini açısından zengin bence. karar sizin",
+    "output": "kara mürver ekstresi: İÇERİK, 10 mg: DOZ, vitamin c: BİYOMOLEKÜL, 1000mg: DOZ, çinko: BİYOMOLEKÜL, 10 mg: DOZ, tadı su gibi: TAT_KOKU, çinko: BİYOMOLEKÜL, c vitamini: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dilimde çatlak, tırnaklarımda kırılma ve saçlarımda dökülme şikayetim üzerine çinko eksikliğim nedeniyle doktorum önerdi. Aldım kullanıyorum şişesi kocaman olunca beklenti yüksek oluyor ama minicik 30 tablet var içinde. Hızlı kargo için teşekkürler.",
+    "output": "Dilimde çatlak, tırnaklarımda kırılma ve saçlarımda dökülme: SAĞLIK_ŞİKAYETLERİ, çinko: BİYOMOLEKÜL, doktorum: TAVSİYE_EDEN"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çok memnunum, eskiden akşamları kendimi daha yorgun hissederdim, kullanmaya başladığımdan beri çok daha enerjik hissediyorum.",
+    "output": "Çok memnunum, eskiden akşamları kendimi daha yorgun hissederdim, kullanmaya başladığımdan beri çok daha enerjik hissediyorum: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "diyetisyenimin tavsiyesiyle karaciğer yağlanması ve insülin direncine iyi geldiği için aldim. kullandıkça yorumumu guncelleyecegim",
+    "output": "diyetisyenimin: TAVSİYE_EDEN, karaciğer yağlanması: HASTALIK, insülin direncine: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kısa sürede eksik olan d vitamini seviyemi yükseltti hatta doktorum şu an değerimin çok yüksek çıktığını ve bırakmamı söyledi. Çünkü fazlasının da olumsuz etkileri varmış. Bu nedenle tahlil yaptırmadan kullanmamak gerekir.",
+    "output": "d vitamini: BİYOMOLEKÜL, Kısa sürede eksik olan d vitamini seviyemi yükseltti: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saç dökülmem ve tırnağımdaki beyaz lekeler için aldım. İçinde çinko da olduğu için şuan ciltteki aydınlanmayı görüyorum. inşallah saç ve tırnakta da fayda görürüm.",
+    "output": "Saç dökülmem: HASTALIK, Saç dökülmem ve tırnağımdaki beyaz lekeler için aldım: SAĞLIK_ŞİKAYETLERİ, tırnağımdaki beyaz lekeler: HASTALIK, İçinde çinko da olduğu için şuan ciltteki aydınlanmayı görüyorum: ETKİ, çinko: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ben ilk kullandım ama bugün kullandıktan 1 saat sora evet ciddi tokluk hissettirdi hatta üzerine yemek yiyemedim şimdi yulaf lapası yaptım akşam İçin oda acıkmamak için normalde şuan aç değilim susatma yapıyor tokluk sağlıyor bence birkaç gün sonra yorumumu tekrar gündelleciyeceğim memnun kalırsam 2. Kutu da devam ederim/ güncelleme 4 gündür kullanıyorum evet tokluk sağladı ödem attırıyor fakat diyetinizin yanında takviye bir ürün bu eğer diyet yapmıyor ben nasılsa bununla tok kalırım diyorsanız boşa para vermeyin . Diyet yapıp spor yapıp ek olarak tokluğumu arttırsın derseniz mutlaka alın ödem de atıyor ve susatıyor ben günde 2 içiyorum sabah kahveden sonra kahvaltı öncesi ve akşam yemekten sonra içiyorum etkili ürün 10 gün kullanıp 1 e düşürücem oranı tadı efsane yeşil elma suyu içiyor gibisiniz hatta yazın buz İLE efsane tadı olur tavsiye ederim",
+    "output": "ciddi tokluk hissettirdi: ETKİ, susatma yapıyor tokluk sağlıyor: ETKİ, ödem de atıyor ve susatıyor: ETKİ, 1: DOZ, tokluk sağladı ödem attırıyor: ETKİ, 2: DOZ, tadı efsane yeşil elma suyu içiyor gibisiniz: TAT_KOKU"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Harika bir ürün...Kesinlikle işe yarıyor ve düzenli kullanımda siz de vücudunuzdaki farklılıkları göreceksiniz ben 3. paketi siparişini vermeyi düşünüyorum. İndirime girince kesinlikle kaçırılmaması gereken bir ürün. Saçlarım çok çabuk uzamaya başladı ve tırnaklarım güçlendi. Cildimde parlaklık arttı.",
+    "output": "Saçlarım çok çabuk uzamaya başladı ve tırnaklarım güçlendi: ETKİ, Cildimde parlaklık arttı: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu ürün bacak kramplarımı geçirdi. fibromiyalji ve eklem romatizması için magnezyumun bu çeşidi öneriliyor.",
+    "output": "Bu ürün bacak kramplarımı geçirdi: ETKİ, bacak kramplarımı: HASTALIK, fibromiyalji: HASTALIK, eklem romatizması: HASTALIK, magnezyumun: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Doktor tavsiyesi üzerine annemin diz ağrıları için ikinci kez aldım. Annem diz ağrılarının kasılmalarının çok çok azaldığını söylüyor. Eczaneye göre fiyatı da uygun. Teşekkür ederim.",
+    "output": "Doktor: TAVSİYE_EDEN, diz ağrılarının kasılmalarının çok çok azaldığını söylüyor: ETKİ, diz ağrıları: HASTALIK, Annem: KULLANICI"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1 haftadır kullanıyorum şimdiden tırnaklarım uzamaya başladı. Normalde hemen kırılır, umarım saç dökülmeme de iyi gelir...",
+    "output": "tırnaklarım uzamaya başladı: ETKİ, Normalde hemen kırılır,: SAĞLIK_ŞİKAYETLERİ, saç dökülmeme: HASTALIK"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "tadı harika jelibon formunda demet ışıl  yılmaz tavsiyesiyle  almıştım 2 inci  siparişim çok enerji verio zinde hissediyorum 2 tane aynı anda aldığımda evimi köşe bucak temizledim ve yorgunluk hissi olmadi kızım da severek yiyor enerji verio anne çok güçlüyüm dio henüz 5 yaşında oda 2 tane yiyo teşekkürler",
+    "output": "tadı harika jelibon formunda: TAT_KOKU, demet ışıl  yılmaz: TAVSİYE_EDEN, çok enerji verio zinde hissediyorum 2 tane aynı anda aldığımda evimi köşe bucak temizledim ve yorgunluk hissi olmadi kızım da severek yiyor enerji verio anne çok güçlüyüm dio: ETKİ, 2 tane: DOZ, kızım: KULLANICI, 2 tane: DOZ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Magnezyum eksikliği ve kramplar için kullanmaya başlamıştım.Bir kutu bitti ikinci kutuyu sipariş verdim.Çok memnunum,kramplar geçti ve enerji verdi.",
+    "output": "Magnezyum eksikliği ve kramplar: SAĞLIK_ŞİKAYETLERİ, kramplar geçti ve enerji verdi: ETKİ"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "C vitamini özellikle bu dönemde cok daha önemli ben Markanın bu ürününü de  bir haftadır düzenli kullanıyorum ve cok memnun kaldım tadı hafif kokusuz özellikle B12 ve Çinko içermesini de cok sevdim ayrı ayrı aldığım takviyelerdi",
+    "output": "C vitamini: BİYOMOLEKÜL, tadı hafif kokusuz: TAT_KOKU, B12: BİYOMOLEKÜL, Çinko: BİYOMOLEKÜL"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "kullanmamdan bu yana 1 ay geçti hiçbir faydasını görmedim saçlarım hala dökülüyo tırnaklarım hala kırılıyo yani sizi bilemem ama cidden hiçbir faydasını görmedim",
+    "output": "hiçbir faydasını görmedim saçlarım hala dökülüyo tırnaklarım hala kırılıyo: ETKİ"
+  }
+]

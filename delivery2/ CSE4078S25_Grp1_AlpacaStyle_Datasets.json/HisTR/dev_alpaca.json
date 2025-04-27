@@ -1,0 +1,1002 @@
+[
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Geçen hafta içinde Galata Kadıköy Beyoğlu’nda biri birini müteakip ve vukua gelen harikler yine İstanbul’umuz ahalisini havf ve telaşa düşürmüş ve bu afet yüzünden şimdiye kadar şehrimizin ne kadar hasara uğradığını ve nice hanümanın bu kaza-yı ani yüzünden bir gün evvel maişeti muntazam , istirahat-ı dünyeviyenin her türlü esbabına malik iken bir gün sonra fakruzaruretin son derekesine kadar tenezzül eylediğini hatırlara getirmiştir .",
+    "output": "Geçen: O, hafta: O, içinde: O, Galata: B-LOCATION, Kadıköy: B-LOCATION, Beyoğlu’nda: B-LOCATION, biri: O, birini: O, müteakip: O, ve: O, vukua: O, gelen: O, harikler: O, yine: O, İstanbul’umuz: B-LOCATION, ahalisini: O, havf: O, ve: O, telaşa: O, düşürmüş: O, ve: O, bu: O, afet: O, yüzünden: O, şimdiye: O, kadar: O, şehrimizin: O, ne: O, kadar: O, hasara: O, uğradığını: O, ve: O, nice: O, hanümanın: O, bu: O, kaza-yı: O, ani: O, yüzünden: O, bir: O, gün: O, evvel: O, maişeti: O, muntazam: O, ,: O, istirahat-ı: O, dünyeviyenin: O, her: O, türlü: O, esbabına: O, malik: O, iken: O, bir: O, gün: O, sonra: O, fakruzaruretin: O, son: O, derekesine: O, kadar: O, tenezzül: O, eylediğini: O, hatırlara: O, getirmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Takdim ettiğim resimler Sivas’ta Karapapak kabilesinden müteşekkil Hamidiye Hafif Süvari Alayları’na mensup Medet isminde genç bir neferin maharet-i cündiyanesini musavverdir .",
+    "output": "Takdim: O, ettiğim: O, resimler: O, Sivas’ta: B-LOCATION, Karapapak: O, kabilesinden: O, müteşekkil: O, Hamidiye: O, Hafif: O, Süvari: O, Alayları’na: O, mensup: O, Medet: B-PERSON, isminde: O, genç: O, bir: O, neferin: O, maharet-i: O, cündiyanesini: O, musavverdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Resimlerimizden biri de Trabzon ebniye-i aliyeden askeri hastanenin bahçesiyle bu hastaneye merbut camii şerifi irae eder .",
+    "output": "Resimlerimizden: O, biri: O, de: O, Trabzon: B-LOCATION, ebniye-i: O, aliyeden: O, askeri: O, hastanenin: O, bahçesiyle: O, bu: O, hastaneye: O, merbut: O, camii: O, şerifi: O, irae: O, eder: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu politikanın icraatına yirmi sene kadar evvel Başvekil Lord Bikonsfild’in evamir ve talimatıyla Hindistan Valisi Lord Liton başlamıştır .",
+    "output": "Bu: O, politikanın: O, icraatına: O, yirmi: O, sene: O, kadar: O, evvel: O, Başvekil: O, Lord: O, Bikonsfild’in: B-PERSON, evamir: O, ve: O, talimatıyla: O, Hindistan: B-LOCATION, Valisi: O, Lord: O, Liton: B-PERSON, başlamıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tevekkeli Marsel Prevo’ya kadınlar müellifi demiyorlar …",
+    "output": "Tevekkeli: O, Marsel: B-PERSON, Prevo’ya: I-PERSON, kadınlar: O, müellifi: O, demiyorlar: O, …: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir gece evvel Kütahya’ya girdiğimiz zaman kasabanın şekil ve heyetini , mevkifi iyice göremedik , mamafih mevkiften bindiğimiz araba bizi misafir olacağımız haneye götürürken mektep , kışla , daire-i hükümet gibi birçok binaların önünden geçtiğimiz cihetle Kütahya’nın sair kasabalarda nadiren görülen bir hale yani güzel bir medhale malik olduğunu anladık .",
+    "output": "Bir: O, gece: O, evvel: O, Kütahya’ya: B-LOCATION, girdiğimiz: O, zaman: O, kasabanın: O, şekil: O, ve: O, heyetini: O, ,: O, mevkifi: O, iyice: O, göremedik: O, ,: O, mamafih: O, mevkiften: O, bindiğimiz: O, araba: O, bizi: O, misafir: O, olacağımız: O, haneye: O, götürürken: O, mektep: O, ,: O, kışla: O, ,: O, daire-i: O, hükümet: O, gibi: O, birçok: O, binaların: O, önünden: O, geçtiğimiz: O, cihetle: O, Kütahya’nın: B-LOCATION, sair: O, kasabalarda: O, nadiren: O, görülen: O, bir: O, hale: O, yani: O, güzel: O, bir: O, medhale: O, malik: O, olduğunu: O, anladık: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fotoğrafya sanatı mütehassıslarından Halit Bey tarafından dahi röntgen usulü ile bir kurşun kalemi resmi çıkarılmış ve resimde – röntgen şuaatı tahtadan geçtiğinden – kalem içinde bulunan kurşun kırık yerleriyle pek ayan bir şekilde görünmekte bulunmuştur .",
+    "output": "Fotoğrafya: O, sanatı: O, mütehassıslarından: O, Halit: B-PERSON, Bey: I-PERSON, tarafından: O, dahi: O, röntgen: O, usulü: O, ile: O, bir: O, kurşun: O, kalemi: O, resmi: O, çıkarılmış: O, ve: O, resimde: O, –: O, röntgen: O, şuaatı: O, tahtadan: O, geçtiğinden: O, –: O, kalem: O, içinde: O, bulunan: O, kurşun: O, kırık: O, yerleriyle: O, pek: O, ayan: O, bir: O, şekilde: O, görünmekte: O, bulunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Doktor Nansen’in Kristiyanya Cemiyet-i Coğrafyası’ndan talep ettiği şey hem denizde hem karada yürür bir sefineydi .",
+    "output": "Doktor: O, Nansen’in: B-PERSON, Kristiyanya: O, Cemiyet-i: O, Coğrafyası’ndan: O, talep: O, ettiği: O, şey: O, hem: O, denizde: O, hem: O, karada: O, yürür: O, bir: O, sefineydi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Evet , Danimarka müştemilatından Seyland Adası’nda öyle vapurlar var ki bunlara bahrî ve berrî namını verebiliriz , daha doğrusu o vapurların birer çift ayağı var , istediği gibi sudan çıkar , karada yürümeye başlar , zahir Seylandlılar adalarında çokça görülen fok balıklarından imrenmişler de böyle bahri ve berrî vapurlar yapmışlar .",
+    "output": "Evet: O, ,: O, Danimarka: B-LOCATION, müştemilatından: O, Seyland: B-LOCATION, Adası’nda: I-LOCATION, öyle: O, vapurlar: O, var: O, ki: O, bunlara: O, bahrî: O, ve: O, berrî: O, namını: O, verebiliriz: O, ,: O, daha: O, doğrusu: O, o: O, vapurların: O, birer: O, çift: O, ayağı: O, var: O, ,: O, istediği: O, gibi: O, sudan: O, çıkar: O, ,: O, karada: O, yürümeye: O, başlar: O, ,: O, zahir: O, Seylandlılar: O, adalarında: O, çokça: O, görülen: O, fok: O, balıklarından: O, imrenmişler: O, de: O, böyle: O, bahri: O, ve: O, berrî: O, vapurlar: O, yapmışlar: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Oyuncular methalinin bir kenarına yaslanmış olarak lakaydane etrafı seyreden Kara Ahmet umumun nazar-ı dikkatini celbetmişti .",
+    "output": "Oyuncular: O, methalinin: O, bir: O, kenarına: O, yaslanmış: O, olarak: O, lakaydane: O, etrafı: O, seyreden: O, Kara: B-PERSON, Ahmet: I-PERSON, umumun: O, nazar-ı: O, dikkatini: O, celbetmişti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saat ona takrip eylemişti , şehrin bir kısm-ı mühimini dolaşarak doğruca Mevlana Celaleddin-i Rumi kuddise sirrehu’s-sami hazretlerinin türbe-i şerifelerine müteveccih olduk .",
+    "output": "Saat: O, ona: O, takrip: O, eylemişti: O, ,: O, şehrin: O, bir: O, kısm-ı: O, mühimini: O, dolaşarak: O, doğruca: O, Mevlana: B-PERSON, Celaleddin-i: I-PERSON, Rumi: I-PERSON, kuddise: O, sirrehu’s-sami: O, hazretlerinin: O, türbe-i: O, şerifelerine: O, müteveccih: O, olduk: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Resimlerin üçü dahi Edirne’de Servet-i Fünûn muhiplerinden bir zat tarafından gönderilmiş ve Viyana’da bilhassa hakkettirilmiştir .",
+    "output": "Resimlerin: O, üçü: O, dahi: O, Edirne’de: B-LOCATION, Servet-i: O, Fünûn: O, muhiplerinden: O, bir: O, zat: O, tarafından: O, gönderilmiş: O, ve: O, Viyana’da: B-LOCATION, bilhassa: O, hakkettirilmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Siyasi-i meşhur Montekukuli demiş ki Muharebe için üç şey lazımdır .",
+    "output": "Siyasi-i: O, meşhur: O, Montekukuli: B-PERSON, demiş: O, ki: O, Muharebe: O, için: O, üç: O, şey: O, lazımdır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Avdetinden bir müddetçik sonra da Diyolafova isminde bir genç mühendise varıyordu .",
+    "output": "Avdetinden: O, bir: O, müddetçik: O, sonra: O, da: O, Diyolafova: B-PERSON, isminde: O, bir: O, genç: O, mühendise: O, varıyordu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu sudan bir lülesini şimendifere verirler ki evvelce Pınarbaşı suyunu istimal eden ve bu kireçli su sebebiyle kazanları kireç tutup yanarak yolda kalan trenin bundan sonra bu gibi arızalara düçar olmayacağı ve Mayıs’ta Bursa’ya gidenlerin kemal-i safa ve rahat ile gidip gelebileceği de temin kılınmıştır .",
+    "output": "Bu: O, sudan: O, bir: O, lülesini: O, şimendifere: O, verirler: O, ki: O, evvelce: O, Pınarbaşı: B-LOCATION, suyunu: O, istimal: O, eden: O, ve: O, bu: O, kireçli: O, su: O, sebebiyle: O, kazanları: O, kireç: O, tutup: O, yanarak: O, yolda: O, kalan: O, trenin: O, bundan: O, sonra: O, bu: O, gibi: O, arızalara: O, düçar: O, olmayacağı: O, ve: O, Mayıs’ta: O, Bursa’ya: B-LOCATION, gidenlerin: O, kemal-i: O, safa: O, ve: O, rahat: O, ile: O, gidip: O, gelebileceği: O, de: O, temin: O, kılınmıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Nasıl inkâr olunabilir ? Avrupa fabrikalarının mamulat ve masnuatı göz önünde durmakta , günden güne bu mamulat ve masnuat nefaset ve mükemmeliyet kesp ettiği gibi o nispette fiyatının da tehvinine muvaffakiyet elverdiği görülmektedir .",
+    "output": "Nasıl: O, inkâr: O, olunabilir: O, ?: O, Avrupa: B-LOCATION, fabrikalarının: O, mamulat: O, ve: O, masnuatı: O, göz: O, önünde: O, durmakta: O, ,: O, günden: O, güne: O, bu: O, mamulat: O, ve: O, masnuat: O, nefaset: O, ve: O, mükemmeliyet: O, kesp: O, ettiği: O, gibi: O, o: O, nispette: O, fiyatının: O, da: O, tehvinine: O, muvaffakiyet: O, elverdiği: O, görülmektedir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İngiltere meşahir-i füzelasından Mister Con Gib cenapları bu defa tarih-i edebiyat-ı Osmaniyeye dair İngilizce bir eser-i mühim tahririne başlayıp birinci cildini neşir ve bir nüshasını lütfen idaremize ihda buyurmuşlardır .",
+    "output": "İngiltere: B-LOCATION, meşahir-i: O, füzelasından: O, Mister: O, Con: B-PERSON, Gib: I-PERSON, cenapları: O, bu: O, defa: O, tarih-i: O, edebiyat-ı: O, Osmaniyeye: O, dair: O, İngilizce: O, bir: O, eser-i: O, mühim: O, tahririne: O, başlayıp: O, birinci: O, cildini: O, neşir: O, ve: O, bir: O, nüshasını: O, lütfen: O, idaremize: O, ihda: O, buyurmuşlardır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Baharın kokularının istişmam olunmaya başladığı şu mevsimde gönüller çayır ve çemen meftunudur ; yeşil renkte tabii kaliçelerle müzeyyen ve mestur yerler insanı cezbeder ; şehr-i şehirimizin mevaki-i latifesi meyanında en ziyade cazibedar olanlardan biri de Beykoz çemenzar-ı ruh-fezasıdır ki bir kıta-ı resmini gazetemizin 85",
+    "output": "Baharın: O, kokularının: O, istişmam: O, olunmaya: O, başladığı: O, şu: O, mevsimde: O, gönüller: O, çayır: O, ve: O, çemen: O, meftunudur: O, ;: O, yeşil: O, renkte: O, tabii: O, kaliçelerle: O, müzeyyen: O, ve: O, mestur: O, yerler: O, insanı: O, cezbeder: O, ;: O, şehr-i: O, şehirimizin: O, mevaki-i: O, latifesi: O, meyanında: O, en: O, ziyade: O, cazibedar: O, olanlardan: O, biri: O, de: O, Beykoz: B-LOCATION, çemenzar-ı: O, ruh-fezasıdır: O, ki: O, bir: O, kıta-ı: O, resmini: O, gazetemizin: O, 85: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İki sene akdem taht-ı inzibat ve idareye alınarak Suriye vilayet-i celilesine merbuten teşkil edilen Kerek Sancağı’yla Kudüs-i Şerif Mutasarrıflığı arasında bulunan Bahr-i Lut’un ahval-i coğrafisi malumdur .",
+    "output": "İki: O, sene: O, akdem: O, taht-ı: O, inzibat: O, ve: O, idareye: O, alınarak: O, Suriye: B-LOCATION, vilayet-i: O, celilesine: O, merbuten: O, teşkil: O, edilen: O, Kerek: B-LOCATION, Sancağı’yla: O, Kudüs-i: B-LOCATION, Şerif: I-LOCATION, Mutasarrıflığı: O, arasında: O, bulunan: O, Bahr-i: B-LOCATION, Lut’un: I-LOCATION, ahval-i: O, coğrafisi: O, malumdur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şirket-i Hayriye müdürü Hüseyin Hâkî Efendi merhumun vefatıyla tercüme-i hâlini geçen nüshamızın vefeyat kısmında yazmıştık .",
+    "output": "Şirket-i: O, Hayriye: O, müdürü: O, Hüseyin: B-PERSON, Hâkî: I-PERSON, Efendi: I-PERSON, merhumun: O, vefatıyla: O, tercüme-i: O, hâlini: O, geçen: O, nüshamızın: O, vefeyat: O, kısmında: O, yazmıştık: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İtalya’nın halihazırda duçar olduğu mevki –ki siyaseten , malen ve manen pek naziktir- hakikaten şayan-ı dikkat addolunuyor .",
+    "output": "İtalya’nın: B-LOCATION, halihazırda: O, duçar: O, olduğu: O, mevki: O, –ki: O, siyaseten: O, ,: O, malen: O, ve: O, manen: O, pek: O, naziktir-: O, hakikaten: O, şayan-ı: O, dikkat: O, addolunuyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şimdi konserveler her yerde meydan almış ve bir iki seneden beri İstanbul’umuzda da kullanılmaya başlanmıştır .",
+    "output": "Şimdi: O, konserveler: O, her: O, yerde: O, meydan: O, almış: O, ve: O, bir: O, iki: O, seneden: O, beri: O, İstanbul’umuzda: B-LOCATION, da: O, kullanılmaya: O, başlanmıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Avrupa’nın son askerî manevraları sırasında elektrik ziyasından istifade çareleri düşünülmüş ve gece meydan-ı harpte yaralıların kaldırılması için bu meydanın yüksek sırıklar üzerine tertip olunacak kuvvetli elektrik lambalarıyla tenvir edilmesi ve bu lambalar ziyası akiselerle uzak yerlere aksettirilmesi ne dereceye kadar fayda-bahş olacağı tecrübe olunmuştur .",
+    "output": "Avrupa’nın: B-LOCATION, son: O, askerî: O, manevraları: O, sırasında: O, elektrik: O, ziyasından: O, istifade: O, çareleri: O, düşünülmüş: O, ve: O, gece: O, meydan-ı: O, harpte: O, yaralıların: O, kaldırılması: O, için: O, bu: O, meydanın: O, yüksek: O, sırıklar: O, üzerine: O, tertip: O, olunacak: O, kuvvetli: O, elektrik: O, lambalarıyla: O, tenvir: O, edilmesi: O, ve: O, bu: O, lambalar: O, ziyası: O, akiselerle: O, uzak: O, yerlere: O, aksettirilmesi: O, ne: O, dereceye: O, kadar: O, fayda-bahş: O, olacağı: O, tecrübe: O, olunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Osmanlı erbab-ı mütalaası arasında Mister Gib namını , bu nam-ı muhteremi tanıyanlar az değildir .",
+    "output": "Osmanlı: O, erbab-ı: O, mütalaası: O, arasında: O, Mister: O, Gib: B-PERSON, namını: O, ,: O, bu: O, nam-ı: O, muhteremi: O, tanıyanlar: O, az: O, değildir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fakat asıl Devlet Efendi’yi Dildade-i kıymettarının - piyanosunun - karşısına geçince gördüm .",
+    "output": "Fakat: O, asıl: O, Devlet: B-PERSON, Efendi’yi: I-PERSON, Dildade-i: O, kıymettarının: O, -: O, piyanosunun: O, -: O, karşısına: O, geçince: O, gördüm: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Geçende Hüseyin Cahit Bey’in “ Parlak Tabirler ” makalesini Sabah gazetesinde okuduğum zaman , “ Artık bu mesele bu kadar vesaik-i nakliye , akliye ve delail-i tarihiyeden sonra makbul ve müspet addolunmalıdır . ” demiştim .",
+    "output": "Geçende: O, Hüseyin: B-PERSON, Cahit: I-PERSON, Bey’in: I-PERSON, “: O, Parlak: O, Tabirler: O, ”: O, makalesini: O, Sabah: O, gazetesinde: O, okuduğum: O, zaman: O, ,: O, “: O, Artık: O, bu: O, mesele: O, bu: O, kadar: O, vesaik-i: O, nakliye: O, ,: O, akliye: O, ve: O, delail-i: O, tarihiyeden: O, sonra: O, makbul: O, ve: O, müspet: O, addolunmalıdır: O, .: O, ”: O, demiştim: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hayfa ki bu kadar tedabire bu kadar mesaiye karşı müskirat istimali taammüm ettikçe ediyor .",
+    "output": "Hayfa: B-LOCATION, ki: O, bu: O, kadar: O, tedabire: O, bu: O, kadar: O, mesaiye: O, karşı: O, müskirat: O, istimali: O, taammüm: O, ettikçe: O, ediyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tophane’den Karaköy köprüsüne kadar imal ve inşası hitam bulup mürur ve ubura küşat edilen Rıhtım Caddesi sayesinde şehrimiz limanının kesp eylediği manzara-i ruh-fezayı evvelki hafta nüshasında münderiç musahabe-i usbuiyede tavsife çalışmıştık .",
+    "output": "Tophane’den: B-LOCATION, Karaköy: B-LOCATION, köprüsüne: O, kadar: O, imal: O, ve: O, inşası: O, hitam: O, bulup: O, mürur: O, ve: O, ubura: O, küşat: O, edilen: O, Rıhtım: B-LOCATION, Caddesi: I-LOCATION, sayesinde: O, şehrimiz: O, limanının: O, kesp: O, eylediği: O, manzara-i: O, ruh-fezayı: O, evvelki: O, hafta: O, nüshasında: O, münderiç: O, musahabe-i: O, usbuiyede: O, tavsife: O, çalışmıştık: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Adapazarı’nın nerede olduğunu tarife gerek yoktur zannederim .",
+    "output": "Adapazarı’nın: B-LOCATION, nerede: O, olduğunu: O, tarife: O, gerek: O, yoktur: O, zannederim: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Andre Torye’nin asar-ı nefisesinden olup geçen sene sahib-i imtiyazımız Ahmet İhsan Bey tarafından tercüme edilerek tefrika suretinde gazetemize derç olunmuş olunan bu roman otuzu mütecaviz zarif ve mükemmel resimlerle neşrolundu .",
+    "output": "Andre: B-PERSON, Torye’nin: I-PERSON, asar-ı: O, nefisesinden: O, olup: O, geçen: O, sene: O, sahib-i: O, imtiyazımız: O, Ahmet: B-PERSON, İhsan: I-PERSON, Bey: I-PERSON, tarafından: O, tercüme: O, edilerek: O, tefrika: O, suretinde: O, gazetemize: O, derç: O, olunmuş: O, olunan: O, bu: O, roman: O, otuzu: O, mütecaviz: O, zarif: O, ve: O, mükemmel: O, resimlerle: O, neşrolundu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Muahharen Aydın vilayetinde Dikili – Bergama şosesinin inşasıyla meşgul olduğu sırada Bergama Kalesi üzerindeki şehr-i kadimin asar-ı nefisesinden olan kabartma resimleri keşfederek Almanya devleti namına 1878 senesinden 1886 senesine kadar şehr-i mezkûr dâhilinde hafriyat icrasına devam ile ilm-i asar-ı atikaya pek büyük hizmetler arz etmiş ve asar-ı atika hafriyatında açtığı çığır elyevm numune-i imtisal olmakta bulunmuştur .",
+    "output": "Muahharen: O, Aydın: B-LOCATION, vilayetinde: O, Dikili: B-LOCATION, –: O, Bergama: B-LOCATION, şosesinin: O, inşasıyla: O, meşgul: O, olduğu: O, sırada: O, Bergama: B-LOCATION, Kalesi: I-LOCATION, üzerindeki: O, şehr-i: O, kadimin: O, asar-ı: O, nefisesinden: O, olan: O, kabartma: O, resimleri: O, keşfederek: O, Almanya: B-LOCATION, devleti: O, namına: O, 1878: O, senesinden: O, 1886: O, senesine: O, kadar: O, şehr-i: O, mezkûr: O, dâhilinde: O, hafriyat: O, icrasına: O, devam: O, ile: O, ilm-i: O, asar-ı: O, atikaya: O, pek: O, büyük: O, hizmetler: O, arz: O, etmiş: O, ve: O, asar-ı: O, atika: O, hafriyatında: O, açtığı: O, çığır: O, elyevm: O, numune-i: O, imtisal: O, olmakta: O, bulunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Nev-residegân-ı edeb dediğimiz o erbab-ı cidd ve marifet arasında yeniliği en ziyade Cenap Şehabettin Bey iltizam ediyor ; belki bu iltizamda eser-i ifrat bile gösteriyor .",
+    "output": "Nev-residegân-ı: O, edeb: O, dediğimiz: O, o: O, erbab-ı: O, cidd: O, ve: O, marifet: O, arasında: O, yeniliği: O, en: O, ziyade: O, Cenap: B-PERSON, Şehabettin: I-PERSON, Bey: I-PERSON, iltizam: O, ediyor: O, ;: O, belki: O, bu: O, iltizamda: O, eser-i: O, ifrat: O, bile: O, gösteriyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Böyle kararsız adımlarla ben de Şehzade Karakolu’ndan ta Vezneciler’in üst başına kadar çıktım .",
+    "output": "Böyle: O, kararsız: O, adımlarla: O, ben: O, de: O, Şehzade: B-LOCATION, Karakolu’ndan: O, ta: O, Vezneciler’in: B-LOCATION, üst: O, başına: O, kadar: O, çıktım: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İşte bu hâldir ki dâhilen Almanya İmparatorluğu’nu vücuda getirdikten ve ticaret noktasından Almanlara şayan-ı tahsin bir taavün-i biraderane bahş ve temin ettikten sonra haricen de Alman ticaretine , müdekkik ve hatır-şinas bir müteahhit , bir hadim şeklini vermiştir .",
+    "output": "İşte: O, bu: O, hâldir: O, ki: O, dâhilen: O, Almanya: B-LOCATION, İmparatorluğu’nu: O, vücuda: O, getirdikten: O, ve: O, ticaret: O, noktasından: O, Almanlara: O, şayan-ı: O, tahsin: O, bir: O, taavün-i: O, biraderane: O, bahş: O, ve: O, temin: O, ettikten: O, sonra: O, haricen: O, de: O, Alman: O, ticaretine: O, ,: O, müdekkik: O, ve: O, hatır-şinas: O, bir: O, müteahhit: O, ,: O, bir: O, hadim: O, şeklini: O, vermiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Revnaklı eğlenceler içinde Emin Bey’in yeni kuklalarını karilerimize haber vermeden geçemeyiz .",
+    "output": "Revnaklı: O, eğlenceler: O, içinde: O, Emin: B-PERSON, Bey’in: I-PERSON, yeni: O, kuklalarını: O, karilerimize: O, haber: O, vermeden: O, geçemeyiz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Alfons Dude namı memleketimizde pek maruftur; Servet-i Fünûn karilerine ise asla bigâne değildir .",
+    "output": "Alfons: B-PERSON, Dude: I-PERSON, namı: O, memleketimizde: O, pek: O, maruftur;: O, Servet-i: O, Fünûn: O, karilerine: O, ise: O, asla: O, bigâne: O, değildir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kafkasya’nın bilad-ı mamure-i İslamiyesinden olan Noha şehrinin istasyonu Karaoğlan ( Rusçası Pavlak ) mevkiidir ki Batum’dan yirmi dört saat , istasyondan şehrin badı ise araba ile tamam beş saatten ibarettir .",
+    "output": "Kafkasya’nın: B-LOCATION, bilad-ı: O, mamure-i: O, İslamiyesinden: O, olan: O, Noha: B-LOCATION, şehrinin: O, istasyonu: O, Karaoğlan: B-LOCATION, (: O, Rusçası: O, Pavlak: O, ): O, mevkiidir: O, ki: O, Batum’dan: B-LOCATION, yirmi: O, dört: O, saat: O, ,: O, istasyondan: O, şehrin: O, badı: O, ise: O, araba: O, ile: O, tamam: O, beş: O, saatten: O, ibarettir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fakat bazıları öyle kısa bir zaman içinde Japonya’dan Antiller’den kasırganın sürüp getirdiği kırıntıların buralara kadar gelmesini ve bunların fecr-i şimaliye benzer hadiselere sebep olmasını baid görmektedirler .",
+    "output": "Fakat: O, bazıları: O, öyle: O, kısa: O, bir: O, zaman: O, içinde: O, Japonya’dan: B-LOCATION, Antiller’den: B-LOCATION, kasırganın: O, sürüp: O, getirdiği: O, kırıntıların: O, buralara: O, kadar: O, gelmesini: O, ve: O, bunların: O, fecr-i: O, şimaliye: O, benzer: O, hadiselere: O, sebep: O, olmasını: O, baid: O, görmektedirler: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şu dört buçuk milyon halk içinde –evet , dört buçuk milyon , çünkü şimdi Paris’in nüfusu iki gün zarfında iki buçuktan dört buçuk milyona fırladı- neyse , şu halk içinde acaba bu dakikada fikren benden asude , azade bir fert var mı ? Bu suale taaccüp olunmasın .",
+    "output": "Şu: O, dört: O, buçuk: O, milyon: O, halk: O, içinde: O, –evet: O, ,: O, dört: O, buçuk: O, milyon: O, ,: O, çünkü: O, şimdi: O, Paris’in: B-LOCATION, nüfusu: O, iki: O, gün: O, zarfında: O, iki: O, buçuktan: O, dört: O, buçuk: O, milyona: O, fırladı-: O, neyse: O, ,: O, şu: O, halk: O, içinde: O, acaba: O, bu: O, dakikada: O, fikren: O, benden: O, asude: O, ,: O, azade: O, bir: O, fert: O, var: O, mı: O, ?: O, Bu: O, suale: O, taaccüp: O, olunmasın: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mevsim-i şitanın tesirat-ı baridesinden yeni kurtulmuş olan İstanbul şehr-i şehiri sanki mütebessimane gülüyor , dünya da emsali bulunmayan Boğaziçi’ne doğru sevk olunan nazar birbirinin aguş-ı muhabbetine atılırcasına iki sahilin teşkil ettikleri vaziyete hayran oluyordu .",
+    "output": "Mevsim-i: O, şitanın: O, tesirat-ı: O, baridesinden: O, yeni: O, kurtulmuş: O, olan: O, İstanbul: B-LOCATION, şehr-i: O, şehiri: O, sanki: O, mütebessimane: O, gülüyor: O, ,: O, dünya: O, da: O, emsali: O, bulunmayan: O, Boğaziçi’ne: B-LOCATION, doğru: O, sevk: O, olunan: O, nazar: O, birbirinin: O, aguş-ı: O, muhabbetine: O, atılırcasına: O, iki: O, sahilin: O, teşkil: O, ettikleri: O, vaziyete: O, hayran: O, oluyordu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Asım Bey’le beraber otelden çıktık .",
+    "output": "Asım: B-PERSON, Bey’le: I-PERSON, beraber: O, otelden: O, çıktık: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yoksa bilfarz bir muharrir yazdığı eserinde İtalya haydutlarından bahsetse ve İtalya hakkındaki malumatı yalnız mekteb-i ibtidaide okuduğu coğrafya derslerinden hasıl edebildiği kadardan ibaret bulunsa tabiidir ki vücuda getireceği eser pek gülünç olur .",
+    "output": "Yoksa: O, bilfarz: O, bir: O, muharrir: O, yazdığı: O, eserinde: O, İtalya: B-LOCATION, haydutlarından: O, bahsetse: O, ve: O, İtalya: B-LOCATION, hakkındaki: O, malumatı: O, yalnız: O, mekteb-i: O, ibtidaide: O, okuduğu: O, coğrafya: O, derslerinden: O, hasıl: O, edebildiği: O, kadardan: O, ibaret: O, bulunsa: O, tabiidir: O, ki: O, vücuda: O, getireceği: O, eser: O, pek: O, gülünç: O, olur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Edib-i hakim Emil Zola’ya dair birkaç ay mukaddem yine bu sayfalarda yazdığımız makale-i naçizane nekayis-i adidesiyle beraber hüküm ve takdirleri bizce fevkalade haiz-i ehemmiyet olan karilerimizden ekserinin iltifatına mazhariyetle mübahi oldu .",
+    "output": "Edib-i: O, hakim: O, Emil: B-PERSON, Zola’ya: I-PERSON, dair: O, birkaç: O, ay: O, mukaddem: O, yine: O, bu: O, sayfalarda: O, yazdığımız: O, makale-i: O, naçizane: O, nekayis-i: O, adidesiyle: O, beraber: O, hüküm: O, ve: O, takdirleri: O, bizce: O, fevkalade: O, haiz-i: O, ehemmiyet: O, olan: O, karilerimizden: O, ekserinin: O, iltifatına: O, mazhariyetle: O, mübahi: O, oldu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İstanbul şehri pek uzakta kalmıştı .",
+    "output": "İstanbul: B-LOCATION, şehri: O, pek: O, uzakta: O, kalmıştı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ceziretülarap’ın diğer bilcümle biladında olduğu gibi bu belde-i meşhurede dahi susuzluk yüzünden çıkılması tabii olan sıkıntının önü alınmak üzere büyük bir himmet sarfıyla yirmi kadar hazine vücuda getirilmiştir .",
+    "output": "Ceziretülarap’ın: B-LOCATION, diğer: O, bilcümle: O, biladında: O, olduğu: O, gibi: O, bu: O, belde-i: O, meşhurede: O, dahi: O, susuzluk: O, yüzünden: O, çıkılması: O, tabii: O, olan: O, sıkıntının: O, önü: O, alınmak: O, üzere: O, büyük: O, bir: O, himmet: O, sarfıyla: O, yirmi: O, kadar: O, hazine: O, vücuda: O, getirilmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Adat-ı Dirine-i Saltanat olduğu üzere bu sene-i mübarekte dahi Şam-ı Şerif’ten bir alay-ı vala ile hareket eden surre-i hümayun-ı meymenet-i makrunun bir kıta resmini derc-i sütun etmekle ilan-ı bahtiyari eyleriz .",
+    "output": "Adat-ı: O, Dirine-i: O, Saltanat: O, olduğu: O, üzere: O, bu: O, sene-i: O, mübarekte: O, dahi: O, Şam-ı: B-LOCATION, Şerif’ten: I-LOCATION, bir: O, alay-ı: O, vala: O, ile: O, hareket: O, eden: O, surre-i: O, hümayun-ı: O, meymenet-i: O, makrunun: O, bir: O, kıta: O, resmini: O, derc-i: O, sütun: O, etmekle: O, ilan-ı: O, bahtiyari: O, eyleriz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Muharririn-i Osmaniye’den İsmail Hakkı ve Ali Reşat Beyler tarafından bu nam ile bir eser-i saha-arayı intişar olmuştur .",
+    "output": "Muharririn-i: O, Osmaniye’den: O, İsmail: B-PERSON, Hakkı: I-PERSON, ve: O, Ali: B-PERSON, Reşat: I-PERSON, Beyler: I-PERSON, tarafından: O, bu: O, nam: O, ile: O, bir: O, eser-i: O, saha-arayı: O, intişar: O, olmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Filhakika cidden büyük bir edip Fransa’da bir iştihar-ı umumiye mazhar olamamıştır .",
+    "output": "Filhakika: O, cidden: O, büyük: O, bir: O, edip: O, Fransa’da: B-LOCATION, bir: O, iştihar-ı: O, umumiye: O, mazhar: O, olamamıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Marsel Prevo Ekol Politeknik’ten yetişmiştir .",
+    "output": "Marsel: B-PERSON, Prevo: I-PERSON, Ekol: O, Politeknik’ten: O, yetişmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fransa üdeba-yı hazırasının neşriyatı , daire-i edebiyatta en ziyade haiz-i salahiyet olan münekkidinin makalatı idealizmin böyle bir derece-i intibaha girdiğini gösteriyor .",
+    "output": "Fransa: B-LOCATION, üdeba-yı: O, hazırasının: O, neşriyatı: O, ,: O, daire-i: O, edebiyatta: O, en: O, ziyade: O, haiz-i: O, salahiyet: O, olan: O, münekkidinin: O, makalatı: O, idealizmin: O, böyle: O, bir: O, derece-i: O, intibaha: O, girdiğini: O, gösteriyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mösyö İzvar on bir yaşındaki mahdumunun elini de bu usul ile levha-i tasvire almıştır .",
+    "output": "Mösyö: O, İzvar: B-PERSON, on: O, bir: O, yaşındaki: O, mahdumunun: O, elini: O, de: O, bu: O, usul: O, ile: O, levha-i: O, tasvire: O, almıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Faraza Fransa’da on sekizinci asrın ilk nısfında musiki hafif , latif , nahif bir hâlde iken Fransız edebiyatı da aynı evsafa malikti .",
+    "output": "Faraza: O, Fransa’da: B-LOCATION, on: O, sekizinci: O, asrın: O, ilk: O, nısfında: O, musiki: O, hafif: O, ,: O, latif: O, ,: O, nahif: O, bir: O, hâlde: O, iken: O, Fransız: O, edebiyatı: O, da: O, aynı: O, evsafa: O, malikti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gözüme ilk tesadüf eden bir varakpare-i havadiste insanın aşina olduğu isimlere mahsus kuvve-i garibe-i cazibe ile hemen en evvel Alfons Dode’nin fecaaten vefatı haberini görünce on dört sene evvel Cak hikâyesinin son sayfasını kapadıktan sonra kalbimi sıkan pençe-i azaba benzer bir şey duydum .",
+    "output": "Gözüme: O, ilk: O, tesadüf: O, eden: O, bir: O, varakpare-i: O, havadiste: O, insanın: O, aşina: O, olduğu: O, isimlere: O, mahsus: O, kuvve-i: O, garibe-i: O, cazibe: O, ile: O, hemen: O, en: O, evvel: O, Alfons: B-PERSON, Dode’nin: I-PERSON, fecaaten: O, vefatı: O, haberini: O, görünce: O, on: O, dört: O, sene: O, evvel: O, Cak: B-PERSON, hikâyesinin: O, son: O, sayfasını: O, kapadıktan: O, sonra: O, kalbimi: O, sıkan: O, pençe-i: O, azaba: O, benzer: O, bir: O, şey: O, duydum: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İpolit Ten üstad tanıdığı Sent Böv’ün külliyen aksine olarak , tenkidi bir fenn-i müspet haline getirmiştir ki esası fikr-i beşerin felsefe-i umumiyesidir .",
+    "output": "İpolit: B-PERSON, Ten: I-PERSON, üstad: O, tanıdığı: O, Sent: B-PERSON, Böv’ün: I-PERSON, külliyen: O, aksine: O, olarak: O, ,: O, tenkidi: O, bir: O, fenn-i: O, müspet: O, haline: O, getirmiştir: O, ki: O, esası: O, fikr-i: O, beşerin: O, felsefe-i: O, umumiyesidir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Resm-i izdivacın teşrinievvel-i efrenci içinde icra olunacağı memul olmakla beraber elyevm seyahatte bulunan Rusya çarı hazretlerinin Fransa’dan geçerek İtalya’ya gelebileceği bir zamana tesadüf etmek üzere muayyen bir gün tayin edilmemekte olduğunu bazı evrak-ı havadis yazıyor .",
+    "output": "Resm-i: O, izdivacın: O, teşrinievvel-i: O, efrenci: O, içinde: O, icra: O, olunacağı: O, memul: O, olmakla: O, beraber: O, elyevm: O, seyahatte: O, bulunan: O, Rusya: B-LOCATION, çarı: O, hazretlerinin: O, Fransa’dan: B-LOCATION, geçerek: O, İtalya’ya: B-LOCATION, gelebileceği: O, bir: O, zamana: O, tesadüf: O, etmek: O, üzere: O, muayyen: O, bir: O, gün: O, tayin: O, edilmemekte: O, olduğunu: O, bazı: O, evrak-ı: O, havadis: O, yazıyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Muhbir-i mahsusumuz Tevfik Efendi’nin gönderdiği fotografiden Viyana’da hakkettirilmiştir .",
+    "output": "Muhbir-i: O, mahsusumuz: O, Tevfik: B-PERSON, Efendi’nin: I-PERSON, gönderdiği: O, fotografiden: O, Viyana’da: B-LOCATION, hakkettirilmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mütalaaya göre Muhsin Bey hikâyesi erbab-ı mütalaaca ağlanacak şeylerden görülmüş olduğu halde bu Araba Sevdası gülünecek hallerden addolunsa gerektir .",
+    "output": "Mütalaaya: O, göre: O, Muhsin: B-PERSON, Bey: I-PERSON, hikâyesi: O, erbab-ı: O, mütalaaca: O, ağlanacak: O, şeylerden: O, görülmüş: O, olduğu: O, halde: O, bu: O, Araba: O, Sevdası: O, gülünecek: O, hallerden: O, addolunsa: O, gerektir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hele bu iki nüshada münderiç bulunan küçük hikâyeler – daha sair emsaliyle beraber – Abdullah Zühtü Bey’in tetkik-i kulub-ı beşeriyedeki nüfuz-ı nazarını , muvaffakiyet-i tasvirini pek bedihi bir surette gösterir .",
+    "output": "Hele: O, bu: O, iki: O, nüshada: O, münderiç: O, bulunan: O, küçük: O, hikâyeler: O, –: O, daha: O, sair: O, emsaliyle: O, beraber: O, –: O, Abdullah: B-PERSON, Zühtü: I-PERSON, Bey’in: I-PERSON, tetkik-i: O, kulub-ı: O, beşeriyedeki: O, nüfuz-ı: O, nazarını: O, ,: O, muvaffakiyet-i: O, tasvirini: O, pek: O, bedihi: O, bir: O, surette: O, gösterir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Eğer bir beldenin mutlaka bir hatıra-i maziye saklaması lazımsa İskenderiye’nin bir tarihi , pek şerefli bir tarihi var .",
+    "output": "Eğer: O, bir: O, beldenin: O, mutlaka: O, bir: O, hatıra-i: O, maziye: O, saklaması: O, lazımsa: O, İskenderiye’nin: B-LOCATION, bir: O, tarihi: O, ,: O, pek: O, şerefli: O, bir: O, tarihi: O, var: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu nev vapurların en şayan-ı hayreti mösyö Manyel ismindeki İsveç mühendisinin inşa eylediği “ Sedanni ” nam vapurdur .",
+    "output": "Bu: O, nev: O, vapurların: O, en: O, şayan-ı: O, hayreti: O, mösyö: O, Manyel: B-PERSON, ismindeki: O, İsveç: B-LOCATION, mühendisinin: O, inşa: O, eylediği: O, “: O, Sedanni: O, ”: O, nam: O, vapurdur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İşte Fransa’da evrak-ı havadisten biri şu mesele-i neşriyeye dair müellifinden Emil Zola ile Fransuva Kopen’in mütalaalarını sormuş ve aldığı cevapları neşretmiştir .",
+    "output": "İşte: O, Fransa’da: B-LOCATION, evrak-ı: O, havadisten: O, biri: O, şu: O, mesele-i: O, neşriyeye: O, dair: O, müellifinden: O, Emil: B-PERSON, Zola: I-PERSON, ile: O, Fransuva: B-PERSON, Kopen’in: I-PERSON, mütalaalarını: O, sormuş: O, ve: O, aldığı: O, cevapları: O, neşretmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Rumeli Demiryolları muamelatında iştihar ve fevkalade kesb-i servet ve yesar eylemiş ve geçen sene vefat etmiş olan Baron Hirş’in bütün mamelekini zevcesine bırakmış olduğu malumdur .",
+    "output": "Rumeli: B-LOCATION, Demiryolları: O, muamelatında: O, iştihar: O, ve: O, fevkalade: O, kesb-i: O, servet: O, ve: O, yesar: O, eylemiş: O, ve: O, geçen: O, sene: O, vefat: O, etmiş: O, olan: O, Baron: O, Hirş’in: B-PERSON, bütün: O, mamelekini: O, zevcesine: O, bırakmış: O, olduğu: O, malumdur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ve parmaklarıyla yukarı katı göstererek ; Bilmiyor musun ki Dirkenor Efendi bu saatte gündüz uykusuna yatar ; Öyle ne bağırıyorsun ?",
+    "output": "Ve: O, parmaklarıyla: O, yukarı: O, katı: O, göstererek: O, ;: O, Bilmiyor: O, musun: O, ki: O, Dirkenor: B-PERSON, Efendi: I-PERSON, bu: O, saatte: O, gündüz: O, uykusuna: O, yatar: O, ;: O, Öyle: O, ne: O, bağırıyorsun: O, ?: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mınakyan Efendi’nin bu tavsiyeye mahal bırakmadan tahrir-i şehir Ahmed Midhat Efendi Hazretleri’nin Eyvah’ını icra ile bir himmet-i terakkiperverane göstermesi hakikaten şayan-ı tebriktir .",
+    "output": "Mınakyan: B-PERSON, Efendi’nin: I-PERSON, bu: O, tavsiyeye: O, mahal: O, bırakmadan: O, tahrir-i: O, şehir: O, Ahmed: B-PERSON, Midhat: I-PERSON, Efendi: I-PERSON, Hazretleri’nin: O, Eyvah’ını: O, icra: O, ile: O, bir: O, himmet-i: O, terakkiperverane: O, göstermesi: O, hakikaten: O, şayan-ı: O, tebriktir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Geçen kışın Mısır’la Kahire’den Nil Nehri üzerinde vapurla ikinci şelaleye kadar icra-yı seyahat eden Osmanlı erbab-ı kaleminden bir zatın müşahedatından müteşekkil olan bu eser hatt-ı seyahate ait kasaba , asar-ı atika , menazır gibi 27 kıta resimle müzeyyen ve 50 büyük sahifeden müteşekkil olarak neşrolunmuştur .",
+    "output": "Geçen: O, kışın: O, Mısır’la: B-LOCATION, Kahire’den: B-LOCATION, Nil: B-LOCATION, Nehri: I-LOCATION, üzerinde: O, vapurla: O, ikinci: O, şelaleye: O, kadar: O, icra-yı: O, seyahat: O, eden: O, Osmanlı: O, erbab-ı: O, kaleminden: O, bir: O, zatın: O, müşahedatından: O, müteşekkil: O, olan: O, bu: O, eser: O, hatt-ı: O, seyahate: O, ait: O, kasaba: O, ,: O, asar-ı: O, atika: O, ,: O, menazır: O, gibi: O, 27: O, kıta: O, resimle: O, müzeyyen: O, ve: O, 50: O, büyük: O, sahifeden: O, müteşekkil: O, olarak: O, neşrolunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Montanirus denilen eğlencelere şebih olan bu yol üzerinde merkezden salıverilen tekerlekli bir sandal sırf yolun meyli hasebiyle suya doğru hareket ederek nihayet bir şiddetle göle dâhil olur ki bu şiddet sandalı merkezin tahtına kadar sevk etmeye kâfidir .",
+    "output": "Montanirus: B-LOCATION, denilen: O, eğlencelere: O, şebih: O, olan: O, bu: O, yol: O, üzerinde: O, merkezden: O, salıverilen: O, tekerlekli: O, bir: O, sandal: O, sırf: O, yolun: O, meyli: O, hasebiyle: O, suya: O, doğru: O, hareket: O, ederek: O, nihayet: O, bir: O, şiddetle: O, göle: O, dâhil: O, olur: O, ki: O, bu: O, şiddet: O, sandalı: O, merkezin: O, tahtına: O, kadar: O, sevk: O, etmeye: O, kâfidir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "“ Evdeki pazar çarşıya uymaz ” dedikleri işte budur ; geçen defaki muhasabemizi mukaddeme-i fasl-ı bahar ittihaz ederek bu hafta için sürekli kır gezmelerinden , Kâğıthane cevelanlarından bahse hazırlamış iken Mart üç dokuzunun kemal-i şiddetiyle icra-yı ahkâm edişine seyirci olmak hiç de hoşuma gitmiyor idi !",
+    "output": "“: O, Evdeki: O, pazar: O, çarşıya: O, uymaz: O, ”: O, dedikleri: O, işte: O, budur: O, ;: O, geçen: O, defaki: O, muhasabemizi: O, mukaddeme-i: O, fasl-ı: O, bahar: O, ittihaz: O, ederek: O, bu: O, hafta: O, için: O, sürekli: O, kır: O, gezmelerinden: O, ,: O, Kâğıthane: B-LOCATION, cevelanlarından: O, bahse: O, hazırlamış: O, iken: O, Mart: O, üç: O, dokuzunun: O, kemal-i: O, şiddetiyle: O, icra-yı: O, ahkâm: O, edişine: O, seyirci: O, olmak: O, hiç: O, de: O, hoşuma: O, gitmiyor: O, idi: O, !: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hem de Jan Jak Russo’nun yaptığı gibi yalnız ahlak nokta-i nazarından tamim-i maarifin tesirat-ı seyyiesi de muhakeme edilmekle kalmayıp âdeta fenin hiçbir iş beceremeden , beşeriyetin maneviyatını tezelzüle uğratarak iflas ettiği bile söyleniyor ;",
+    "output": "Hem: O, de: O, Jan: B-PERSON, Jak: I-PERSON, Russo’nun: I-PERSON, yaptığı: O, gibi: O, yalnız: O, ahlak: O, nokta-i: O, nazarından: O, tamim-i: O, maarifin: O, tesirat-ı: O, seyyiesi: O, de: O, muhakeme: O, edilmekle: O, kalmayıp: O, âdeta: O, fenin: O, hiçbir: O, iş: O, beceremeden: O, ,: O, beşeriyetin: O, maneviyatını: O, tezelzüle: O, uğratarak: O, iflas: O, ettiği: O, bile: O, söyleniyor: O, ;: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Cennet mekân Sultan Ahmet Han-ı Salis Hazretlerinin zaman-ı saltanatında makam-ı celil-i sadareti ihraz etmiş olan Teberdar Damat İbrahim Paşa merhumun maskat-ı reisi olmak münasebetiyle müşarünileyh Muşkara’yı imar ve ihyaya ve bir kasaba haline ifrağa muvaffak olmuş ve namını da “Nevşehir”e tahvil eylemiştir .",
+    "output": "Cennet: O, mekân: O, Sultan: O, Ahmet: B-PERSON, Han-ı: I-PERSON, Salis: I-PERSON, Hazretlerinin: O, zaman-ı: O, saltanatında: O, makam-ı: O, celil-i: O, sadareti: O, ihraz: O, etmiş: O, olan: O, Teberdar: B-PERSON, Damat: I-PERSON, İbrahim: I-PERSON, Paşa: I-PERSON, merhumun: O, maskat-ı: O, reisi: O, olmak: O, münasebetiyle: O, müşarünileyh: O, Muşkara’yı: B-LOCATION, imar: O, ve: O, ihyaya: O, ve: O, bir: O, kasaba: O, haline: O, ifrağa: O, muvaffak: O, olmuş: O, ve: O, namını: O, da: O, “Nevşehir”e: B-LOCATION, tahvil: O, eylemiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Prens Jorj Almanya’nın en meşhur kumandanlarından olduğu cihetle bu münasebetle Servet-i Fünun ; umuza bir kıta resmiyle tercüme-i halini derç ediyoruz .",
+    "output": "Prens: O, Jorj: B-PERSON, Almanya’nın: B-LOCATION, en: O, meşhur: O, kumandanlarından: O, olduğu: O, cihetle: O, bu: O, münasebetle: O, Servet-i: O, Fünun: O, ;: O, umuza: O, bir: O, kıta: O, resmiyle: O, tercüme-i: O, halini: O, derç: O, ediyoruz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Almanya’nın tezyid-i kuva-yı bahriyesini kabul ve tasdik ettirmek için bir istinadgâh olacağı gibi Almanya’nın Prens Bismark tarafından esası kurulan müstemlakât politikasının azim ve metanetle devamına bir sebep olacaktır .",
+    "output": "Almanya’nın: B-LOCATION, tezyid-i: O, kuva-yı: O, bahriyesini: O, kabul: O, ve: O, tasdik: O, ettirmek: O, için: O, bir: O, istinadgâh: O, olacağı: O, gibi: O, Almanya’nın: B-LOCATION, Prens: O, Bismark: B-PERSON, tarafından: O, esası: O, kurulan: O, müstemlakât: O, politikasının: O, azim: O, ve: O, metanetle: O, devamına: O, bir: O, sebep: O, olacaktır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mesela ev yaparken yirminci kata kadar çıktılar , şimendifer süratinde Avrupa’yı geçtiler .",
+    "output": "Mesela: O, ev: O, yaparken: O, yirminci: O, kata: O, kadar: O, çıktılar: O, ,: O, şimendifer: O, süratinde: O, Avrupa’yı: B-LOCATION, geçtiler: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Evvela Longa ve Patrikhane iptidai mekteplerine badehu Samatya mektebine devam ederek tahsil-i ulum eyledikten sonra Armaşa Manastırı’na duhul etmiş ve bir müddet orada kalmıştır .",
+    "output": "Evvela: O, Longa: B-LOCATION, ve: O, Patrikhane: O, iptidai: O, mekteplerine: O, badehu: O, Samatya: B-LOCATION, mektebine: O, devam: O, ederek: O, tahsil-i: O, ulum: O, eyledikten: O, sonra: O, Armaşa: B-LOCATION, Manastırı’na: I-LOCATION, duhul: O, etmiş: O, ve: O, bir: O, müddet: O, orada: O, kalmıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bunlardan birisi hamiz-i karbondur ki taht-ı tazyiğe alınıp temeyyü ettirilmesi sayesinde şimdi Beyoğlu’nda pazar-ı Alman’da satılan gazoz makineleri vücuda gelmiştir .",
+    "output": "Bunlardan: O, birisi: O, hamiz-i: O, karbondur: O, ki: O, taht-ı: O, tazyiğe: O, alınıp: O, temeyyü: O, ettirilmesi: O, sayesinde: O, şimdi: O, Beyoğlu’nda: B-LOCATION, pazar-ı: O, Alman’da: O, satılan: O, gazoz: O, makineleri: O, vücuda: O, gelmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu hadise-i tabiiye vesilesiyle Avrupa ceraid-i fenniyesi ahcar-ı semaviyenin asl ve neşeti hakkında bir takım malumat neşretmiş oldukları gibi erbab-ı ilm de ber-vech-i mutad faraziyat dairesinde yürümüşlerdir .",
+    "output": "Bu: O, hadise-i: O, tabiiye: O, vesilesiyle: O, Avrupa: B-LOCATION, ceraid-i: O, fenniyesi: O, ahcar-ı: O, semaviyenin: O, asl: O, ve: O, neşeti: O, hakkında: O, bir: O, takım: O, malumat: O, neşretmiş: O, oldukları: O, gibi: O, erbab-ı: O, ilm: O, de: O, ber-vech-i: O, mutad: O, faraziyat: O, dairesinde: O, yürümüşlerdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fransa hükûmetinin tesisi teşebbüsünde bulunduğu bu müze tarzında sair hükûmetlerin de müstemlekât müzeleri tesis edeceklerine ihtimal vererek bazı erbab-ı tecrübe ve tetkik bu müzeler yüzünden pek çok istifadeler bekliyor .",
+    "output": "Fransa: B-LOCATION, hükûmetinin: O, tesisi: O, teşebbüsünde: O, bulunduğu: O, bu: O, müze: O, tarzında: O, sair: O, hükûmetlerin: O, de: O, müstemlekât: O, müzeleri: O, tesis: O, edeceklerine: O, ihtimal: O, vererek: O, bazı: O, erbab-ı: O, tecrübe: O, ve: O, tetkik: O, bu: O, müzeler: O, yüzünden: O, pek: O, çok: O, istifadeler: O, bekliyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bufon küre-i arzın bağrına kadar enzar-ı tetkikini infaz ederek bugün sathında sakin olduğumuz seyyarenin sırr-ı hilkatini madenlerden , kayalardan , tabakat-ı arziyeden istiknah etti ve ilm-i tabakatü’l-arz kendisine layık olan mevki-i mühimi iktisap eyledi .",
+    "output": "Bufon: B-PERSON, küre-i: O, arzın: O, bağrına: O, kadar: O, enzar-ı: O, tetkikini: O, infaz: O, ederek: O, bugün: O, sathında: O, sakin: O, olduğumuz: O, seyyarenin: O, sırr-ı: O, hilkatini: O, madenlerden: O, ,: O, kayalardan: O, ,: O, tabakat-ı: O, arziyeden: O, istiknah: O, etti: O, ve: O, ilm-i: O, tabakatü’l-arz: O, kendisine: O, layık: O, olan: O, mevki-i: O, mühimi: O, iktisap: O, eyledi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tabib-i şehir-i ferik saadetlü Cemil Paşa Hazretleri kariben Ameliyat-ı Cerrahiye İstatistiği ünvanıyla bir kitap neşir eyleyeceklerdir ki bu kitapta 1309 senesinden beri icra eyledikleri bilcümle ameliyatın tafsilat ve tesaviri münderiç olacaktır .",
+    "output": "Tabib-i: O, şehir-i: O, ferik: O, saadetlü: O, Cemil: B-PERSON, Paşa: I-PERSON, Hazretleri: O, kariben: O, Ameliyat-ı: O, Cerrahiye: O, İstatistiği: O, ünvanıyla: O, bir: O, kitap: O, neşir: O, eyleyeceklerdir: O, ki: O, bu: O, kitapta: O, 1309: O, senesinden: O, beri: O, icra: O, eyledikleri: O, bilcümle: O, ameliyatın: O, tafsilat: O, ve: O, tesaviri: O, münderiç: O, olacaktır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Beyoğlu’na gidenler yahut Servet-i Fünûn’ı muntazaman okuyanlar (Dipnot verilmiş Servet-i Fünûn – numara 301– İstanbul Postası . ) Sponik Gazinosu’nun üstüne bir sinematograf makinesi getirilerek -ilanında denildiği gibi- canlı levhalar ve resimler seyrettirildiğinden elbette haberdardırlar .",
+    "output": "Beyoğlu’na: B-LOCATION, gidenler: O, yahut: O, Servet-i: O, Fünûn’ı: O, muntazaman: O, okuyanlar: O, (Dipnot: O, verilmiş: O, Servet-i: O, Fünûn: O, –: O, numara: O, 301–: O, İstanbul: B-LOCATION, Postası: O, .: O, ): O, Sponik: O, Gazinosu’nun: O, üstüne: O, bir: O, sinematograf: O, makinesi: O, getirilerek: O, -ilanında: O, denildiği: O, gibi-: O, canlı: O, levhalar: O, ve: O, resimler: O, seyrettirildiğinden: O, elbette: O, haberdardırlar: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Amerika cemahir-i müttehidesinden Luizyana’nın parlamentosundaki hâli tasvir yolunda yapılmış bir resim !",
+    "output": "Amerika: B-LOCATION, cemahir-i: O, müttehidesinden: O, Luizyana’nın: B-LOCATION, parlamentosundaki: O, hâli: O, tasvir: O, yolunda: O, yapılmış: O, bir: O, resim: O, !: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ernest Lavis Fransa’nın en fazıl , en be-nam müverrihlerindendir .",
+    "output": "Ernest: B-PERSON, Lavis: I-PERSON, Fransa’nın: B-LOCATION, en: O, fazıl: O, ,: O, en: O, be-nam: O, müverrihlerindendir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Öyle ya , üçüncü senedir ki İstanbul kış görmüyor .",
+    "output": "Öyle: O, ya: O, ,: O, üçüncü: O, senedir: O, ki: O, İstanbul: B-LOCATION, kış: O, görmüyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Vefat edip resmi alınacak olan zat asar-ı kadime-i Mısriye ile iştigal eden ulemadan Kont Burniski imiş ; Mistır Rokov vazifesini ifadan sonra sahib-i merak ve sahib-i malumat bir zat olduğu için feth-i meyyit ameliyatında bulunmuş ve müteveffanın açılmış olan cümcümesi ve dimağı bilhassa nazar-ı dikkatini celbetmiş .",
+    "output": "Vefat: O, edip: O, resmi: O, alınacak: O, olan: O, zat: O, asar-ı: O, kadime-i: O, Mısriye: O, ile: O, iştigal: O, eden: O, ulemadan: O, Kont: O, Burniski: B-PERSON, imiş: O, ;: O, Mistır: O, Rokov: B-PERSON, vazifesini: O, ifadan: O, sonra: O, sahib-i: O, merak: O, ve: O, sahib-i: O, malumat: O, bir: O, zat: O, olduğu: O, için: O, feth-i: O, meyyit: O, ameliyatında: O, bulunmuş: O, ve: O, müteveffanın: O, açılmış: O, olan: O, cümcümesi: O, ve: O, dimağı: O, bilhassa: O, nazar-ı: O, dikkatini: O, celbetmiş: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Jul Vern ismindeki muharririn fennî romanları meşhur-ı âlemdir .",
+    "output": "Jul: B-PERSON, Vern: I-PERSON, ismindeki: O, muharririn: O, fennî: O, romanları: O, meşhur-ı: O, âlemdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Pek kadimde Mısır’da neşvünema bulan bir nevi nebatın evrakı kurutularak ve terbiye edilerek bunların üzerine yazı yazılırdı .",
+    "output": "Pek: O, kadimde: O, Mısır’da: B-LOCATION, neşvünema: O, bulan: O, bir: O, nevi: O, nebatın: O, evrakı: O, kurutularak: O, ve: O, terbiye: O, edilerek: O, bunların: O, üzerine: O, yazı: O, yazılırdı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Genç Fromon ve Büyük Risler romanı sayfalarımızda intişar etmişti .",
+    "output": "Genç: O, Fromon: B-PERSON, ve: O, Büyük: O, Risler: O, romanı: O, sayfalarımızda: O, intişar: O, etmişti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Üstad-ı kemalat-pira İsmail Safa Beyefendi’nin bu nam ile yeni bir eserleri ziynet-saz-ı matbuat oldu .",
+    "output": "Üstad-ı: O, kemalat-pira: O, İsmail: B-PERSON, Safa: I-PERSON, Beyefendi’nin: I-PERSON, bu: O, nam: O, ile: O, yeni: O, bir: O, eserleri: O, ziynet-saz-ı: O, matbuat: O, oldu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Vakıa bu haftaya gelinceye kadar havalar o kadar iyi gidiyordu ki İstanbul’umuzun civarında bütün ağaçlar çiçeklerini açmış , çayırlar zümrüt gibi yeşermişti .",
+    "output": "Vakıa: O, bu: O, haftaya: O, gelinceye: O, kadar: O, havalar: O, o: O, kadar: O, iyi: O, gidiyordu: O, ki: O, İstanbul’umuzun: B-LOCATION, civarında: O, bütün: O, ağaçlar: O, çiçeklerini: O, açmış: O, ,: O, çayırlar: O, zümrüt: O, gibi: O, yeşermişti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yirminci asr-ı medeniyeti suret-i mutantanada istikbal maksadıyla Fransızların önümüzdeki Nisan’da açacakları bu meşher-i umumi hiç şüphe yoktur ki Avrupa’nın en parlak , en cemiyetli bir muvaffakiyet-i medeniyesi olacak .",
+    "output": "Yirminci: O, asr-ı: O, medeniyeti: O, suret-i: O, mutantanada: O, istikbal: O, maksadıyla: O, Fransızların: O, önümüzdeki: O, Nisan’da: O, açacakları: O, bu: O, meşher-i: O, umumi: O, hiç: O, şüphe: O, yoktur: O, ki: O, Avrupa’nın: B-LOCATION, en: O, parlak: O, ,: O, en: O, cemiyetli: O, bir: O, muvaffakiyet-i: O, medeniyesi: O, olacak: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Beş altı oyun vermek üzere şehrimize gelip bu hafta İzmir’e doğru hareket eden “ Josse-Koklan ” tiyatro kumpanyasında meşahir-i müellifinin tertib-gerdesi eserleri dinlemek görmek arzusu da bizi iki defa Odeon Tiyatrosu’na sevk eyledi .",
+    "output": "Beş: O, altı: O, oyun: O, vermek: O, üzere: O, şehrimize: O, gelip: O, bu: O, hafta: O, İzmir’e: B-LOCATION, doğru: O, hareket: O, eden: O, “: O, Josse-Koklan: O, ”: O, tiyatro: O, kumpanyasında: O, meşahir-i: O, müellifinin: O, tertib-gerdesi: O, eserleri: O, dinlemek: O, görmek: O, arzusu: O, da: O, bizi: O, iki: O, defa: O, Odeon: O, Tiyatrosu’na: O, sevk: O, eyledi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ahiren vefat eden Arşidük Şarl Lui Avusturya ; Macaristan İmparatoru Fransuva Jozef Hazretlerinin ikinci biraderleridir .",
+    "output": "Ahiren: O, vefat: O, eden: O, Arşidük: O, Şarl: B-PERSON, Lui: I-PERSON, Avusturya: B-LOCATION, ;: O, Macaristan: B-LOCATION, İmparatoru: O, Fransuva: B-PERSON, Jozef: I-PERSON, Hazretlerinin: O, ikinci: O, biraderleridir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Avrupa’da kadın erkek , erbab-ı haysiyet ve şöhretten biri vefat etti mi hemen sandığı , dolabı , çantası , çekmecesi karıştırılarak kâğıt , yazı namına her ne bulunursa toplanıyor .",
+    "output": "Avrupa’da: B-LOCATION, kadın: O, erkek: O, ,: O, erbab-ı: O, haysiyet: O, ve: O, şöhretten: O, biri: O, vefat: O, etti: O, mi: O, hemen: O, sandığı: O, ,: O, dolabı: O, ,: O, çantası: O, ,: O, çekmecesi: O, karıştırılarak: O, kâğıt: O, ,: O, yazı: O, namına: O, her: O, ne: O, bulunursa: O, toplanıyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ne yalan söyleyeyim , gazeteci olmak sıfatıyla ayıp ama Mösyö Taverniye ile kesb-i ülfet edinceye kadar memleketimizde bir kibrit fabrikasının işlemekte olduğundan haberdar değildim .",
+    "output": "Ne: O, yalan: O, söyleyeyim: O, ,: O, gazeteci: O, olmak: O, sıfatıyla: O, ayıp: O, ama: O, Mösyö: O, Taverniye: B-PERSON, ile: O, kesb-i: O, ülfet: O, edinceye: O, kadar: O, memleketimizde: O, bir: O, kibrit: O, fabrikasının: O, işlemekte: O, olduğundan: O, haberdar: O, değildim: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "On sene evveline gelinceye kadar bütün Fransızlar Gustav Flobert Emil Zola gibi hakikiyun-ı üdebayı takdir ve taklit ederlerdi .",
+    "output": "On: O, sene: O, evveline: O, gelinceye: O, kadar: O, bütün: O, Fransızlar: O, Gustav: B-PERSON, Flobert: I-PERSON, Emil: B-PERSON, Zola: I-PERSON, gibi: O, hakikiyun-ı: O, üdebayı: O, takdir: O, ve: O, taklit: O, ederlerdi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Birtakım adamların kendilerine gazetemize mensubiyet süsü vererek vilayet-i şahanenin bazılarında abone kaydettiklerini veya sair türlü taahhüdatta bulunduklarını işittik .",
+    "output": "Birtakım: O, adamların: O, kendilerine: O, gazetemize: O, mensubiyet: O, süsü: O, vererek: O, vilayet-i: O, şahanenin: O, bazılarında: O, abone: O, kaydettiklerini: O, veya: O, sair: O, türlü: O, taahhüdatta: O, bulunduklarını: O, işittik: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Soğuktan , soğukluktan kurtulmak için biraz sıcak bahislere geçelim mi diyorsunuz ? Beyoğlu’nun , Galata’nın karnavalı geldi , balolar , ebvab-ı raks ve sefayı küşat eyledi .",
+    "output": "Soğuktan: O, ,: O, soğukluktan: O, kurtulmak: O, için: O, biraz: O, sıcak: O, bahislere: O, geçelim: O, mi: O, diyorsunuz: O, ?: O, Beyoğlu’nun: B-LOCATION, ,: O, Galata’nın: B-LOCATION, karnavalı: O, geldi: O, ,: O, balolar: O, ,: O, ebvab-ı: O, raks: O, ve: O, sefayı: O, küşat: O, eyledi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Geçen Şubat evailine doğru Madrid şehri civarına oldukça cesim bir hacer-i semavi sukut ettiği gibi birkaç sene evvel Fransa’da Bordo şehri civarına da yine semadan bir seng-pare düşmüştür .",
+    "output": "Geçen: O, Şubat: O, evailine: O, doğru: O, Madrid: B-LOCATION, şehri: O, civarına: O, oldukça: O, cesim: O, bir: O, hacer-i: O, semavi: O, sukut: O, ettiği: O, gibi: O, birkaç: O, sene: O, evvel: O, Fransa’da: B-LOCATION, Bordo: B-LOCATION, şehri: O, civarına: O, da: O, yine: O, semadan: O, bir: O, seng-pare: O, düşmüştür: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kudema-yı ferikandan olup Tophane-i Amire Meclisi riyasetinde iken irtihal-i dar-ı beka eden Eyüp Paşa merhumun bir kıta resmini derç eyliyor , müşarünileyhin tercüme-i hali ve suret-i vefatı nesh-i salifemizin kısm-ı siyasiyesinde münderiç olduğundan tekrarına hacet görülmemiştir .",
+    "output": "Kudema-yı: O, ferikandan: O, olup: O, Tophane-i: O, Amire: O, Meclisi: O, riyasetinde: O, iken: O, irtihal-i: O, dar-ı: O, beka: O, eden: O, Eyüp: B-PERSON, Paşa: I-PERSON, merhumun: O, bir: O, kıta: O, resmini: O, derç: O, eyliyor: O, ,: O, müşarünileyhin: O, tercüme-i: O, hali: O, ve: O, suret-i: O, vefatı: O, nesh-i: O, salifemizin: O, kısm-ı: O, siyasiyesinde: O, münderiç: O, olduğundan: O, tekrarına: O, hacet: O, görülmemiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ten bu fikirden bahsettiği sırada “ Filhakika sanatkârın kendi keyfine göre ihtira etmesi , halkın bu ihtira-i asarını meyyal-i tebeddül bir zevke göre takdir eylemesi şu esen rüzgârlar gibi serbest zannolunabilirse de rüzgârların sabit ve muayyen kavanini vardır . ” diyerek bir eser-i sanatın nasıl vücuda geleceğini tetkik ediyor ve bunu izah için asar-ı sanatı nebatata teşbih ile bir toprakta bir nebatın yahut aynı neviden nebatatın , mesela portakal ağacının ne gibi şerait tahtında tevsi ve intişar edebileceğini şu veçhile arıyor",
+    "output": "Ten: B-PERSON, bu: O, fikirden: O, bahsettiği: O, sırada: O, “: O, Filhakika: O, sanatkârın: O, kendi: O, keyfine: O, göre: O, ihtira: O, etmesi: O, ,: O, halkın: O, bu: O, ihtira-i: O, asarını: O, meyyal-i: O, tebeddül: O, bir: O, zevke: O, göre: O, takdir: O, eylemesi: O, şu: O, esen: O, rüzgârlar: O, gibi: O, serbest: O, zannolunabilirse: O, de: O, rüzgârların: O, sabit: O, ve: O, muayyen: O, kavanini: O, vardır: O, .: O, ”: O, diyerek: O, bir: O, eser-i: O, sanatın: O, nasıl: O, vücuda: O, geleceğini: O, tetkik: O, ediyor: O, ve: O, bunu: O, izah: O, için: O, asar-ı: O, sanatı: O, nebatata: O, teşbih: O, ile: O, bir: O, toprakta: O, bir: O, nebatın: O, yahut: O, aynı: O, neviden: O, nebatatın: O, ,: O, mesela: O, portakal: O, ağacının: O, ne: O, gibi: O, şerait: O, tahtında: O, tevsi: O, ve: O, intişar: O, edebileceğini: O, şu: O, veçhile: O, arıyor: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Biz Ayastefanos’tan oraya hayvanlarla gitmiştik .",
+    "output": "Biz: O, Ayastefanos’tan: B-LOCATION, oraya: O, hayvanlarla: O, gitmiştik: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Rumeli şayağından kemerli ceket , göğsü kapalı yelek , paçaları dize kadar ilikli pantolon ; Omuzda tüfek , yanda çanta , ağızda bir cigara , bir adım önde , bir iki üç , yahut daha ziyade köpek … Naşekibane bir tehalük ve telaşı ile avcı kendini sokağa atar ;",
+    "output": "Rumeli: B-LOCATION, şayağından: O, kemerli: O, ceket: O, ,: O, göğsü: O, kapalı: O, yelek: O, ,: O, paçaları: O, dize: O, kadar: O, ilikli: O, pantolon: O, ;: O, Omuzda: O, tüfek: O, ,: O, yanda: O, çanta: O, ,: O, ağızda: O, bir: O, cigara: O, ,: O, bir: O, adım: O, önde: O, ,: O, bir: O, iki: O, üç: O, ,: O, yahut: O, daha: O, ziyade: O, köpek: O, …: O, Naşekibane: O, bir: O, tehalük: O, ve: O, telaşı: O, ile: O, avcı: O, kendini: O, sokağa: O, atar: O, ;: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Edison’un terakkiyat-ı medeniyeye yardım hususunda olsun namı hakikaten ihtiramla yâd olunmalıdır .",
+    "output": "Edison’un: B-PERSON, terakkiyat-ı: O, medeniyeye: O, yardım: O, hususunda: O, olsun: O, namı: O, hakikaten: O, ihtiramla: O, yâd: O, olunmalıdır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yunanistan’da Serigo Adası kurbunda kasr-ı deryada keşfedilen bu heykel vaktiyle Yunanistan’dan Roma’ya nakil olunurken sefinenin gark olması üzerine nabedid olan asar-ı bediadan biridir ki sanayi-i nefise nokta-i nazarından haiz olduğu kıymet pek bâlâdır .",
+    "output": "Yunanistan’da: B-LOCATION, Serigo: B-LOCATION, Adası: I-LOCATION, kurbunda: O, kasr-ı: O, deryada: O, keşfedilen: O, bu: O, heykel: O, vaktiyle: O, Yunanistan’dan: B-LOCATION, Roma’ya: B-LOCATION, nakil: O, olunurken: O, sefinenin: O, gark: O, olması: O, üzerine: O, nabedid: O, olan: O, asar-ı: O, bediadan: O, biridir: O, ki: O, sanayi-i: O, nefise: O, nokta-i: O, nazarından: O, haiz: O, olduğu: O, kıymet: O, pek: O, bâlâdır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fahr-i efhem-i kainat-ı aliye ekmelü’t-tahiyat efendimiz hazretlerinin cedd-i mübarekleri Seyyidina Haşim namına Gazze’de kain olup cedd-i emced cenab-ı şehriyarı cennetmekân Abdülmecid Han hazretlerinin zaman-ı saltanatlarında tamir ve tevsi buyurulan mescid-i şerifin seyyar memurumuz tarafından ahz ve irsal olunan fotografisi suret-i mahsusada hakkettirilerek işbu sahifemizde derc-i sütun-ı tazim kılındı .",
+    "output": "Fahr-i: O, efhem-i: O, kainat-ı: O, aliye: O, ekmelü’t-tahiyat: O, efendimiz: O, hazretlerinin: O, cedd-i: O, mübarekleri: O, Seyyidina: B-PERSON, Haşim: I-PERSON, namına: O, Gazze’de: B-LOCATION, kain: O, olup: O, cedd-i: O, emced: O, cenab-ı: O, şehriyarı: O, cennetmekân: O, Abdülmecid: B-PERSON, Han: I-PERSON, hazretlerinin: O, zaman-ı: O, saltanatlarında: O, tamir: O, ve: O, tevsi: O, buyurulan: O, mescid-i: O, şerifin: O, seyyar: O, memurumuz: O, tarafından: O, ahz: O, ve: O, irsal: O, olunan: O, fotografisi: O, suret-i: O, mahsusada: O, hakkettirilerek: O, işbu: O, sahifemizde: O, derc-i: O, sütun-ı: O, tazim: O, kılındı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Birinci menzilhanemiz olan Nehrivan karyesine girdik .",
+    "output": "Birinci: O, menzilhanemiz: O, olan: O, Nehrivan: B-LOCATION, karyesine: O, girdik: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mevsim-i hararet hulul ederek sıcakların taht-ı tesirinde kalalıdan beri eyyam-ı tatiliyede güneş nokta-yı zevalden pek çok tebaüt etmedikçe evden dışarı çıkmak zor geliyor idi Onun için Osmanlı tiyatrosunun – gittikçe met olunan – güzel oyunlarını seyretmek üzere Kuşdili çayırının gündüz saat yediden sonra ki hararetine tahammülü bir türlü göze alamıyordum .",
+    "output": "Mevsim-i: O, hararet: O, hulul: O, ederek: O, sıcakların: O, taht-ı: O, tesirinde: O, kalalıdan: O, beri: O, eyyam-ı: O, tatiliyede: O, güneş: O, nokta-yı: O, zevalden: O, pek: O, çok: O, tebaüt: O, etmedikçe: O, evden: O, dışarı: O, çıkmak: O, zor: O, geliyor: O, idi: O, Onun: O, için: O, Osmanlı: O, tiyatrosunun: O, –: O, gittikçe: O, met: O, olunan: O, –: O, güzel: O, oyunlarını: O, seyretmek: O, üzere: O, Kuşdili: B-LOCATION, çayırının: O, gündüz: O, saat: O, yediden: O, sonra: O, ki: O, hararetine: O, tahammülü: O, bir: O, türlü: O, göze: O, alamıyordum: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Her istenildiği vakit köprüye gelip de İstinye’ye uğrayacak bir vapurun azimet zamanına tesadüf etmek hakikaten tesadüfat-ı mesudane kabilindendir .",
+    "output": "Her: O, istenildiği: O, vakit: O, köprüye: O, gelip: O, de: O, İstinye’ye: B-LOCATION, uğrayacak: O, bir: O, vapurun: O, azimet: O, zamanına: O, tesadüf: O, etmek: O, hakikaten: O, tesadüfat-ı: O, mesudane: O, kabilindendir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Niğde sancağına tabi ve nefs-i Niğde’ye on altı saat bad ve mesafede kâindir .",
+    "output": "Niğde: B-LOCATION, sancağına: O, tabi: O, ve: O, nefs-i: O, Niğde’ye: B-LOCATION, on: O, altı: O, saat: O, bad: O, ve: O, mesafede: O, kâindir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çadırın kenarında şu satırların kayıt ve zaptıyla iştigal ederken bir aralık gözüme tuhaf bir manzara ilişti Salih Çavuş su başında gömleğini yıkamakla meşgul bir bedevinin ensesine doğru güneşe bir şey tutuyordu , derken bedevi birden bire elini bu yanına götürerek yerinden fırladı .",
+    "output": "Çadırın: O, kenarında: O, şu: O, satırların: O, kayıt: O, ve: O, zaptıyla: O, iştigal: O, ederken: O, bir: O, aralık: O, gözüme: O, tuhaf: O, bir: O, manzara: O, ilişti: O, Salih: B-PERSON, Çavuş: I-PERSON, su: O, başında: O, gömleğini: O, yıkamakla: O, meşgul: O, bir: O, bedevinin: O, ensesine: O, doğru: O, güneşe: O, bir: O, şey: O, tutuyordu: O, ,: O, derken: O, bedevi: O, birden: O, bire: O, elini: O, bu: O, yanına: O, götürerek: O, yerinden: O, fırladı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Halit Ziya hayat-ı hakikiyeye bir müdekkik ve müşahit nazarıyla bakmıyor .",
+    "output": "Halit: B-PERSON, Ziya: I-PERSON, hayat-ı: O, hakikiyeye: O, bir: O, müdekkik: O, ve: O, müşahit: O, nazarıyla: O, bakmıyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Cümle-i muvaffakiyat-ı cenab-ı padişahiden olmak üzere Trablusgarp vilayetince dahi hiz-ara-yı husul olan müessesat-ı hayriyet-i gayattan olmak üzere şehr-i mezkûrda ahiren ve müceddeden inşa olunan hastanenin suret-i küşadını irae eder resmi bu nüshamıza derç ile kesb-i fahr ve mesar ediyoruz .",
+    "output": "Cümle-i: O, muvaffakiyat-ı: O, cenab-ı: O, padişahiden: O, olmak: O, üzere: O, Trablusgarp: B-LOCATION, vilayetince: O, dahi: O, hiz-ara-yı: O, husul: O, olan: O, müessesat-ı: O, hayriyet-i: O, gayattan: O, olmak: O, üzere: O, şehr-i: O, mezkûrda: O, ahiren: O, ve: O, müceddeden: O, inşa: O, olunan: O, hastanenin: O, suret-i: O, küşadını: O, irae: O, eder: O, resmi: O, bu: O, nüshamıza: O, derç: O, ile: O, kesb-i: O, fahr: O, ve: O, mesar: O, ediyoruz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Almanya erbab-ı fenninden Münihli Mösyö Lebende’nin havayı su gibi akıttığı yahut buz gibi dondurduğu geçen hafta Avrupa gazetelerinden birçoğunun sütunlarında okunmuştur .",
+    "output": "Almanya: B-LOCATION, erbab-ı: O, fenninden: O, Münihli: O, Mösyö: O, Lebende’nin: B-PERSON, havayı: O, su: O, gibi: O, akıttığı: O, yahut: O, buz: O, gibi: O, dondurduğu: O, geçen: O, hafta: O, Avrupa: B-LOCATION, gazetelerinden: O, birçoğunun: O, sütunlarında: O, okunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Felemenk erbab-ı fünunundan doktor Zilman isminde bir zat ahiren pek basit bir tecrübe icra ederek bazı müdekkikinin nazar-ı dikkatini calip olmuştur .",
+    "output": "Felemenk: B-LOCATION, erbab-ı: O, fünunundan: O, doktor: O, Zilman: B-PERSON, isminde: O, bir: O, zat: O, ahiren: O, pek: O, basit: O, bir: O, tecrübe: O, icra: O, ederek: O, bazı: O, müdekkikinin: O, nazar-ı: O, dikkatini: O, calip: O, olmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kudüs-i Şerif maarif müdürü iken irtihal-i dar-ı beka eden merhum Arif Hikmet Bey sülale-i tahire-i Hüseyniye’den ve Kudüs-i Şerif eşrafından merhum Musa Paşa’nın büyük mahdumu olup bin iki yüz yetmiş dört sene-i hicriyesinde Kudüs-i Şerif’te tevellüt etmiştir .",
+    "output": "Kudüs-i: B-LOCATION, Şerif: I-LOCATION, maarif: O, müdürü: O, iken: O, irtihal-i: O, dar-ı: O, beka: O, eden: O, merhum: O, Arif: B-PERSON, Hikmet: I-PERSON, Bey: I-PERSON, sülale-i: O, tahire-i: O, Hüseyniye’den: O, ve: O, Kudüs-i: B-LOCATION, Şerif: I-LOCATION, eşrafından: O, merhum: O, Musa: B-PERSON, Paşa’nın: I-PERSON, büyük: O, mahdumu: O, olup: O, bin: O, iki: O, yüz: O, yetmiş: O, dört: O, sene-i: O, hicriyesinde: O, Kudüs-i: B-LOCATION, Şerif’te: I-LOCATION, tevellüt: O, etmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hamdi Beyzade Osman Adil Beyefendinin son eseridir .",
+    "output": "Hamdi: B-PERSON, Beyzade: I-PERSON, Osman: I-PERSON, Adil: I-PERSON, Beyefendinin: I-PERSON, son: O, eseridir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yevmi gazete idarelerinden birinin heyet-i tahririye odasında Çin’de birkaç Alman misyonerinin katli havadisi ilk alındığı gün muharrirler arasında bu hadiseye dair bir küçük muhavere cereyan etti .",
+    "output": "Yevmi: O, gazete: O, idarelerinden: O, birinin: O, heyet-i: O, tahririye: O, odasında: O, Çin’de: B-LOCATION, birkaç: O, Alman: O, misyonerinin: O, katli: O, havadisi: O, ilk: O, alındığı: O, gün: O, muharrirler: O, arasında: O, bu: O, hadiseye: O, dair: O, bir: O, küçük: O, muhavere: O, cereyan: O, etti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Haberler içinde en mühimi Amerikalı meşhur Edison’nun röntgen şuaatından istiane ederek dimağ-ı beşerin resmini almaya çalışması idi .",
+    "output": "Haberler: O, içinde: O, en: O, mühimi: O, Amerikalı: O, meşhur: O, Edison’nun: B-PERSON, röntgen: O, şuaatından: O, istiane: O, ederek: O, dimağ-ı: O, beşerin: O, resmini: O, almaya: O, çalışması: O, idi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Aleksandır Duma-zadenin asar-ı meşhuresinden olan bu romancık Ahmed İhsan Bey tarafından tercüme olunarak Âlem Matbaası marifetiyle tab ve neşrolundu .",
+    "output": "Aleksandır: B-PERSON, Duma-zadenin: I-PERSON, asar-ı: O, meşhuresinden: O, olan: O, bu: O, romancık: O, Ahmed: B-PERSON, İhsan: I-PERSON, Bey: I-PERSON, tarafından: O, tercüme: O, olunarak: O, Âlem: O, Matbaası: O, marifetiyle: O, tab: O, ve: O, neşrolundu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bilinemez , Abdullah Zühtü Bey’in hame-i selaset-perverinde nasıl bir kudret vardır ki en adi bir mevzudan , mesela bir “ [?] buğday”cıdan , bir “sebil”ciden bile bahsettiği zaman bunlarla dikkat-i kariyi silsile-i beyan-ı rakikine esir eder ve ekseriyetle bir iki gözyaşı da döktürür .",
+    "output": "Bilinemez: O, ,: O, Abdullah: B-PERSON, Zühtü: I-PERSON, Bey’in: I-PERSON, hame-i: O, selaset-perverinde: O, nasıl: O, bir: O, kudret: O, vardır: O, ki: O, en: O, adi: O, bir: O, mevzudan: O, ,: O, mesela: O, bir: O, “: O, [?]: O, buğday”cıdan: O, ,: O, bir: O, “sebil”ciden: O, bile: O, bahsettiği: O, zaman: O, bunlarla: O, dikkat-i: O, kariyi: O, silsile-i: O, beyan-ı: O, rakikine: O, esir: O, eder: O, ve: O, ekseriyetle: O, bir: O, iki: O, gözyaşı: O, da: O, döktürür: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dersaadet- Selanik hattının ikmal edildiği günden beri Selanik’e kadar gitmek ve görüp gelenlerin hayretle tarif ve tavsif ettikleri Karasu Boğazı ile oradaki tünelleri görmek arzusundaydım .",
+    "output": "Dersaadet-: B-LOCATION, Selanik: B-LOCATION, hattının: O, ikmal: O, edildiği: O, günden: O, beri: O, Selanik’e: B-LOCATION, kadar: O, gitmek: O, ve: O, görüp: O, gelenlerin: O, hayretle: O, tarif: O, ve: O, tavsif: O, ettikleri: O, Karasu: B-LOCATION, Boğazı: I-LOCATION, ile: O, oradaki: O, tünelleri: O, görmek: O, arzusundaydım: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1853 Kânunuevvel’inin yirmi dördünde Prens Napolyon’un taht-ı riyasetinde otuz sekiz azadan mürekkep bir komisyon teşekkül ederek muamelat-ı inşaiye vesaire ile iştigale başladı .",
+    "output": "1853: O, Kânunuevvel’inin: O, yirmi: O, dördünde: O, Prens: O, Napolyon’un: B-PERSON, taht-ı: O, riyasetinde: O, otuz: O, sekiz: O, azadan: O, mürekkep: O, bir: O, komisyon: O, teşekkül: O, ederek: O, muamelat-ı: O, inşaiye: O, vesaire: O, ile: O, iştigale: O, başladı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fennî tiyatro deyince akla iptida Jul Vern’in asarından tiyatroya tahvil edilenler gelir .",
+    "output": "Fennî: O, tiyatro: O, deyince: O, akla: O, iptida: O, Jul: B-PERSON, Vern’in: I-PERSON, asarından: O, tiyatroya: O, tahvil: O, edilenler: O, gelir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İtalyanın Habeşistan ordusu yeni kumandanı Jenaral Baldisare Venisya’da Odeni’de tevellüt etmiş ve pek çok hidemat-ı nafiası görülmüş askerlerdendir .",
+    "output": "İtalyanın: B-LOCATION, Habeşistan: B-LOCATION, ordusu: O, yeni: O, kumandanı: O, Jenaral: B-PERSON, Baldisare: I-PERSON, Venisya’da: B-LOCATION, Odeni’de: B-LOCATION, tevellüt: O, etmiş: O, ve: O, pek: O, çok: O, hidemat-ı: O, nafiası: O, görülmüş: O, askerlerdendir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Haydarpaşa çayırında , Fenerbahçesi’nde hazırlık görenlerin çehresinde tebessüm-i ümit lema-dar oluyor Hızır İlyas günü fasl-ı bahardan hakkıyla istifade olunacak deniliyordu .",
+    "output": "Haydarpaşa: B-LOCATION, çayırında: O, ,: O, Fenerbahçesi’nde: B-LOCATION, hazırlık: O, görenlerin: O, çehresinde: O, tebessüm-i: O, ümit: O, lema-dar: O, oluyor: O, Hızır: O, İlyas: O, günü: O, fasl-ı: O, bahardan: O, hakkıyla: O, istifade: O, olunacak: O, deniliyordu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dördüncüsü Karaköy kapısındaki karakolhaneyi sahilden tasvir eyliyor .",
+    "output": "Dördüncüsü: O, Karaköy: B-LOCATION, kapısındaki: O, karakolhaneyi: O, sahilden: O, tasvir: O, eyliyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çünkü erbab-ı ilmin tetkikat-ı ciddiye ve cedidesi ve kimyanın ve bahusus yalnız ziraata ait kısımla iştigal eden ve seneden seneye daire-i vukufu tevsi olunan “kimya-yı zirai”nin terakkisi sayesinde Avrupa ve Amerika’da ziraat yirmi seneden beri mühim bir fen heyetine girmiş ve hars ve ziraat etmek yalnız toprağı kazarak tohum saçmaktan ibaret kalmayıp gayet müdakkikane ve vakıfane icra olunan tecrübeler neticesinde hangi toprağın ne cins nebatın neşv-ü nemasına müsait ve bir nebatın layıkıyla mahsuldar olması ne gibi esbab altında mümkün bulunduğu , nebatatın ıslah-ı bünyesi , bereketi neye mütevakkıf olduğu meydana çıkarılmakta , buna göre hareket olunarak daima fen dairesinde kavaid-i fenniyeye ittiba olunmak şartıyla ziraat edilmekte bulunmuştur .",
+    "output": "Çünkü: O, erbab-ı: O, ilmin: O, tetkikat-ı: O, ciddiye: O, ve: O, cedidesi: O, ve: O, kimyanın: O, ve: O, bahusus: O, yalnız: O, ziraata: O, ait: O, kısımla: O, iştigal: O, eden: O, ve: O, seneden: O, seneye: O, daire-i: O, vukufu: O, tevsi: O, olunan: O, “kimya-yı: O, zirai”nin: O, terakkisi: O, sayesinde: O, Avrupa: B-LOCATION, ve: O, Amerika’da: B-LOCATION, ziraat: O, yirmi: O, seneden: O, beri: O, mühim: O, bir: O, fen: O, heyetine: O, girmiş: O, ve: O, hars: O, ve: O, ziraat: O, etmek: O, yalnız: O, toprağı: O, kazarak: O, tohum: O, saçmaktan: O, ibaret: O, kalmayıp: O, gayet: O, müdakkikane: O, ve: O, vakıfane: O, icra: O, olunan: O, tecrübeler: O, neticesinde: O, hangi: O, toprağın: O, ne: O, cins: O, nebatın: O, neşv-ü: O, nemasına: O, müsait: O, ve: O, bir: O, nebatın: O, layıkıyla: O, mahsuldar: O, olması: O, ne: O, gibi: O, esbab: O, altında: O, mümkün: O, bulunduğu: O, ,: O, nebatatın: O, ıslah-ı: O, bünyesi: O, ,: O, bereketi: O, neye: O, mütevakkıf: O, olduğu: O, meydana: O, çıkarılmakta: O, ,: O, buna: O, göre: O, hareket: O, olunarak: O, daima: O, fen: O, dairesinde: O, kavaid-i: O, fenniyeye: O, ittiba: O, olunmak: O, şartıyla: O, ziraat: O, edilmekte: O, bulunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kasabamızın kıble cihetinde ve bir saat bad-ı mesafede vaki Berka nam mahalde saye-i sütuvetvaye-i hazret-i padişahide akdemce inşasına mübaşeret olunup bu kere inşaatı reside-i hadd-i hitam olan 154 metre tulunda ve 16 metre arzında ve 2466 metre murabbaında cünud-ı zafer-nümud-ı cenab-ı padişahinin ikametine mahsus kışla-i hümayunun geçen şehr-i kânunuevvelde memurin-i mülkiye ve ümera-yı askeriye ile düvel-i mütehabe konsolosları ve muteberan-ı muhalliye hazır olduğu halde resm-i küşadı icra ve bu vesile ile de davet-i hayriyet-ayat hazret-i hilafetpenahi tekrar eda kılınmıştır .",
+    "output": "Kasabamızın: O, kıble: O, cihetinde: O, ve: O, bir: O, saat: O, bad-ı: O, mesafede: O, vaki: O, Berka: B-LOCATION, nam: O, mahalde: O, saye-i: O, sütuvetvaye-i: O, hazret-i: O, padişahide: O, akdemce: O, inşasına: O, mübaşeret: O, olunup: O, bu: O, kere: O, inşaatı: O, reside-i: O, hadd-i: O, hitam: O, olan: O, 154: O, metre: O, tulunda: O, ve: O, 16: O, metre: O, arzında: O, ve: O, 2466: O, metre: O, murabbaında: O, cünud-ı: O, zafer-nümud-ı: O, cenab-ı: O, padişahinin: O, ikametine: O, mahsus: O, kışla-i: O, hümayunun: O, geçen: O, şehr-i: O, kânunuevvelde: O, memurin-i: O, mülkiye: O, ve: O, ümera-yı: O, askeriye: O, ile: O, düvel-i: O, mütehabe: O, konsolosları: O, ve: O, muteberan-ı: O, muhalliye: O, hazır: O, olduğu: O, halde: O, resm-i: O, küşadı: O, icra: O, ve: O, bu: O, vesile: O, ile: O, de: O, davet-i: O, hayriyet-ayat: O, hazret-i: O, hilafetpenahi: O, tekrar: O, eda: O, kılınmıştır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu sergide tarihe ait devire suret-i mahsusada ehemmiyet verilmiş ve Macaristan’ın bin senelik devr-i tarihiyesi burada asarıyla gösterilerek enzar-ı temaşada tecessüm ettirilmek ve bu edvarın mücessem levhaları vücuda getirilmek istenilmiştir .",
+    "output": "Bu: O, sergide: O, tarihe: O, ait: O, devire: O, suret-i: O, mahsusada: O, ehemmiyet: O, verilmiş: O, ve: O, Macaristan’ın: B-LOCATION, bin: O, senelik: O, devr-i: O, tarihiyesi: O, burada: O, asarıyla: O, gösterilerek: O, enzar-ı: O, temaşada: O, tecessüm: O, ettirilmek: O, ve: O, bu: O, edvarın: O, mücessem: O, levhaları: O, vücuda: O, getirilmek: O, istenilmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mamulatın ve masnuatın zarafet ve letafeti hususunda Fransa fabrikaları teferrüt eylemişti .",
+    "output": "Mamulatın: O, ve: O, masnuatın: O, zarafet: O, ve: O, letafeti: O, hususunda: O, Fransa: B-LOCATION, fabrikaları: O, teferrüt: O, eylemişti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fakat o zaman okuduğum ve bayıldığım romanlar Gece Yolcuları , Londra Biçaregânı , Hüseyin Fellah olduğundan romancılığı bundan ibaret zannediyor , öyle yazmaya uğraşıyordum ve bir gün , birçok tecrübelerden , koşuşlardan sonra , rüştiyenin son senesinde , şimdi on bir sene oluyor , Denaet -yahut- Gaskonya Korsanları diye bir romanı , ilk tamam romanımı yazıp onu o zaman sınıfımızın baş romancısı olan bir arkadaşım da takdir ettiği zaman kendi kendime “ İşte artık ben de romancı oldum ! ” dedim .",
+    "output": "Fakat: O, o: O, zaman: O, okuduğum: O, ve: O, bayıldığım: O, romanlar: O, Gece: O, Yolcuları: O, ,: O, Londra: B-LOCATION, Biçaregânı: O, ,: O, Hüseyin: B-PERSON, Fellah: I-PERSON, olduğundan: O, romancılığı: O, bundan: O, ibaret: O, zannediyor: O, ,: O, öyle: O, yazmaya: O, uğraşıyordum: O, ve: O, bir: O, gün: O, ,: O, birçok: O, tecrübelerden: O, ,: O, koşuşlardan: O, sonra: O, ,: O, rüştiyenin: O, son: O, senesinde: O, ,: O, şimdi: O, on: O, bir: O, sene: O, oluyor: O, ,: O, Denaet: O, -yahut-: O, Gaskonya: B-LOCATION, Korsanları: O, diye: O, bir: O, romanı: O, ,: O, ilk: O, tamam: O, romanımı: O, yazıp: O, onu: O, o: O, zaman: O, sınıfımızın: O, baş: O, romancısı: O, olan: O, bir: O, arkadaşım: O, da: O, takdir: O, ettiği: O, zaman: O, kendi: O, kendime: O, “: O, İşte: O, artık: O, ben: O, de: O, romancı: O, oldum: O, !: O, ”: O, dedim: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Resimler zararsızca olmuş , bir noksan varsa o da Berat’a ait olarak verilen tafsilatın pek muhtasar olmasından ibaret .",
+    "output": "Resimler: O, zararsızca: O, olmuş: O, ,: O, bir: O, noksan: O, varsa: O, o: O, da: O, Berat’a: B-LOCATION, ait: O, olarak: O, verilen: O, tafsilatın: O, pek: O, muhtasar: O, olmasından: O, ibaret: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İngiliz ulemasından Sör Vilyam Kruks’un ahiren İngiltere Terakki-i Fünun şirketi azasından mürekkep bir cemiyette vaki olan beyanata göre Buğday hasılatıyla sarfiyatı arasında yaptığı bir muvazeneden bin dokuz yüz otuz senesine doğru bütün cihan-ı medeniyette bir tenakus-ı hububat hüküm-ferma olacağı anlaşılmaktaymış .",
+    "output": "İngiliz: O, ulemasından: O, Sör: O, Vilyam: B-PERSON, Kruks’un: I-PERSON, ahiren: O, İngiltere: B-LOCATION, Terakki-i: O, Fünun: O, şirketi: O, azasından: O, mürekkep: O, bir: O, cemiyette: O, vaki: O, olan: O, beyanata: O, göre: O, Buğday: O, hasılatıyla: O, sarfiyatı: O, arasında: O, yaptığı: O, bir: O, muvazeneden: O, bin: O, dokuz: O, yüz: O, otuz: O, senesine: O, doğru: O, bütün: O, cihan-ı: O, medeniyette: O, bir: O, tenakus-ı: O, hububat: O, hüküm-ferma: O, olacağı: O, anlaşılmaktaymış: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İşittiğimiz o Çin ve Japon mağazası buradan ilerideydi .",
+    "output": "İşittiğimiz: O, o: O, Çin: B-LOCATION, ve: O, Japon: O, mağazası: O, buradan: O, ilerideydi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "sayfasına derç olunan resim Kangırı muhbirimiz tarafından mürsel olup “ Hamidiye ” nam-ı maalî ittisamını haiz hastaneyi irae eder .",
+    "output": "sayfasına: O, derç: O, olunan: O, resim: O, Kangırı: B-LOCATION, muhbirimiz: O, tarafından: O, mürsel: O, olup: O, “: O, Hamidiye: O, ”: O, nam-ı: O, maalî: O, ittisamını: O, haiz: O, hastaneyi: O, irae: O, eder: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İstanbul postamızı iki haftadır yazmadık , kesret-i mündericatın bu bapta dahlini inkar etmez isek de şiddetli havaların , dehşetli fırtınaların insanı olduğu yerden kımıldatmayacak derecede hüküm süren soğukların dahi tesirini unutmak caiz olamaz .",
+    "output": "İstanbul: B-LOCATION, postamızı: O, iki: O, haftadır: O, yazmadık: O, ,: O, kesret-i: O, mündericatın: O, bu: O, bapta: O, dahlini: O, inkar: O, etmez: O, isek: O, de: O, şiddetli: O, havaların: O, ,: O, dehşetli: O, fırtınaların: O, insanı: O, olduğu: O, yerden: O, kımıldatmayacak: O, derecede: O, hüküm: O, süren: O, soğukların: O, dahi: O, tesirini: O, unutmak: O, caiz: O, olamaz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mehmed Rauf’un “ Bizde Hikâye ” makalesini okumuş bir zat romanların hiçbir kayıt ve şarta tabii olmayacakları hakkındaki beyanatına dikkat ederek bana “ Öyle ise Haydut Montari ve emsali kitaplara da Mai ve Siyah gibi roman diyeceğiz ? ” dedi .",
+    "output": "Mehmed: B-PERSON, Rauf’un: I-PERSON, “: O, Bizde: O, Hikâye: O, ”: O, makalesini: O, okumuş: O, bir: O, zat: O, romanların: O, hiçbir: O, kayıt: O, ve: O, şarta: O, tabii: O, olmayacakları: O, hakkındaki: O, beyanatına: O, dikkat: O, ederek: O, bana: O, “: O, Öyle: O, ise: O, Haydut: O, Montari: O, ve: O, emsali: O, kitaplara: O, da: O, Mai: O, ve: O, Siyah: O, gibi: O, roman: O, diyeceğiz: O, ?: O, ”: O, dedi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Lavvaziye ise bundan iyisini , kimya-yı cedidi buldu .",
+    "output": "Lavvaziye: B-PERSON, ise: O, bundan: O, iyisini: O, ,: O, kimya-yı: O, cedidi: O, buldu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Trablusşam’ı uzaktan ve pek sathi bir surette bilirim , 1305 senesinde bir ay seyahat-i Mısır’a gittiğim zaman Suriye sahil yolunu tercih etmiştim , o zaman vapurumuz Trablus pişgâhında birkaç saat durmuş , ben de karaya çıkıp memleketi şöylece gezmiştim .",
+    "output": "Trablusşam’ı: B-LOCATION, uzaktan: O, ve: O, pek: O, sathi: O, bir: O, surette: O, bilirim: O, ,: O, 1305: O, senesinde: O, bir: O, ay: O, seyahat-i: O, Mısır’a: B-LOCATION, gittiğim: O, zaman: O, Suriye: B-LOCATION, sahil: O, yolunu: O, tercih: O, etmiştim: O, ,: O, o: O, zaman: O, vapurumuz: O, Trablus: B-LOCATION, pişgâhında: O, birkaç: O, saat: O, durmuş: O, ,: O, ben: O, de: O, karaya: O, çıkıp: O, memleketi: O, şöylece: O, gezmiştim: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bazı erbab-ı dikkat bu hadiselerle Japonya’da vukua gelen asar-ı bürkâniye ve Antil Adaları’nda zuhur eden şiddetli kasırga arasında bir münasebet tasavvur etmişlerdir .",
+    "output": "Bazı: O, erbab-ı: O, dikkat: O, bu: O, hadiselerle: O, Japonya’da: B-LOCATION, vukua: O, gelen: O, asar-ı: O, bürkâniye: O, ve: O, Antil: B-LOCATION, Adaları’nda: I-LOCATION, zuhur: O, eden: O, şiddetli: O, kasırga: O, arasında: O, bir: O, münasebet: O, tasavvur: O, etmişlerdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yaveran-ı hazret-i şehriyariden ve teftiş-i askerî komisyon-ı alisi azasından Erkân-ı Harbiye mirlivası merhum Emin Paşa Şeyhü’l-harem Hazret-i Nebevi El-hac Ali Paşa ahfadından olup bin iki yüz altmış altı sene-i hicriyesinde Dersaadet’te tevellüt etmiş ve on dört yaşında olduğu halde",
+    "output": "Yaveran-ı: O, hazret-i: O, şehriyariden: O, ve: O, teftiş-i: O, askerî: O, komisyon-ı: O, alisi: O, azasından: O, Erkân-ı: O, Harbiye: O, mirlivası: O, merhum: O, Emin: B-PERSON, Paşa: I-PERSON, Şeyhü’l-harem: O, Hazret-i: O, Nebevi: O, El-hac: B-PERSON, Ali: I-PERSON, Paşa: I-PERSON, ahfadından: O, olup: O, bin: O, iki: O, yüz: O, altmış: O, altı: O, sene-i: O, hicriyesinde: O, Dersaadet’te: B-LOCATION, tevellüt: O, etmiş: O, ve: O, on: O, dört: O, yaşında: O, olduğu: O, halde: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Amerika-yı cenubî hükûmetlerinden Venezuela hükûmetinin tahdit-i hududî meselesinden dolayı İngiltere ile Amerika hükûmeti arasında bir ihtilaf zuhura gelmiş olduğu ve bu ihtilaf bir aralık İngiltere ile Amerika arasında harbi intaç edecek kadar kesb-i şiddet eylediği ve mühim bir mesele-i siyasiye tahaddüs ettiği havadis kısmımızda okunmuştur .",
+    "output": "Amerika-yı: B-LOCATION, cenubî: I-LOCATION, hükûmetlerinden: O, Venezuela: B-LOCATION, hükûmetinin: O, tahdit-i: O, hududî: O, meselesinden: O, dolayı: O, İngiltere: B-LOCATION, ile: O, Amerika: B-LOCATION, hükûmeti: O, arasında: O, bir: O, ihtilaf: O, zuhura: O, gelmiş: O, olduğu: O, ve: O, bu: O, ihtilaf: O, bir: O, aralık: O, İngiltere: B-LOCATION, ile: O, Amerika: B-LOCATION, arasında: O, harbi: O, intaç: O, edecek: O, kadar: O, kesb-i: O, şiddet: O, eylediği: O, ve: O, mühim: O, bir: O, mesele-i: O, siyasiye: O, tahaddüs: O, ettiği: O, havadis: O, kısmımızda: O, okunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gazetemizden bir nüshayı dest-i rağbetinde tutan Hayim Hayat Hüseyin Efendi’yi size takdim eyleriz .",
+    "output": "Gazetemizden: O, bir: O, nüshayı: O, dest-i: O, rağbetinde: O, tutan: O, Hayim: B-PERSON, Hayat: I-PERSON, Hüseyin: I-PERSON, Efendi’yi: I-PERSON, size: O, takdim: O, eyleriz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Doktor Röntgen tarafından gözle görüp fark edemediğimiz şeylerin resmini almak yolu bulunduktan ve röntgen şuaatı namıyla zikir olunagelen bu nev ziya meydana konulup vücud-ı beşerde kemiklerin resmini çıkarmak ve kapalı kutu içinde bulunan bir saatin fotoğrafyasını almak hususunda dest-res olunduktan sonra şu keşif pek çok tetkikat-ı fenniyeye kapı açmak ve her gün bir suretle tatbiki haber verilmekte bulunmuştur .",
+    "output": "Doktor: O, Röntgen: B-PERSON, tarafından: O, gözle: O, görüp: O, fark: O, edemediğimiz: O, şeylerin: O, resmini: O, almak: O, yolu: O, bulunduktan: O, ve: O, röntgen: O, şuaatı: O, namıyla: O, zikir: O, olunagelen: O, bu: O, nev: O, ziya: O, meydana: O, konulup: O, vücud-ı: O, beşerde: O, kemiklerin: O, resmini: O, çıkarmak: O, ve: O, kapalı: O, kutu: O, içinde: O, bulunan: O, bir: O, saatin: O, fotoğrafyasını: O, almak: O, hususunda: O, dest-res: O, olunduktan: O, sonra: O, şu: O, keşif: O, pek: O, çok: O, tetkikat-ı: O, fenniyeye: O, kapı: O, açmak: O, ve: O, her: O, gün: O, bir: O, suretle: O, tatbiki: O, haber: O, verilmekte: O, bulunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ahiren Fransa heyet-i vükelasında ufak bir tebdil vukua gelmiştir ki o da Hariciye Nazırı Mösyö Bertelo’nun istifası üzerine nezaret-i mezkureye reis-i vükela ve Dahiliye Nazırı Mösyö Burjuva’nın geçmesinden ve dahiliye nezaretinin dahi mebusandan Mösyö Saryen tarafından kabul olunmasından ibarettir .",
+    "output": "Ahiren: O, Fransa: B-LOCATION, heyet-i: O, vükelasında: O, ufak: O, bir: O, tebdil: O, vukua: O, gelmiştir: O, ki: O, o: O, da: O, Hariciye: O, Nazırı: O, Mösyö: O, Bertelo’nun: B-PERSON, istifası: O, üzerine: O, nezaret-i: O, mezkureye: O, reis-i: O, vükela: O, ve: O, Dahiliye: O, Nazırı: O, Mösyö: O, Burjuva’nın: B-PERSON, geçmesinden: O, ve: O, dahiliye: O, nezaretinin: O, dahi: O, mebusandan: O, Mösyö: O, Saryen: B-PERSON, tarafından: O, kabul: O, olunmasından: O, ibarettir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mesela demircilikte , kumaşçılıkta İngiltere’nin birinciliği dünyanın her tarafında teslim olunuyordu .",
+    "output": "Mesela: O, demircilikte: O, ,: O, kumaşçılıkta: O, İngiltere’nin: B-LOCATION, birinciliği: O, dünyanın: O, her: O, tarafında: O, teslim: O, olunuyordu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bulgurlu’nun bu çobanı köyde bir hüsn-i şöhrete malik değildi .",
+    "output": "Bulgurlu’nun: B-LOCATION, bu: O, çobanı: O, köyde: O, bir: O, hüsn-i: O, şöhrete: O, malik: O, değildi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fransızların ufak tefek eski usulde , eski biçimde balonlar yapmaya çalışmalarından kat-i nazar bu hususta onların daha ileriye gittikleri görülüyor , Amerikalıların ise işi pek ciddi tutarak âdeta yakın zamanda Nivyork ile Paris arasında bir sefine-i havaiye işletmek üzere bulundukları rivayet olunuyor .",
+    "output": "Fransızların: O, ufak: O, tefek: O, eski: O, usulde: O, ,: O, eski: O, biçimde: O, balonlar: O, yapmaya: O, çalışmalarından: O, kat-i: O, nazar: O, bu: O, hususta: O, onların: O, daha: O, ileriye: O, gittikleri: O, görülüyor: O, ,: O, Amerikalıların: O, ise: O, işi: O, pek: O, ciddi: O, tutarak: O, âdeta: O, yakın: O, zamanda: O, Nivyork: B-LOCATION, ile: O, Paris: B-LOCATION, arasında: O, bir: O, sefine-i: O, havaiye: O, işletmek: O, üzere: O, bulundukları: O, rivayet: O, olunuyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Siyaseten en büyük devlet olan Almanya tacir , fabrikacı , sermayedar sıfatıyla da büyük oldu .",
+    "output": "Siyaseten: O, en: O, büyük: O, devlet: O, olan: O, Almanya: B-LOCATION, tacir: O, ,: O, fabrikacı: O, ,: O, sermayedar: O, sıfatıyla: O, da: O, büyük: O, oldu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Geçen hafta hidemat-ı fevkaladelerine mükâfaten sine-i sadakat ve rüyetleri murassa bir kıta nişan-ı füruğ-efşan-ı iftihar ile tezyin buyurulan Maliye Nazırı devletlü Ahmet Nazif Paşa hazretleri umur-ı maliyedeki iktidar-ı fevkaladeleri , iffet ve istikametleri , metanet ve isabet-i fikriyeleri ile vüzera-yı Osmaniye meyanında müşarun bi’l-benandır .",
+    "output": "Geçen: O, hafta: O, hidemat-ı: O, fevkaladelerine: O, mükâfaten: O, sine-i: O, sadakat: O, ve: O, rüyetleri: O, murassa: O, bir: O, kıta: O, nişan-ı: O, füruğ-efşan-ı: O, iftihar: O, ile: O, tezyin: O, buyurulan: O, Maliye: O, Nazırı: O, devletlü: O, Ahmet: B-PERSON, Nazif: I-PERSON, Paşa: I-PERSON, hazretleri: O, umur-ı: O, maliyedeki: O, iktidar-ı: O, fevkaladeleri: O, ,: O, iffet: O, ve: O, istikametleri: O, ,: O, metanet: O, ve: O, isabet-i: O, fikriyeleri: O, ile: O, vüzera-yı: O, Osmaniye: O, meyanında: O, müşarun: O, bi’l-benandır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Saye-i mamuriyet-vaye-i Hazret-i Hilafetpenahide Zor Sancağının merkezi bulunan Deyr kasabasında vaki nizamiye kışla-i humayunu talimhanesi ittisalinde ve mürtefi arazi üzerinde ve nam-ı nami-i hazret-i tacdariye olarak bir ciheti zükura diğer ciheti nisaya mahsus üçer koğuştan kırk yatak istiabında inşa olunan hastanenin resm-i küşadı veladet-i humayun-ı meymenet-makrun-ı Hazret-i Padişahiye müsadif yevm-i mesutta teyemmünen icra olunmuştur .",
+    "output": "Saye-i: O, mamuriyet-vaye-i: O, Hazret-i: O, Hilafetpenahide: O, Zor: B-LOCATION, Sancağının: I-LOCATION, merkezi: O, bulunan: O, Deyr: B-LOCATION, kasabasında: O, vaki: O, nizamiye: O, kışla-i: O, humayunu: O, talimhanesi: O, ittisalinde: O, ve: O, mürtefi: O, arazi: O, üzerinde: O, ve: O, nam-ı: O, nami-i: O, hazret-i: O, tacdariye: O, olarak: O, bir: O, ciheti: O, zükura: O, diğer: O, ciheti: O, nisaya: O, mahsus: O, üçer: O, koğuştan: O, kırk: O, yatak: O, istiabında: O, inşa: O, olunan: O, hastanenin: O, resm-i: O, küşadı: O, veladet-i: O, humayun-ı: O, meymenet-makrun-ı: O, Hazret-i: O, Padişahiye: O, müsadif: O, yevm-i: O, mesutta: O, teyemmünen: O, icra: O, olunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu gün hemen bütün cemiyat-ı ilmiyede ma-biliştigal olan başlıca bir mesele doktor Röntgen’in keşfidir .",
+    "output": "Bu: O, gün: O, hemen: O, bütün: O, cemiyat-ı: O, ilmiyede: O, ma-biliştigal: O, olan: O, başlıca: O, bir: O, mesele: O, doktor: O, Röntgen’in: B-PERSON, keşfidir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Marki de Rudini gibi metin bir zatın res-i idareye gelmesi dahi endişe-i umumiyi pek ziyade teskin etmiştir .",
+    "output": "Marki: O, de: B-PERSON, Rudini: I-PERSON, gibi: O, metin: O, bir: O, zatın: O, res-i: O, idareye: O, gelmesi: O, dahi: O, endişe-i: O, umumiyi: O, pek: O, ziyade: O, teskin: O, etmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir müddetten beri afiyetinin muhtel olduğunu gören ve sevdiklerine hasta , zayıf bulunduğunu söyleyen Dude’ye ehibbası kendine “ muhayyel hastalık ” isnat ettiği latifesiyle mukabele ediyorlardı .",
+    "output": "Bir: O, müddetten: O, beri: O, afiyetinin: O, muhtel: O, olduğunu: O, gören: O, ve: O, sevdiklerine: O, hasta: O, ,: O, zayıf: O, bulunduğunu: O, söyleyen: O, Dude’ye: B-PERSON, ehibbası: O, kendine: O, “: O, muhayyel: O, hastalık: O, ”: O, isnat: O, ettiği: O, latifesiyle: O, mukabele: O, ediyorlardı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Romanların asar-i millîyeden intihabına gelince kariben ustad-ı muhterem atufetlü Ekrem Beyefendi hazretlerinin Araba Sevdası unvanlı musavver eser-i edibanelerinin dercine mübaşeret olunacağı gibi şimdi tefrika edilmekte bulunan Zehra romanı gibi Osmanlı erbab-ı kaleminin mahsul-i fikir ve tetkikleri olan asarı dahi bilintihap tab edeceğiz .",
+    "output": "Romanların: O, asar-i: O, millîyeden: O, intihabına: O, gelince: O, kariben: O, ustad-ı: O, muhterem: O, atufetlü: O, Ekrem: B-PERSON, Beyefendi: I-PERSON, hazretlerinin: O, Araba: O, Sevdası: O, unvanlı: O, musavver: O, eser-i: O, edibanelerinin: O, dercine: O, mübaşeret: O, olunacağı: O, gibi: O, şimdi: O, tefrika: O, edilmekte: O, bulunan: O, Zehra: O, romanı: O, gibi: O, Osmanlı: O, erbab-ı: O, kaleminin: O, mahsul-i: O, fikir: O, ve: O, tetkikleri: O, olan: O, asarı: O, dahi: O, bilintihap: O, tab: O, edeceğiz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fakat bu hafta , tiyatronun varaka-yi ilaniyesinde atufetlü Ahmed Midhat Efendi hazretlerinin Eyvah ! unvanlı eserini görünce cebime iki üç tane fazla mendil , bir de yelpaze yerleştirdim .",
+    "output": "Fakat: O, bu: O, hafta: O, ,: O, tiyatronun: O, varaka-yi: O, ilaniyesinde: O, atufetlü: O, Ahmed: B-PERSON, Midhat: I-PERSON, Efendi: I-PERSON, hazretlerinin: O, Eyvah: O, !: O, unvanlı: O, eserini: O, görünce: O, cebime: O, iki: O, üç: O, tane: O, fazla: O, mendil: O, ,: O, bir: O, de: O, yelpaze: O, yerleştirdim: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Aden bentlerinin inşasından mukaddem sekene-i belde çok vakit şurada burada biriken kirli sularla def-i ihtiyaca mecbur kalırlarmış .",
+    "output": "Aden: B-LOCATION, bentlerinin: O, inşasından: O, mukaddem: O, sekene-i: O, belde: O, çok: O, vakit: O, şurada: O, burada: O, biriken: O, kirli: O, sularla: O, def-i: O, ihtiyaca: O, mecbur: O, kalırlarmış: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şimdi teftişat-i seneviyesini ifa ederek Paris’e avdet etmiş olan müessis Mösyö Taverniye’den başka orada fabrikanın dâhiliye müdürü Mösyö Ceym ve umur-ı ticariye müdürü Aleksanyan Efendi ve mühendislerden Mösyö Onore bizi karşıladılar .",
+    "output": "Şimdi: O, teftişat-i: O, seneviyesini: O, ifa: O, ederek: O, Paris’e: B-LOCATION, avdet: O, etmiş: O, olan: O, müessis: O, Mösyö: O, Taverniye’den: B-PERSON, başka: O, orada: O, fabrikanın: O, dâhiliye: O, müdürü: O, Mösyö: O, Ceym: B-PERSON, ve: O, umur-ı: O, ticariye: O, müdürü: O, Aleksanyan: B-PERSON, Efendi: I-PERSON, ve: O, mühendislerden: O, Mösyö: O, Onore: B-PERSON, bizi: O, karşıladılar: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şato nasıl şatoluktan çıkmış müze haline girmişse tiyatro da öylece kalıptan kalıba girerek nihayet Versay’ın sena dairesi ittihaz olunmuştur .",
+    "output": "Şato: O, nasıl: O, şatoluktan: O, çıkmış: O, müze: O, haline: O, girmişse: O, tiyatro: O, da: O, öylece: O, kalıptan: O, kalıba: O, girerek: O, nihayet: O, Versay’ın: B-LOCATION, sena: O, dairesi: O, ittihaz: O, olunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İhtimarat hakkında tetkikatta bulunup mikropların tesiratı ve keyfiyatını ortaya çıkarmakla Mösyö Pastör terakki-i sanata da büyük hizmet etmiştir .",
+    "output": "İhtimarat: O, hakkında: O, tetkikatta: O, bulunup: O, mikropların: O, tesiratı: O, ve: O, keyfiyatını: O, ortaya: O, çıkarmakla: O, Mösyö: O, Pastör: B-PERSON, terakki-i: O, sanata: O, da: O, büyük: O, hizmet: O, etmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Evvelemirde asar-ı münteşiremizin Avrupa’da eyadi-i itibara alındığını anlamakla iftihar eyleriz .",
+    "output": "Evvelemirde: O, asar-ı: O, münteşiremizin: O, Avrupa’da: B-LOCATION, eyadi-i: O, itibara: O, alındığını: O, anlamakla: O, iftihar: O, eyleriz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ba-irade-i seniyye-i hazret-i hilafetpenahi bu defa teşkil buyrulmuş olan Memurin-i Mülkiye Komisyon-ı Ali’si riyasetine tayin buyrulan devletlü Zihni Paşa Hazretleri’nin bir kıta tasvirleri ile tezyin-i sahife-i mübahaat eyledik .",
+    "output": "Ba-irade-i: O, seniyye-i: O, hazret-i: O, hilafetpenahi: O, bu: O, defa: O, teşkil: O, buyrulmuş: O, olan: O, Memurin-i: O, Mülkiye: O, Komisyon-ı: O, Ali’si: O, riyasetine: O, tayin: O, buyrulan: O, devletlü: O, Zihni: B-PERSON, Paşa: I-PERSON, Hazretleri’nin: O, bir: O, kıta: O, tasvirleri: O, ile: O, tezyin-i: O, sahife-i: O, mübahaat: O, eyledik: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kendisinden intizar olunan hizmet menelik ile akd-i müsalaha ve İtalya’nın Afrika müstemlekâtını ıslah olduğundan mütearif olan bahadırlığını irae edecek fırsat bulamayacaktır zannolunuyor .",
+    "output": "Kendisinden: O, intizar: O, olunan: O, hizmet: O, menelik: O, ile: O, akd-i: O, müsalaha: O, ve: O, İtalya’nın: B-LOCATION, Afrika: B-LOCATION, müstemlekâtını: O, ıslah: O, olduğundan: O, mütearif: O, olan: O, bahadırlığını: O, irae: O, edecek: O, fırsat: O, bulamayacaktır: O, zannolunuyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Allah için erbab-ı mütalaatın da bu gibi şeylere hiç merakı yoktur !",
+    "output": "Allah: B-PERSON, için: O, erbab-ı: O, mütalaatın: O, da: O, bu: O, gibi: O, şeylere: O, hiç: O, merakı: O, yoktur: O, !: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kadimden beri medaris ve ehl-i medarisimizin selatin-i aliye-i Osmaniye’mizden gördükleri himaye ve niam-ı tergibkâraneyi bu İngiliz kolejleri İngiltere krallarından görmemişlerdir .",
+    "output": "Kadimden: O, beri: O, medaris: O, ve: O, ehl-i: O, medarisimizin: O, selatin-i: O, aliye-i: O, Osmaniye’mizden: O, gördükleri: O, himaye: O, ve: O, niam-ı: O, tergibkâraneyi: O, bu: O, İngiliz: O, kolejleri: O, İngiltere: B-LOCATION, krallarından: O, görmemişlerdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hindistan ahalisinden olan Mecusilerin ölülerini birtakım kulelere koyarak orada haşeratın ve ezcümle akbabaların pençe-i tahribine terk eyledikleri malumdur .",
+    "output": "Hindistan: B-LOCATION, ahalisinden: O, olan: O, Mecusilerin: O, ölülerini: O, birtakım: O, kulelere: O, koyarak: O, orada: O, haşeratın: O, ve: O, ezcümle: O, akbabaların: O, pençe-i: O, tahribine: O, terk: O, eyledikleri: O, malumdur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Maksat Felemenk sahilinde filan ada civarında kazazede olmuş sefine içinde bulunan milyonlarca frankın ka‘r-ı deryada birkaç seneden beri metruk kaldığını ve çıkarılmasına imkân bulunmadığını söylemek değildir .",
+    "output": "Maksat: O, Felemenk: B-LOCATION, sahilinde: O, filan: O, ada: O, civarında: O, kazazede: O, olmuş: O, sefine: O, içinde: O, bulunan: O, milyonlarca: O, frankın: O, ka‘r-ı: O, deryada: O, birkaç: O, seneden: O, beri: O, metruk: O, kaldığını: O, ve: O, çıkarılmasına: O, imkân: O, bulunmadığını: O, söylemek: O, değildir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Münir Paşa Hazretleri bidayeten Rüsumat İdaresi hidematında bulunarak cemiyet-i rüsumiyenin hin-i teşekkülünde azalığını ifa etmişler , daha sonra Maliye Nezaret-i Celilesi Aşar Emanetine tayin kılınmışlar , oradan dahi uhde-i kifayetlerine Maliye Nezaret-i Celilesi ihsan buyrularak Maliye ve bade Dahiliye Nezaretlerini on sene müddet ifa ettikten sonra 1307 senesinde ilk defa olarak Hüdavendigâr vilayeti valiliğine tayin buyrulmuşlar ve bu sene infisal etmişlerdi .",
+    "output": "Münir: B-PERSON, Paşa: I-PERSON, Hazretleri: O, bidayeten: O, Rüsumat: O, İdaresi: O, hidematında: O, bulunarak: O, cemiyet-i: O, rüsumiyenin: O, hin-i: O, teşekkülünde: O, azalığını: O, ifa: O, etmişler: O, ,: O, daha: O, sonra: O, Maliye: O, Nezaret-i: O, Celilesi: O, Aşar: O, Emanetine: O, tayin: O, kılınmışlar: O, ,: O, oradan: O, dahi: O, uhde-i: O, kifayetlerine: O, Maliye: O, Nezaret-i: O, Celilesi: O, ihsan: O, buyrularak: O, Maliye: O, ve: O, bade: O, Dahiliye: O, Nezaretlerini: O, on: O, sene: O, müddet: O, ifa: O, ettikten: O, sonra: O, 1307: O, senesinde: O, ilk: O, defa: O, olarak: O, Hüdavendigâr: B-LOCATION, vilayeti: O, valiliğine: O, tayin: O, buyrulmuşlar: O, ve: O, bu: O, sene: O, infisal: O, etmişlerdi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Arkadaşlarım Acıbadem Çamlıca Tophanelioğlu taraflarında köşk ararken yanları sıra ben zümrüdin çayırlar üstünde atılane dolaşıyor , irat olunan suallere , güzel havadan istifadeye çalışarak havalı cevaplar veriyordum .",
+    "output": "Arkadaşlarım: O, Acıbadem: B-LOCATION, Çamlıca: B-LOCATION, Tophanelioğlu: B-LOCATION, taraflarında: O, köşk: O, ararken: O, yanları: O, sıra: O, ben: O, zümrüdin: O, çayırlar: O, üstünde: O, atılane: O, dolaşıyor: O, ,: O, irat: O, olunan: O, suallere: O, ,: O, güzel: O, havadan: O, istifadeye: O, çalışarak: O, havalı: O, cevaplar: O, veriyordum: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hulul-ı köhne bahar ve hubub-ı riyah-ı bürudet-neşar ile şu günlerde Kağıthâne mevki-i latifine çöken reng-i hazin göz önüne getirilince bu nüshamızda piş-i enzar-ı kariin-i kirama vaz ettiğimiz levha pek nabehengâm bir intihap gibi addedilmek istenilir ise de bu tasvir-i zarifin -Sanayi-i Nefise Mektebi şakirdanından biri tarafından şehrimizde resm ve hakkedilmiş olduğu , yani mahza yerli mahsulat-ı bedia-i sanayimizden bulunduğu için- tab ve neşrinde bir zaman-ı münasip gözetmeğe mahal görmeyerek hemen derc-i sahife-i iftihar ettiğimizi söylediğimiz hâlde şu isticalimizden dolayı mazur görülmemiz tabiidir .",
+    "output": "Hulul-ı: O, köhne: O, bahar: O, ve: O, hubub-ı: O, riyah-ı: O, bürudet-neşar: O, ile: O, şu: O, günlerde: O, Kağıthâne: B-LOCATION, mevki-i: O, latifine: O, çöken: O, reng-i: O, hazin: O, göz: O, önüne: O, getirilince: O, bu: O, nüshamızda: O, piş-i: O, enzar-ı: O, kariin-i: O, kirama: O, vaz: O, ettiğimiz: O, levha: O, pek: O, nabehengâm: O, bir: O, intihap: O, gibi: O, addedilmek: O, istenilir: O, ise: O, de: O, bu: O, tasvir-i: O, zarifin: O, -Sanayi-i: O, Nefise: O, Mektebi: O, şakirdanından: O, biri: O, tarafından: O, şehrimizde: O, resm: O, ve: O, hakkedilmiş: O, olduğu: O, ,: O, yani: O, mahza: O, yerli: O, mahsulat-ı: O, bedia-i: O, sanayimizden: O, bulunduğu: O, için-: O, tab: O, ve: O, neşrinde: O, bir: O, zaman-ı: O, münasip: O, gözetmeğe: O, mahal: O, görmeyerek: O, hemen: O, derc-i: O, sahife-i: O, iftihar: O, ettiğimizi: O, söylediğimiz: O, hâlde: O, şu: O, isticalimizden: O, dolayı: O, mazur: O, görülmemiz: O, tabiidir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yine Amerikalılar , yine onlar ! … gözünüzün önüne getirin Güzel güzel güzel giyinmiş , dilber dilber dilber bir Paris bebeği size doğru geliyor ; bütün zerafetiyle , bütün şuhluğuyla , bütün hararetiyle , bütün rayihasıyla , tüyleriyle , ipekleriyle , tülleriyle , dantelleriyle etrafa bir hale-i tiraje-gûn-ı emel savurarak yürüyen bir genç , güzel Parisli kadın ki size doğru geliyor .",
+    "output": "Yine: O, Amerikalılar: O, ,: O, yine: O, onlar: O, !: O, …: O, gözünüzün: O, önüne: O, getirin: O, Güzel: O, güzel: O, güzel: O, giyinmiş: O, ,: O, dilber: O, dilber: O, dilber: O, bir: O, Paris: B-LOCATION, bebeği: O, size: O, doğru: O, geliyor: O, ;: O, bütün: O, zerafetiyle: O, ,: O, bütün: O, şuhluğuyla: O, ,: O, bütün: O, hararetiyle: O, ,: O, bütün: O, rayihasıyla: O, ,: O, tüyleriyle: O, ,: O, ipekleriyle: O, ,: O, tülleriyle: O, ,: O, dantelleriyle: O, etrafa: O, bir: O, hale-i: O, tiraje-gûn-ı: O, emel: O, savurarak: O, yürüyen: O, bir: O, genç: O, ,: O, güzel: O, Parisli: O, kadın: O, ki: O, size: O, doğru: O, geliyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "bu mektubu Prenses İsviçre’den Paris’de Figaro gazetesi muharriri Mösyö Alber Batay’a yazıyor .",
+    "output": "bu: O, mektubu: O, Prenses: O, İsviçre’den: B-LOCATION, Paris’de: B-LOCATION, Figaro: O, gazetesi: O, muharriri: O, Mösyö: O, Alber: B-PERSON, Batay’a: I-PERSON, yazıyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Havadaki ziyanın bir kısmı Tophane’ye doğru gitmiştir .",
+    "output": "Havadaki: O, ziyanın: O, bir: O, kısmı: O, Tophane’ye: B-LOCATION, doğru: O, gitmiştir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fransa tarih-i edebiyatına bir sahife-i matem daha ilave olunuyor , telgraflar bütün iktisar-ı edebiyyeye Edmon dö Gonkor’un vefatını tebliğ etti .",
+    "output": "Fransa: B-LOCATION, tarih-i: O, edebiyatına: O, bir: O, sahife-i: O, matem: O, daha: O, ilave: O, olunuyor: O, ,: O, telgraflar: O, bütün: O, iktisar-ı: O, edebiyyeye: O, Edmon: B-PERSON, dö: I-PERSON, Gonkor’un: I-PERSON, vefatını: O, tebliğ: O, etti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Maksadım amele pansiyonları içinde en ziyade tanınmış olan bir yerde yemek yemek olduğundan Palas Mober de bir lokantaya geldik ve kapıdan girerken bir çorba bir et bir sebze bir pilavla bir dilim de ekmeğe hakkımız olmak şartıyla üçümüz için yalnız bir buçuk frank yani ellişer santim verdikten sonra içeriye daldık .",
+    "output": "Maksadım: O, amele: O, pansiyonları: O, içinde: O, en: O, ziyade: O, tanınmış: O, olan: O, bir: O, yerde: O, yemek: O, yemek: O, olduğundan: O, Palas: B-LOCATION, Mober: I-LOCATION, de: O, bir: O, lokantaya: O, geldik: O, ve: O, kapıdan: O, girerken: O, bir: O, çorba: O, bir: O, et: O, bir: O, sebze: O, bir: O, pilavla: O, bir: O, dilim: O, de: O, ekmeğe: O, hakkımız: O, olmak: O, şartıyla: O, üçümüz: O, için: O, yalnız: O, bir: O, buçuk: O, frank: O, yani: O, ellişer: O, santim: O, verdikten: O, sonra: O, içeriye: O, daldık: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İzmir’den her sene Avrupa ve Amerika’ya ihraç olunan kaliçelerin miktar ve kıymeti bu emtia-i dâhiliyemizin ne derece mazhar-ı itibar olduğunu göstermekte . [*]",
+    "output": "İzmir’den: B-LOCATION, her: O, sene: O, Avrupa: B-LOCATION, ve: O, Amerika’ya: B-LOCATION, ihraç: O, olunan: O, kaliçelerin: O, miktar: O, ve: O, kıymeti: O, bu: O, emtia-i: O, dâhiliyemizin: O, ne: O, derece: O, mazhar-ı: O, itibar: O, olduğunu: O, göstermekte: O, .: O, [*]: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dersaadet’ten Suriye cihetine her on beş günde biri Fransız ve biri Nemse olarak iki doğru ve her on beş günde dolaşık posta vapurları hareket eylediği cihetle dolaşık vapurlara müsadif hafta çıkarak mezkûr vapurlarla gönderilen gazetelerimiz bir hafta sonraki doğru ile Beyrut ve civarına müvasalat eylediğinden muhterem abonelerimiz daima Servet-i Fünûn’un iki nüshasını bir arada alıyorlardı .",
+    "output": "Dersaadet’ten: B-LOCATION, Suriye: B-LOCATION, cihetine: O, her: O, on: O, beş: O, günde: O, biri: O, Fransız: O, ve: O, biri: O, Nemse: O, olarak: O, iki: O, doğru: O, ve: O, her: O, on: O, beş: O, günde: O, dolaşık: O, posta: O, vapurları: O, hareket: O, eylediği: O, cihetle: O, dolaşık: O, vapurlara: O, müsadif: O, hafta: O, çıkarak: O, mezkûr: O, vapurlarla: O, gönderilen: O, gazetelerimiz: O, bir: O, hafta: O, sonraki: O, doğru: O, ile: O, Beyrut: B-LOCATION, ve: O, civarına: O, müvasalat: O, eylediğinden: O, muhterem: O, abonelerimiz: O, daima: O, Servet-i: O, Fünûn’un: O, iki: O, nüshasını: O, bir: O, arada: O, alıyorlardı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Macaristan hükûmetinin Avrupa’da tesisinden şimdiye kadar 1000 sene geçmiş ve bu sene bininci sene-i devriye münasebetiyle Macaristan’ın makar hükûmeti olan Budapeşte şehrinde bir sergi tertip ve küşat mukarrer bulunmuştur .",
+    "output": "Macaristan: B-LOCATION, hükûmetinin: O, Avrupa’da: B-LOCATION, tesisinden: O, şimdiye: O, kadar: O, 1000: O, sene: O, geçmiş: O, ve: O, bu: O, sene: O, bininci: O, sene-i: O, devriye: O, münasebetiyle: O, Macaristan’ın: B-LOCATION, makar: O, hükûmeti: O, olan: O, Budapeşte: B-LOCATION, şehrinde: O, bir: O, sergi: O, tertip: O, ve: O, küşat: O, mukarrer: O, bulunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu zat Yunanistan’ın en büyük memurin-i siyasiyesindendi .",
+    "output": "Bu: O, zat: O, Yunanistan’ın: B-LOCATION, en: O, büyük: O, memurin-i: O, siyasiyesindendi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bursa’ya cari sulardan bu suya karib bir mevkide iyi su olduğunu suyolcu gelip ihbar eder , Vali Paşa Hazretleri de yedi masra kadar olan bu suyun diğer suya ilavesine ve evvelce ara sıra ilave edilen birçok masra kireçli suyun ayrılmasına himmet buyururlar ve şehirde ayrıca dört çeşme yaparlar .",
+    "output": "Bursa’ya: B-LOCATION, cari: O, sulardan: O, bu: O, suya: O, karib: O, bir: O, mevkide: O, iyi: O, su: O, olduğunu: O, suyolcu: O, gelip: O, ihbar: O, eder: O, ,: O, Vali: B-PERSON, Paşa: I-PERSON, Hazretleri: O, de: O, yedi: O, masra: O, kadar: O, olan: O, bu: O, suyun: O, diğer: O, suya: O, ilavesine: O, ve: O, evvelce: O, ara: O, sıra: O, ilave: O, edilen: O, birçok: O, masra: O, kireçli: O, suyun: O, ayrılmasına: O, himmet: O, buyururlar: O, ve: O, şehirde: O, ayrıca: O, dört: O, çeşme: O, yaparlar: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sevkülceyşin Vaterlu muharebesinden beri gösterdiği tebeddülat şayan-ı dikkattir .",
+    "output": "Sevkülceyşin: O, Vaterlu: B-LOCATION, muharebesinden: O, beri: O, gösterdiği: O, tebeddülat: O, şayan-ı: O, dikkattir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ekrem Beyefendi hazretleri med ile araba aradıkları için bulamamışlardır .",
+    "output": "Ekrem: B-PERSON, Beyefendi: I-PERSON, hazretleri: O, med: O, ile: O, araba: O, aradıkları: O, için: O, bulamamışlardır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Teşrinievvel Paris için bir mevsim-i teceddüt , bir mevsim-i feyzdir .",
+    "output": "Teşrinievvel: O, Paris: B-LOCATION, için: O, bir: O, mevsim-i: O, teceddüt: O, ,: O, bir: O, mevsim-i: O, feyzdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Cümlesine takdim-i teşekkürat eyler ve bu meyanda Viyana resm-i levhaları fabrikatörü Mösyö En ’in dahi nüsha-i mümtazemiz resimleri için fiyat-ı mukarrere üzerinden yüzde elli tenzilat icra ederek ibraz-ı müessir-i fütüvvet ve hakkımızda irae-i muhabbet etmiş olduğunu kemal-i memnuniyetle ilan ederiz .",
+    "output": "Cümlesine: O, takdim-i: O, teşekkürat: O, eyler: O, ve: O, bu: O, meyanda: O, Viyana: B-LOCATION, resm-i: O, levhaları: O, fabrikatörü: O, Mösyö: O, En: B-PERSON, ’in: O, dahi: O, nüsha-i: O, mümtazemiz: O, resimleri: O, için: O, fiyat-ı: O, mukarrere: O, üzerinden: O, yüzde: O, elli: O, tenzilat: O, icra: O, ederek: O, ibraz-ı: O, müessir-i: O, fütüvvet: O, ve: O, hakkımızda: O, irae-i: O, muhabbet: O, etmiş: O, olduğunu: O, kemal-i: O, memnuniyetle: O, ilan: O, ederiz: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dört yaşında , Alis isminde bir de güzel kızı vardı .",
+    "output": "Dört: O, yaşında: O, ,: O, Alis: B-PERSON, isminde: O, bir: O, de: O, güzel: O, kızı: O, vardı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mesela şu makalemizi yazarken bizi ziyarete gelen bir arkadaş Abdi ve Hasan Efendi Tiyatrolarında Cuma günü icra olunan “ Araba ile Devr-i Alem Yahut Buzlar İçinde Seyahat ” oyunundan havadis getirdi .",
+    "output": "Mesela: O, şu: O, makalemizi: O, yazarken: O, bizi: O, ziyarete: O, gelen: O, bir: O, arkadaş: O, Abdi: B-PERSON, ve: O, Hasan: B-PERSON, Efendi: I-PERSON, Tiyatrolarında: O, Cuma: O, günü: O, icra: O, olunan: O, “: O, Araba: O, ile: O, Devr-i: O, Alem: O, Yahut: O, Buzlar: O, İçinde: O, Seyahat: O, ”: O, oyunundan: O, havadis: O, getirdi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Avrupa’dan mevrut maden sularının cümlesine faik olan bu maden suyu mide , karaciğer ve şeker ve nikris ve kum ve fart-ı semane hastalıklarına pek faydalıdır .",
+    "output": "Avrupa’dan: B-LOCATION, mevrut: O, maden: O, sularının: O, cümlesine: O, faik: O, olan: O, bu: O, maden: O, suyu: O, mide: O, ,: O, karaciğer: O, ve: O, şeker: O, ve: O, nikris: O, ve: O, kum: O, ve: O, fart-ı: O, semane: O, hastalıklarına: O, pek: O, faydalıdır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1855 sene-i miladiyesindedir ki Paris’te ilk defa olarak beynelmilel umumi bir sergi tertip ve küşat edilmiştir ; bundan evvel de birtakım sergiler açılmışsa da zikre değecek kadar ehemmiyetleri yoktur .",
+    "output": "1855: O, sene-i: O, miladiyesindedir: O, ki: O, Paris’te: B-LOCATION, ilk: O, defa: O, olarak: O, beynelmilel: O, umumi: O, bir: O, sergi: O, tertip: O, ve: O, küşat: O, edilmiştir: O, ;: O, bundan: O, evvel: O, de: O, birtakım: O, sergiler: O, açılmışsa: O, da: O, zikre: O, değecek: O, kadar: O, ehemmiyetleri: O, yoktur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "1900 senesinde açılacak sergi Paris’e müteallik her şeye bir yenilik , bir modalık , bir ehemmiyet getirdi .",
+    "output": "1900: O, senesinde: O, açılacak: O, sergi: O, Paris’e: B-LOCATION, müteallik: O, her: O, şeye: O, bir: O, yenilik: O, ,: O, bir: O, modalık: O, ,: O, bir: O, ehemmiyet: O, getirdi: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İşte ekspozisyon bu asar-ı meserretin en şaşaalı esbabından olmak üzere tahattur edilerek Peşte’de ormanında tertip olunmuştur .",
+    "output": "İşte: O, ekspozisyon: O, bu: O, asar-ı: O, meserretin: O, en: O, şaşaalı: O, esbabından: O, olmak: O, üzere: O, tahattur: O, edilerek: O, Peşte’de: B-LOCATION, ormanında: O, tertip: O, olunmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şu maksad-ı alinin teyessür-i hüsn-i husulü emrinde Adana vali-i alisi Atufetlü Hüseyin Hilmi Bey hazretlerinin ibzal buyurdukları ikdamat ve saadetlü Defterdar ve Mektubî Beyefendiler hazretleriyle inşaat komisyonu heyeti canibinden ibraz olunan asar-ı insaniyet-i şayan-ı takdirat ve teşekkürattır .",
+    "output": "Şu: O, maksad-ı: O, alinin: O, teyessür-i: O, hüsn-i: O, husulü: O, emrinde: O, Adana: B-LOCATION, vali-i: O, alisi: O, Atufetlü: O, Hüseyin: B-PERSON, Hilmi: I-PERSON, Bey: I-PERSON, hazretlerinin: O, ibzal: O, buyurdukları: O, ikdamat: O, ve: O, saadetlü: O, Defterdar: O, ve: O, Mektubî: O, Beyefendiler: O, hazretleriyle: O, inşaat: O, komisyonu: O, heyeti: O, canibinden: O, ibraz: O, olunan: O, asar-ı: O, insaniyet-i: O, şayan-ı: O, takdirat: O, ve: O, teşekkürattır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Avatıf-ı seniyye-i mülukâneden uhde-i istihallerine rütbe-i samiye-i vüzaretle Bağdat Vilayet-i Celilesi valiliği tevcih buyurulup mah-ı halin on beşinci günü merkez-i vilayete muvasat ve innehü teala umur-ı memurelerine bed ve mübaşeret buyuran Devletlü Elhac Mehmet Ataullah Paşa Hazretleri sudurdan Kevakibizade Mehmet Seyit Efendi'nin mahdumudur .",
+    "output": "Avatıf-ı: O, seniyye-i: O, mülukâneden: O, uhde-i: O, istihallerine: O, rütbe-i: O, samiye-i: O, vüzaretle: O, Bağdat: B-LOCATION, Vilayet-i: O, Celilesi: O, valiliği: O, tevcih: O, buyurulup: O, mah-ı: O, halin: O, on: O, beşinci: O, günü: O, merkez-i: O, vilayete: O, muvasat: O, ve: O, innehü: O, teala: O, umur-ı: O, memurelerine: O, bed: O, ve: O, mübaşeret: O, buyuran: O, Devletlü: O, Elhac: B-PERSON, Mehmet: I-PERSON, Ataullah: I-PERSON, Paşa: I-PERSON, Hazretleri: O, sudurdan: O, Kevakibizade: B-PERSON, Mehmet: I-PERSON, Seyit: I-PERSON, Efendi'nin: I-PERSON, mahdumudur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Safo ; Kâh meşhur hikâyelerden alınır Don Kişot Anyes Don Juan Dalila ;",
+    "output": "Safo: O, ;: O, Kâh: O, meşhur: O, hikâyelerden: O, alınır: O, Don: B-PERSON, Kişot: I-PERSON, Anyes: B-PERSON, Don: B-PERSON, Juan: I-PERSON, Dalila: B-PERSON, ;: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Belçika gazeteleri bu yakında maden kömürünün yedi yüzüncü sene-i devriyesi merasiminin -umum âlem-i ticarette bu maddenin ehemmiyetiyle ve medeni âlemde bâdi olduğu terakkiyatın derecesiyle mütenasip bir surette- icrasını teklif ediyorlar .",
+    "output": "Belçika: B-LOCATION, gazeteleri: O, bu: O, yakında: O, maden: O, kömürünün: O, yedi: O, yüzüncü: O, sene-i: O, devriyesi: O, merasiminin: O, -umum: O, âlem-i: O, ticarette: O, bu: O, maddenin: O, ehemmiyetiyle: O, ve: O, medeni: O, âlemde: O, bâdi: O, olduğu: O, terakkiyatın: O, derecesiyle: O, mütenasip: O, bir: O, surette-: O, icrasını: O, teklif: O, ediyorlar: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İdaremizin seyyar olarak bir memuru vardır ki o da elyevm Karahisar ve Konya cihetinde bulunan Mehmet Tevfik Efendi’dir",
+    "output": "İdaremizin: O, seyyar: O, olarak: O, bir: O, memuru: O, vardır: O, ki: O, o: O, da: O, elyevm: O, Karahisar: B-LOCATION, ve: O, Konya: B-LOCATION, cihetinde: O, bulunan: O, Mehmet: B-PERSON, Tevfik: I-PERSON, Efendi’dir: I-PERSON"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diğer ikisi İstanbul’umuzda elan mevcud olan koç besleme merakına taalluk ettiği için şayan-ı temaşa olduğu gibi resimlerini aldığımız koçlar dahi hakikaten nevadirden olmasıyla manzara bir kat daha kesb-i ehemmiyet eyliyor .",
+    "output": "Diğer: O, ikisi: O, İstanbul’umuzda: B-LOCATION, elan: O, mevcud: O, olan: O, koç: O, besleme: O, merakına: O, taalluk: O, ettiği: O, için: O, şayan-ı: O, temaşa: O, olduğu: O, gibi: O, resimlerini: O, aldığımız: O, koçlar: O, dahi: O, hakikaten: O, nevadirden: O, olmasıyla: O, manzara: O, bir: O, kat: O, daha: O, kesb-i: O, ehemmiyet: O, eyliyor: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Edib-i muktedir Hüseyin Cahit Bey’in bu eser-i nefisi “ Edebiyat-ı Cedide Kütüphanesi”nin ilk kitabı olmak üzere mevki-i intişara konuldu .",
+    "output": "Edib-i: O, muktedir: O, Hüseyin: B-PERSON, Cahit: I-PERSON, Bey’in: I-PERSON, bu: O, eser-i: O, nefisi: O, “: O, Edebiyat-ı: O, Cedide: O, Kütüphanesi”nin: O, ilk: O, kitabı: O, olmak: O, üzere: O, mevki-i: O, intişara: O, konuldu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Fransa şu birkaç zaman zarfında hayli büyük zat kaybetti .",
+    "output": "Fransa: B-LOCATION, şu: O, birkaç: O, zaman: O, zarfında: O, hayli: O, büyük: O, zat: O, kaybetti: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hemen Cenab-ı Rab manen muvaffakiyetimizi berdevam buyursun .",
+    "output": "Hemen: O, Cenab-ı: B-PERSON, Rab: I-PERSON, manen: O, muvaffakiyetimizi: O, berdevam: O, buyursun: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gördüğümüz oyunların birincisi Marsel Prevo’nun “Nimbagerler”i ikincisi Hanri Milhak’ın “Fro-fro”suydu .",
+    "output": "Gördüğümüz: O, oyunların: O, birincisi: O, Marsel: B-PERSON, Prevo’nun: I-PERSON, “Nimbagerler”i: O, ikincisi: O, Hanri: B-PERSON, Milhak’ın: I-PERSON, “Fro-fro”suydu: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bir ay tebdil-i hava mukim bulunduğu Fransa’nın Kan beldesinde terk-i hayat etmiştir .",
+    "output": "Bir: O, ay: O, tebdil-i: O, hava: O, mukim: O, bulunduğu: O, Fransa’nın: B-LOCATION, Kan: B-LOCATION, beldesinde: O, terk-i: O, hayat: O, etmiştir: O, .: O"
+  }
+]

@@ -1,0 +1,757 @@
+[
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Van kadısı es-Seyyid Mehmed Sadık sene-i mezbûre Zilka‘deti’ş-şerîfesisi gurresinden on sekiz ay ve muvakkiti Mahmut on ay zamanını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Pirut kazâsından iki [ay] kasrından mâadâ elli ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ el-Hac İbrahim dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Van: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, Sadık: I-PERSON, sene-i: O, mezbûre: O, Zilka‘deti’ş-şerîfesisi: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Mahmut: B-PERSON, on: O, ay: O, zamanını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Pirut: B-LOCATION, kazâsından: O, iki: O, [ay]: O, kasrından: O, mâadâ: O, elli: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, el-Hac: B-PERSON, İbrahim: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mengen mutasarrıfı Osman gâyet-i şehr-i âtîden bakiyye on altı ay ve muvakkitleri es-Seyyid Mehmed sekiz ay ve Abdullah on iki ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Kiğı ma‘a Tercan kazâsından altı ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ el-Hac Halil dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanı kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Mengen: B-LOCATION, mutasarrıfı: O, Osman: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, altı: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, sekiz: O, ay: O, ve: O, Abdullah: B-PERSON, on: O, iki: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Kiğı: B-LOCATION, ma‘a: I-LOCATION, Tercan: I-LOCATION, kazâsından: O, altı: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, el-Hac: B-PERSON, Halil: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanı: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Suruç mutasarrıfı gâyet-i şehr-i âtîden bakiyye sekiz ay ve muvakkiti Ali on iki ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Ahmet Paşa Medresesi’nden otuz dört ay infisâli olup ledel-imtihân istihkâkı nümayan olan sezâvar-ı inâyet-i şehriyârî Mevlâna Ahmet dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Suruç: B-LOCATION, mutasarrıfı: O, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Ali: B-PERSON, on: O, iki: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Ahmet: O, Paşa: O, Medresesi’nden: O, otuz: O, dört: O, ay: O, infisâli: O, olup: O, ledel-imtihân: O, istihkâkı: O, nümayan: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, Ahmet: B-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Suruç 1 Cemaziyelahir 1168 3A",
+    "output": "Suruç: B-LOCATION, 1: O, Cemaziyelahir: O, 1168: O, 3A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Peçin kadısı Mustafa sene-i mezbûre Şabani‘l-muazzamı gurresinden on dört ay ve muvakkiti Ahmet ve diğer Ahmet on ikişer ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Bayramlı kazâsından on dokuz ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlâna İbrahim dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Peçin: B-LOCATION, kadısı: O, Mustafa: B-PERSON, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, on: O, dört: O, ay: O, ve: O, muvakkiti: O, Ahmet: B-PERSON, ve: O, diğer: O, Ahmet: B-PERSON, on: O, ikişer: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Bayramlı: B-LOCATION, kazâsından: O, on: O, dokuz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, İbrahim: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Köyceğiz kadısı Ahmet sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden sekiz ay ve muvakkiti Mehmed on sekiz ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile eş-Şeyg ma‘a Amik ve ve Tizin kazâsından iki ay kasr-ı muteberinden mâadâ otuz yedi ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Osman dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Köyceğiz: B-LOCATION, kadısı: O, Ahmet: B-PERSON, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Mehmed: B-PERSON, on: O, sekiz: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, eş-Şeyg: B-LOCATION, ma‘a: I-LOCATION, Amik: I-LOCATION, ve: O, ve: O, Tizin: B-LOCATION, kazâsından: O, iki: O, ay: O, kasr-ı: O, muteberinden: O, mâadâ: O, otuz: O, yedi: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Osman: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kaşaklı kadısı es-Seyyid Hasan sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden on sekiz ay zamanını ba‘de't-tasarruf ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Mustafa Paşa Medresesi’nden yüz otuz ay infisâli olan müte‘ayyinü'l-ehliye ve'l-istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ahmet dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kaza-yı ahardam tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kaşaklı: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Hasan: I-PERSON, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, on: O, sekiz: O, ay: O, zamanını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Mustafa: O, Paşa: O, Medresesi’nden: O, yüz: O, otuz: O, ay: O, infisâli: O, olan: O, müte‘ayyinü'l-ehliye: O, ve'l-istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kaza-yı: O, ahardam: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Edirne ma‘a Karaisalı 1 Recep 1168 4A",
+    "output": "Edirne: B-LOCATION, ma‘a: I-LOCATION, Karaisalı: I-LOCATION, 1: O, Recep: O, 1168: O, 4A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kastamonu kadısı Hafız el-Hac İbrahim sene-i âtîye Rebîü’l-âhiri gurresinden müddet-i örfiyesini ve münâsafaten muvakkiti Yeğen-zâde es-Seyyid Mehmed Arif on ay zamanını ba‘de't-tasarruf ref‘ ve yeri yevmî dört yüz doksan dokuz akçe ile Antalya kazâsından iki ay kasrı muteberinden mâ‘adâ kırk üç ay hakîkî infisâli olan eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Osmanzâde Mevlânâ es-Seyyid Ahmet dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kastamonu: B-LOCATION, kadısı: O, Hafız: B-PERSON, el-Hac: I-PERSON, İbrahim: I-PERSON, sene-i: O, âtîye: O, Rebîü’l-âhiri: O, gurresinden: O, müddet-i: O, örfiyesini: O, ve: O, münâsafaten: O, muvakkiti: O, Yeğen-zâde: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, Arif: I-PERSON, on: O, ay: O, zamanını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, dört: O, yüz: O, doksan: O, dokuz: O, akçe: O, ile: O, Antalya: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrı: O, muteberinden: O, mâ‘adâ: O, kırk: O, üç: O, ay: O, hakîkî: O, infisâli: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Osmanzâde: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Antakya mutasarrıfı Osman gâyet-i şehr-i âtîden bakiyye on ay ve muvakkiti el-Hac Ali müddet-i örfiyesini ba‘de't-tasarruf ref‘ ve yeri yevmî dört yüz doksan dokuz akçe ile yine kaza-i mezburdan yirmi dokuz ay hakîkî infisâli olan eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Mehmed dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Antakya: B-LOCATION, mutasarrıfı: O, Osman: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, ay: O, ve: O, muvakkiti: O, el-Hac: B-PERSON, Ali: I-PERSON, müddet-i: O, örfiyesini: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, dört: O, yüz: O, doksan: O, dokuz: O, akçe: O, ile: O, yine: O, kaza-i: O, mezburdan: O, yirmi: O, dokuz: O, ay: O, hakîkî: O, infisâli: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Mehmed: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tarhala mutasarrıfı Mustafa gâyet-i şehr-i âtîden bakiyye on ay zamanını ba‘de't-tasarruf ref‘ ve yeri yevmî dört yüz akçe ile Alaşehir kazâsından iki ay kasrı muteberinden mâ‘adâ yirmi yedi ay hakîkî infisâli olan eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Mehmed Hayri dâ‘îlerine bâ-terakkî yevmî dört yüz doksan akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Tarhala: B-LOCATION, mutasarrıfı: O, Mustafa: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, ay: O, zamanını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, dört: O, yüz: O, akçe: O, ile: O, Alaşehir: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrı: O, muteberinden: O, mâ‘adâ: O, yirmi: O, yedi: O, ay: O, hakîkî: O, infisâli: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Mehmed: B-PERSON, Hayri: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, dört: O, yüz: O, doksan: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Araç kadısı es-Seyyid Ahmet sene-i âtîye Muharremü’l-harâm’ı gurresinden on ay ve muvakkitleri es-Seyyid Hüseyin ve Hüseyin on ikişer ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Kırili kazâsından on sekiz ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Salih dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Araç: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, sene-i: O, âtîye: O, Muharremü’l-harâm’ı: O, gurresinden: O, on: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Hüseyin: I-PERSON, ve: O, Hüseyin: B-PERSON, on: O, ikişer: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Kırili: B-LOCATION, kazâsından: O, on: O, sekiz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Salih: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gerede 1 Recep 1168 5A",
+    "output": "Gerede: B-LOCATION, 1: O, Recep: O, 1168: O, 5A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tarhala mutasarrıfı Mustafa gâyet-i şehr-i âtîden bakiyye on ay ve muvakkiti Mehmed Hayri ancak on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî dört yüz akçe ile Tuzla kazâsından yirmi üç ay hakîkî infisâli olan eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Ahmet dâ‘îlerine bâ-terakkî yevmî dört yüz doksan dokuz akçe ile tevcih olunup ba‘de hulûl-i vaktihî müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Tarhala: B-LOCATION, mutasarrıfı: O, Mustafa: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, ay: O, ve: O, muvakkiti: O, Mehmed: B-PERSON, Hayri: I-PERSON, ancak: O, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, dört: O, yüz: O, akçe: O, ile: O, Tuzla: B-LOCATION, kazâsından: O, yirmi: O, üç: O, ay: O, hakîkî: O, infisâli: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Ahmet: B-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, dört: O, yüz: O, doksan: O, dokuz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mendice mutasarrıfı Veliddin gâyet-i şehr-i âtîden bakiyye dokuz ay ve muvakkitleri Ebubekir on ay ve İbrahim on sekiz ay zamanlarını zamanlarını ba‘de't-tasarruf ref‘ ve yeri yüz elli akçe ile eş-Şeyh ma‘a Amik ve Tizin kazâsından on iki ay kazâ-yı âhardan mâ‘adâ on iki ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ömer dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on ay mutasarrıf olup bakiyye on ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Mendice: B-LOCATION, mutasarrıfı: O, Veliddin: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, dokuz: O, ay: O, ve: O, muvakkitleri: O, Ebubekir: B-PERSON, on: O, ay: O, ve: O, İbrahim: B-PERSON, on: O, sekiz: O, ay: O, zamanlarını: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yüz: O, elli: O, akçe: O, ile: O, eş-Şeyh: B-LOCATION, ma‘a: I-LOCATION, Amik: I-LOCATION, ve: O, Tizin: B-LOCATION, kazâsından: O, on: O, iki: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, on: O, iki: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ömer: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, on: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bayburd-ı Erzurum kadısı Tuğcuzâde Hamza sene-i âtîye Cemaziyelulası gurresinden on sekiz ay ve muvakkiti Halil on altı ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Ahıska kazâsından altı ay kazâ-yı âhardan mâ‘adâ kırk dokuz ay hakîkî infisâli olan sezâvâr-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ahmet dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Bayburd-ı: B-LOCATION, Erzurum: I-LOCATION, kadısı: O, Tuğcuzâde: B-PERSON, Hamza: I-PERSON, sene-i: O, âtîye: O, Cemaziyelulası: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Halil: B-PERSON, on: O, altı: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Ahıska: B-LOCATION, kazâsından: O, altı: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, kırk: O, dokuz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvâr-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tuzla Zilkade 1168 11A",
+    "output": "Tuzla: B-LOCATION, Zilkade: O, 1168: O, 11A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Balat kadısı Hasan sene-i âtîye Rebîü’l-âhiri gurresinden on sekiz ay ve muvakkiti es-Seyyid Ali on iki ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Kavak kazâsından bir ay kasrı muteber ve sekiz ay kazâ-yı âhardan mâ‘adâ otuz yedi ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Mehmed Emin dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Balat: B-LOCATION, kadısı: O, Hasan: B-PERSON, sene-i: O, âtîye: O, Rebîü’l-âhiri: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, es-Seyyid: B-PERSON, Ali: I-PERSON, on: O, iki: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Kavak: B-LOCATION, kazâsından: O, bir: O, ay: O, kasrı: O, muteber: O, ve: O, sekiz: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, otuz: O, yedi: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mehmed: B-PERSON, Emin: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Eski-il Zilkade 1168 11B",
+    "output": "Eski-il: B-LOCATION, Zilkade: O, 1168: O, 11B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Eskiil mutasarrıfı İbrahim gâyet-i şehr-i âtîden bakiyye yedi ay ve muvakkitleri es-Seyyid Ahmet on sekiz ay ve Feyzullah on ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî iki yüz akçe ile Sermin kazâsından on dört ay kazâ-yı âhardan mâ‘adâ yirmi dört ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ ve diğer Feyzullah dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Eskiil: B-LOCATION, mutasarrıfı: O, İbrahim: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, yedi: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, on: O, sekiz: O, ay: O, ve: O, Feyzullah: O, on: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Sermin: B-LOCATION, kazâsından: O, on: O, dört: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, yirmi: O, dört: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, ve: O, diğer: O, Feyzullah: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sermin mutasarrıfı es-Seyyid Abdurrahman gâyet-i şehr-i âtîden bakiyye on bir ay ve muvakkitleri es-Seyyid Hüseyin on ay ve Hüseyin on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Ergani kazâsından iki ay kasrından mâ‘adâ elli yedi ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Mehmed dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olıp bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Sermin: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Abdurrahman: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, bir: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Hüseyin: I-PERSON, on: O, ay: O, ve: O, Hüseyin: B-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Ergani: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrından: O, mâ‘adâ: O, elli: O, yedi: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mehmed: B-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olıp: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Simav mutasarrıfı es-Seyyid Ali gâyet-i şehr-i âtîden bakiyye sekiz ay ve muvakkitleri Mustafa on altı ay ve diğer Mustafa on ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî iki yüz akçe ile Kula kazâsından elli beş ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Abdullatif dâîlerne misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Simav: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Ali: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, sekiz: O, ay: O, ve: O, muvakkitleri: O, Mustafa: B-PERSON, on: O, altı: O, ay: O, ve: O, diğer: O, Mustafa: B-PERSON, on: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Kula: B-LOCATION, kazâsından: O, elli: O, beş: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Abdullatif: B-PERSON, dâîlerne: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bozok-ı Sorguni mutasarrıfı Mahmut gâyet-i şehr-i âtîden bakiyye on beş ay ve muvakkiti es-Seyyi Hasan on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Eğirdir kazâsından elli beş ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Mıustafa dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Bozok-ı: B-LOCATION, Sorguni: I-LOCATION, mutasarrıfı: O, Mahmut: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, beş: O, ay: O, ve: O, muvakkiti: O, es-Seyyi: B-PERSON, Hasan: I-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Eğirdir: B-LOCATION, kazâsından: O, elli: O, beş: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mıustafa: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Eğin Zilkade 1168 13A",
+    "output": "Eğin: B-LOCATION, Zilkade: O, 1168: O, 13A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tosya Zilkade 1168 13B",
+    "output": "Tosya: B-LOCATION, Zilkade: O, 1168: O, 13B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Akhisar-ı Geyve kadısı Bakizâde Mustafa sene-i mezbûre Şabani‘l-muazzamı gurresinden on sekiz ay ve muvakkiti Mustafa altı ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî iki yüz akçe ile Niksar kazâsından altı ay kazâ-yı âhardan mâ‘adâ altmış ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Mehmed dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Akhisar-ı: B-LOCATION, Geyve: I-LOCATION, kadısı: O, Bakizâde: B-PERSON, Mustafa: I-PERSON, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Mustafa: B-PERSON, altı: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Niksar: B-LOCATION, kazâsından: O, altı: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, altmış: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mehmed: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ortakçı kadısı es-Seyyid Abdülbaki sene-i mezbûre Ramazânü'l-mübâreki gurresinden on ay ve muvakkitleri es-Seyyid Mehmed Nuri kezâlik on ay ve İbrahim on iki ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Molla Hafız Medresesi’nden tûl-i infisâli olan müte‘ayyinü'l-ehliye ve'l-istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ Ahmet dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olunup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ortakçı: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Abdülbaki: I-PERSON, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, on: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, Nuri: I-PERSON, kezâlik: O, on: O, ay: O, ve: O, İbrahim: B-PERSON, on: O, iki: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Molla: O, Hafız: O, Medresesi’nden: O, tûl-i: O, infisâli: O, olan: O, müte‘ayyinü'l-ehliye: O, ve'l-istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ahmet: B-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olunup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Eğin mutasarrıfı Osman gâyet-i şehr-i âtîden bakiyye altı ay ve muvakkitleri el-Hac Feyzullah ve Osman on dörder ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile eş-Şeyh ma‘a Amik ve Tizin kazâsından iki ay kasrından mâ‘adâ yetmiş bir ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Adlî İsmail dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on sekiz ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Eğin: B-LOCATION, mutasarrıfı: O, Osman: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, altı: O, ay: O, ve: O, muvakkitleri: O, el-Hac: B-PERSON, Feyzullah: I-PERSON, ve: O, Osman: B-PERSON, on: O, dörder: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, eş-Şeyh: B-LOCATION, ma‘a: I-LOCATION, Amik: I-LOCATION, ve: O, Tizin: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrından: O, mâ‘adâ: O, yetmiş: O, bir: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Adlî: B-PERSON, İsmail: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, sekiz: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gölhisar-ı Hamid kadısı es-Seyyid İbrahim sene-i mezbûre Cemaziyelulası gurresinden on dört ay ve muvakkiti es-Seyyid eş-Şeyh Ahmet ancak on altı ay zamanlarını ba‘de't-tasarruf ref‘ve yeri yevmî kırk akçe ile İstanbul’da Faziliye Medresesi’nden tûl-i infisâli olan evlâd-ı eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî Mevlânâ Osmanzâde es-Seyyid Abrurrahim dâ‘îlerine şeref-i zât ve mülâzemetine binâen bâ-terakkî yevmî yüz elli akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Gölhisar-ı: B-LOCATION, Hamid: I-LOCATION, kadısı: O, es-Seyyid: B-PERSON, İbrahim: I-PERSON, sene-i: O, mezbûre: O, Cemaziyelulası: O, gurresinden: O, on: O, dört: O, ay: O, ve: O, muvakkiti: O, es-Seyyid: B-PERSON, eş-Şeyh: I-PERSON, Ahmet: I-PERSON, ancak: O, on: O, altı: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Faziliye: O, Medresesi’nden: O, tûl-i: O, infisâli: O, olan: O, evlâd-ı: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Osmanzâde: B-PERSON, es-Seyyid: I-PERSON, Abrurrahim: I-PERSON, dâ‘îlerine: O, şeref-i: O, zât: O, ve: O, mülâzemetine: O, binâen: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Seferihisar-ı Çeşme 1 Rebiulevvel 1169 17A",
+    "output": "Seferihisar-ı: B-LOCATION, Çeşme: I-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 17A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kangırı mutasarrıfı Osman gâyet-i şehr-i âtîden bakiyye dokuz ay ve muvakkitleri es-Seyyid Mehmed Süleyman on ay ve Mehmed on altı ay zamanlarını ba‘de't-tasarruf ref‘ve yeri yevmî iki yüz akçe ile Hısnımansur kazâsından iki ay kasrı muteberinden mâ‘adâ bir ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Müneccimbaşızâde Mevlânâ Ahmet dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kangırı: B-LOCATION, mutasarrıfı: O, Osman: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, dokuz: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, Süleyman: O, on: O, ay: O, ve: O, Mehmed: B-PERSON, on: O, altı: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Hısnımansur: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrı: O, muteberinden: O, mâ‘adâ: O, bir: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Müneccimbaşızâde: B-PERSON, Mevlânâ: I-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Karaağaç-ı Gölhisar 1 Rebiulevvel 1169 17B",
+    "output": "Karaağaç-ı: B-LOCATION, Gölhisar: I-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 17B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dereli kadısı Derviş Ahmet sene-i mezbûre Şabani‘l-muazzamı gurresinden on iki ay ve muvakkiti Hafız Mehmed on dört ay zamanlarını ba‘de't-tasarruf ref‘ve yeri yevmî yüz elli akçe ile Havza kazâsından iki ay kasrından mâ‘adâ altmış dokuz ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Mehmed dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Dereli: B-LOCATION, kadısı: O, Derviş: B-PERSON, Ahmet: I-PERSON, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, on: O, iki: O, ay: O, ve: O, muvakkiti: O, Hafız: B-PERSON, Mehmed: I-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Havza: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrından: O, mâ‘adâ: O, altmış: O, dokuz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mehmed: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Pirnaz 1 Rebiulevvel 1169 18B",
+    "output": "Pirnaz: B-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 18B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tavas kadısı Ali sene-i mezbûre Şabani‘l-muazzamı gurresinden on sekiz ay ve muvakkiti Mehmed on dört ay zamanlarını ba‘de't-tasarruf ref‘ve yeri yevmî iki yüz akçe ile Akhisar-ı Saruhan kazâsından yirmi bir ay hakîkî infisâli olan sezâvâr-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ahmet dâ‘îlerine şifahen sadır olan fermân-ı alişana imtisalen bâ-terakkî yevmî üç yüz akçe ile tevcîh olunup ba‘de hulûl-i vaktihî müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Tavas: B-LOCATION, kadısı: O, Ali: O, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Mehmed: B-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Akhisar-ı: B-LOCATION, Saruhan: I-LOCATION, kazâsından: O, yirmi: O, bir: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvâr-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, şifahen: O, sadır: O, olan: O, fermân-ı: O, alişana: O, imtisalen: O, bâ-terakkî: O, yevmî: O, üç: O, yüz: O, akçe: O, ile: O, tevcîh: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Afşar 1 Rebiulevvel 1169 20A",
+    "output": "Afşar: B-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 20A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Karahisâr-ı Şarkî mutasarrıfı Ahmet gâyet-i şehr-i âtîden bakiyye on ay ve muvakkitleri Derviş İsmail müddet-i örfiyesini ba‘de't-tasarruf ref‘ve muvakkit-i aharı Hüseyin fevt olmağla yeri yevmî üç yüz akçe ile Basra kazâsından on iki ay kazâ-yı âhardan mâ‘adâ on iki ay hakîkî infisâli olan eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ es-Seyyid Hüseyin dâîlierne bâ-terakkî yevmî dört yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Karahisâr-ı: B-LOCATION, Şarkî: I-LOCATION, mutasarrıfı: O, Ahmet: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, on: O, ay: O, ve: O, muvakkitleri: O, Derviş: B-PERSON, İsmail: I-PERSON, müddet-i: O, örfiyesini: O, ba‘de't-tasarruf: O, ref‘ve: O, muvakkit-i: O, aharı: O, Hüseyin: B-PERSON, fevt: O, olmağla: O, yeri: O, yevmî: O, üç: O, yüz: O, akçe: O, ile: O, Basra: B-LOCATION, kazâsından: O, on: O, iki: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, on: O, iki: O, ay: O, hakîkî: O, infisâli: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, es-Seyyid: B-PERSON, Hüseyin: I-PERSON, dâîlierne: O, bâ-terakkî: O, yevmî: O, dört: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Belviran kadısı Feyzullah sene-i mezbûre Zilka‘deti’ş-şerîfesisi gurresinden on sekiz ay ve muvakkiti Hüseyin on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Bozulus kazâsından hakîkî ve i‘tibârî otuz üç ay infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Şeyhzâdê es-Seyyid Ahmet dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Belviran: B-LOCATION, kadısı: O, Feyzullah: B-PERSON, sene-i: O, mezbûre: O, Zilka‘deti’ş-şerîfesisi: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Hüseyin: B-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Bozulus: B-LOCATION, kazâsından: O, hakîkî: O, ve: O, i‘tibârî: O, otuz: O, üç: O, ay: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Şeyhzâdê: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Gördüs kadısı Ali sene-i mezbûre Ramazânü'l-mübâreki gurresinden on dört ay ve muvakkitleri Mesnevihan-zâde es-Seyyid Abdülhay ve Hidayetullah kezâlik on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî iki yüz akçe ile İsparta kazâsından yirmi dokuz ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid İbrahim dâ‘îlerine bâ-terakkî yevmî üç yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Gördüs: B-LOCATION, kadısı: O, Ali: B-PERSON, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, on: O, dört: O, ay: O, ve: O, muvakkitleri: O, Mesnevihan-zâde: O, es-Seyyid: B-PERSON, Abdülhay: I-PERSON, ve: O, Hidayetullah: O, kezâlik: O, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, İsparta: B-LOCATION, kazâsından: O, yirmi: O, dokuz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, İbrahim: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, üç: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Akçaşehr-i Aydın mutasarrıfı Yahya gâyet-i şehr-i âtîden bakiyye dört ay ve muvakkitleri Mahmut on iki ay ve es-Seyyid Ahmet Gürani on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Yedidivan kazâsından altmış üç ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Şeyhzâdê Mehmed Emin dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Akçaşehr-i: B-LOCATION, Aydın: I-LOCATION, mutasarrıfı: O, Yahya: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, dört: O, ay: O, ve: O, muvakkitleri: O, Mahmut: B-PERSON, on: O, iki: O, ay: O, ve: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, Gürani: O, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Yedidivan: B-LOCATION, kazâsından: O, altmış: O, üç: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Şeyhzâdê: B-PERSON, Mehmed: I-PERSON, Emin: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Biretülfırat kadısı es-Seyyid Ahmet sene-i mezbûre Ramazânü'l-mübâreki gurresinden on sekiz ay ve muvakkiti Süleyman on ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Senir ma‘a Döşenbe kazâsından iki ay kasrından mâ‘adâ altmış bir ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Mustafa dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Biretülfırat: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Süleyman: B-PERSON, on: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Senir: B-LOCATION, ma‘a: I-LOCATION, Döşenbe: I-LOCATION, kazâsından: O, iki: O, ay: O, kasrından: O, mâ‘adâ: O, altmış: O, bir: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mustafa: B-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kars-ı Erzurum kadısı es-Seyyid İbrahim sene-i mezbûre Şabani‘l-muazzamı gurresinden on dört ay ve muvakkiti Hafız İbrahim kezâlik on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Cide kazâsından altmış sekiz ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Behçet’i es-Seyyid Hasan dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kars-ı: B-LOCATION, Erzurum: I-LOCATION, kadısı: O, es-Seyyid: B-PERSON, İbrahim: I-PERSON, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, on: O, dört: O, ay: O, ve: O, muvakkiti: O, Hafız: B-PERSON, İbrahim: I-PERSON, kezâlik: O, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Cide: B-LOCATION, kazâsından: O, altmış: O, sekiz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Behçet’i: O, es-Seyyid: B-PERSON, Hasan: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Tuht 1 Recep 1169 24B",
+    "output": "Tuht: B-LOCATION, 1: O, Recep: O, 1169: O, 24B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Artukâbâd kadısı Veliddin sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden on sekiz ay ve muvakkiti Süleyman on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Ebulhayr kazâsından on ay kazâ-yı âhardan mâ‘adâ yirmi altı ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Hüseyin dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Artukâbâd: B-LOCATION, kadısı: O, Veliddin: O, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, Süleyman: B-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Ebulhayr: B-LOCATION, kazâsından: O, on: O, ay: O, kazâ-yı: O, âhardan: O, mâ‘adâ: O, yirmi: O, altı: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Hüseyin: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İbradı kadısı Mehmed sene-i mezbûre Şabani‘l-muazzamı gurresinden on iki ay ve muvakkitleri es-Seyyid Mustafa on ay ve Bineva-zâde es-Seyyid Ahmet on altı ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Yarhisar Medresesi’nden tûl-î infisâli olan müte‘ayyinü'l-ehliye ve'l-istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ali dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih [olunup] ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "İbradı: B-LOCATION, kadısı: O, Mehmed: B-PERSON, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, on: O, iki: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Mustafa: I-PERSON, on: O, ay: O, ve: O, Bineva-zâde: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, on: O, altı: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Yarhisar: O, Medresesi’nden: O, tûl-î: O, infisâli: O, olan: O, müte‘ayyinü'l-ehliye: O, ve'l-istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ali: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, [olunup]: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mengen 1 Recep 1169 26B",
+    "output": "Mengen: B-LOCATION, 1: O, Recep: O, 1169: O, 26B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mengen kadısı es-Seyyid Mehmed sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden sekiz ay ve muvakkitleri Abdullah on iki ay ve el-Hac Halil on dört ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile yine kaza-yı mezburdan kırk iki ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlâna Mehmed Rıza dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Mengen: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, sekiz: O, ay: O, ve: O, muvakkitleri: O, Abdullah: B-PERSON, on: O, iki: O, ay: O, ve: O, el-Hac: B-PERSON, Halil: I-PERSON, on: O, dört: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, yine: O, kaza-yı: O, mezburdan: O, kırk: O, iki: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, Mehmed: B-PERSON, Rıza: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İsparta 1 Recep 1169 27B",
+    "output": "İsparta: B-LOCATION, 1: O, Recep: O, 1169: O, 27B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mendice kadısı İbrahim sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden on sekiz ay ve muvakkiti es-Seyyid Ömer on ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Afşar kazâsından iki ay kasrı muteberinden mâ‘adâ otuz sekiz ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlâna es-Seyyid Mehmed dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Mendice: B-LOCATION, kadısı: O, İbrahim: B-PERSON, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, on: O, sekiz: O, ay: O, ve: O, muvakkiti: O, es-Seyyid: B-PERSON, Ömer: I-PERSON, on: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Afşar: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrı: O, muteberinden: O, mâ‘adâ: O, otuz: O, sekiz: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ba’lbek kadısı Mehmed Arif sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden on ay muvakkitleri Ahmet sekiz ay ve Mustafa on ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî iki yüz akçe ile Burdur kazâsından yirmi ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ Ahmet dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ba’lbek: B-LOCATION, kadısı: O, Mehmed: B-PERSON, Arif: I-PERSON, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, on: O, ay: O, muvakkitleri: O, Ahmet: B-PERSON, sekiz: O, ay: O, ve: O, Mustafa: B-PERSON, on: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Burdur: B-LOCATION, kazâsından: O, yirmi: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ahmet: B-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Antalya mutasarrıfı Hafız Mustafa gâyet-i şehr-i âtîden bakiyye dört ay zamanını ve muvakkiti es-Seyyid el-Hac Mahmut müddet-i örfiyesini ba‘de't-tasarruf ref‘ve muvakkit-i aharı Hallil vefat etmekle yeri yevmî dört yüz akçe ile Niğde kazâsından iki ay kasrı muteberinden mâ‘adâ otuz dört ay hakîkî infisâli [olan] eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Tabanzâde es-Seyyid Mustafa dâ‘îlerine bâ-terakkî yevmî dört yüz doksan dokuz akçe ile tevcih olunup ba‘de hulûl-i vaktihî müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Antalya: B-LOCATION, mutasarrıfı: O, Hafız: B-PERSON, Mustafa: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, dört: O, ay: O, zamanını: O, ve: O, muvakkiti: O, es-Seyyid: B-PERSON, el-Hac: I-PERSON, Mahmut: I-PERSON, müddet-i: O, örfiyesini: O, ba‘de't-tasarruf: O, ref‘ve: O, muvakkit-i: O, aharı: O, Hallil: B-PERSON, vefat: O, etmekle: O, yeri: O, yevmî: O, dört: O, yüz: O, akçe: O, ile: O, Niğde: B-LOCATION, kazâsından: O, iki: O, ay: O, kasrı: O, muteberinden: O, mâ‘adâ: O, otuz: O, dört: O, ay: O, hakîkî: O, infisâli: O, [olan]: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Tabanzâde: B-PERSON, es-Seyyid: I-PERSON, Mustafa: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, dört: O, yüz: O, doksan: O, dokuz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Belviran mutasarrıfı Abdülhalim gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid el-Hac Hüseyin Hüsameddin dâ‘îlerine ber-tevcîh-i esbak ibkâ olunup sene-i mezbûre Şabani‘l-muazzamı gurresinden ancak on altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Belviran: B-LOCATION, mutasarrıfı: O, Abdülhalim: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, el-Hac: I-PERSON, Hüseyin: I-PERSON, Hüsameddin: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibkâ: O, olunup: O, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Alaiye mutasarrıfı Abdullah gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ahmet dâ‘îlerine ber-tevcîh-i esbak tenciz ve ibkâ olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Alaiye: B-LOCATION, mutasarrıfı: O, Abdullah: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, tenciz: O, ve: O, ibkâ: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Van mutasarrıfı Abdülnabi gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Mehmed Sadık dâ‘îlerine ber-tevcîh-i esbak ibkâ olunup sene-i mezbûre Zilka‘deti’ş-şerîfesi gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Van: B-LOCATION, mutasarrıfı: O, Abdülnabi: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, Sadık: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibkâ: O, olunup: O, sene-i: O, mezbûre: O, Zilka‘deti’ş-şerîfesi: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i te‘bîd Alacahan mutasarrıfı es-Seyyid Mehmed in şukkâtı gelüp sû-i hâlini ihbâr etmekle gâyet-i şehr-i mezburdan ref‘ ve yeri ulemadan her vecihle sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Mürsel dâ‘îlerine ber-vech-i te‘bîd tevcih olunup sene-i mezbûre Şevvâli’l-mükerremi gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, te‘bîd: O, Alacahan: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, in: O, şukkâtı: O, gelüp: O, sû-i: O, hâlini: O, ihbâr: O, etmekle: O, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, ulemadan: O, her: O, vecihle: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mürsel: I-PERSON, dâ‘îlerine: O, ber-vech-i: O, te‘bîd: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Şevvâli’l-mükerremi: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kısılhisar mutasarrıfı Ömer gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ el-Hac Mehmed el-Mansuri dâ‘îlerine ber-tevcîh-i esbak ibkâ olunup sene-i mezbûre Şevvâli’l-mükerremi gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kısılhisar: B-LOCATION, mutasarrıfı: O, Ömer: O, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, el-Hac: O, Mehmed: O, el-Mansuri: O, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibkâ: O, olunup: O, sene-i: O, mezbûre: O, Şevvâli’l-mükerremi: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Silifke mutasarrıfı es-Seyyid Ali kendi iltimasına binâen gâyet-i şehr-i âtîden ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Ali dâ‘îlerine ber-tevcîh-i esbak tenciz ve ibkâ olunup sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Silifke: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Ali: I-PERSON, kendi: O, iltimasına: O, binâen: O, gâyet-i: O, şehr-i: O, âtîden: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ali: B-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, tenciz: O, ve: O, ibkâ: O, olunup: O, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bakras ma‘a İskenderun 1 Şevval 1168 32A",
+    "output": "Bakras: B-LOCATION, ma‘a: I-LOCATION, İskenderun: I-LOCATION, 1: O, Şevval: O, 1168: O, 32A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bakras ma‘a İskenderun mutasarrıfı Salih kendi iltimasına binâen gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Ahmet dâ‘îlerine ber-tevcîh-i esbak tenciz ve ibkâ olunup sene-i mezbûre Zilka‘deti’ş-şerîfesi gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Bakras: B-LOCATION, ma‘a: I-LOCATION, İskenderun: I-LOCATION, mutasarrıfı: O, Salih: B-PERSON, kendi: O, iltimasına: O, binâen: O, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ahmet: B-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, tenciz: O, ve: O, ibkâ: O, olunup: O, sene-i: O, mezbûre: O, Zilka‘deti’ş-şerîfesi: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yenice-i Taraklu 1 Şevval 1168 32B",
+    "output": "Yenice-i: B-LOCATION, Taraklu: I-LOCATION, 1: O, Şevval: O, 1168: O, 32B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Elmalı mutasarrıfı el-Hac Abdullah gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Mustafa dâ‘îlerine ber-tevcîh-i esbak ibka olunup sene-i âtîye Saferü'l-hayrı gurresinden ancak on iki ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Elmalı: B-LOCATION, mutasarrıfı: O, el-Hac: B-PERSON, Abdullah: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mustafa: B-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, âtîye: O, Saferü'l-hayrı: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İbradi mutasarrıfı es-Seyyid Mustafa gâyet-i şehr-i âtîden iki ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Hafız Halil dâ‘îlerine ber-tevcîh-i esbak ibka olunup sene-i âtîye Saferü'l-hayrı gurresinden ancak on altı ay mutasarrıf mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "İbradi: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Mustafa: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, iki: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Hafız: B-PERSON, Halil: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, âtîye: O, Saferü'l-hayrı: O, gurresinden: O, ancak: O, on: O, altı: O, ay: O, mutasarrıf: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İznikmid 1 Şevval 1168 33B",
+    "output": "İznikmid: B-LOCATION, 1: O, Şevval: O, 1168: O, 33B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Divriği mutasarrıfı es-Seyyid el-Hac Ahmet gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Ömer dâ‘îlerine ber-tevcîh-i esbak ibka olunup sene-i âtîye Saferü'l-hayrı gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Divriği: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, el-Hac: I-PERSON, Ahmet: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ömer: B-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, âtîye: O, Saferü'l-hayrı: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ilıca-i Saruhan 1 Zilkade 1168 34B",
+    "output": "Ilıca-i: B-LOCATION, Saruhan: I-LOCATION, 1: O, Zilkade: O, 1168: O, 34B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ağros mutasarrıfı es-Seyyid Hüseyin’in fevti ihbâr-ı sikât ile mütehakkık olmağla gâyet-i şehr-i mezburdan yeri yevmî yüz elli akçe ile Suruç mutasarrıfı iken nakli lazım gelen sezâvar-ı inâyet-i şehriyârî Mevlânâ Yahya dâ‘îlerine bi-tariki’n-nakl misliyle tevcih olunup sene-i âtîye Muharremü’l-harâm’ı gurresinden ancak sekiz ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ağros: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Hüseyin’in: I-PERSON, fevti: O, ihbâr-ı: O, sikât: O, ile: O, mütehakkık: O, olmağla: O, gâyet-i: O, şehr-i: O, mezburdan: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Suruç: B-LOCATION, mutasarrıfı: O, iken: O, nakli: O, lazım: O, gelen: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Yahya: B-PERSON, dâ‘îlerine: O, bi-tariki’n-nakl: O, misliyle: O, tevcih: O, olunup: O, sene-i: O, âtîye: O, Muharremü’l-harâm’ı: O, gurresinden: O, ancak: O, sekiz: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Seferihisar-ı Çeşme 1 Zilhicce 1168 35B",
+    "output": "Seferihisar-ı: B-LOCATION, Çeşme: I-LOCATION, 1: O, Zilhicce: O, 1168: O, 35B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Nevâhi-i Ermenek mutasarrıfı İbrahim gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ali dâ‘îlerine ber-tevcîh-i esbak ibkâ olunup sene-i âtîye Rebî‘ü’l-evveli gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Nevâhi-i: B-LOCATION, Ermenek: I-LOCATION, mutasarrıfı: O, İbrahim: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ali: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibkâ: O, olunup: O, sene-i: O, âtîye: O, Rebî‘ü’l-evveli: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Larende mutasarrıfı el-Hac İbrahim gâyet-i şehr-i âtîden üç ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ömer dâ‘îlerine ber-tevcîh-i esbak ibkâ olunup sene-i âtîye Cemaziyelulası gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Larende: B-LOCATION, mutasarrıfı: O, el-Hac: B-PERSON, İbrahim: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, üç: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ömer: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibkâ: O, olunup: O, sene-i: O, âtîye: O, Cemaziyelulası: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mendice 1 Zilhicce 1168 36A",
+    "output": "Mendice: B-LOCATION, 1: O, Zilhicce: O, 1168: O, 36A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Mengen 1 Cemaziyelahir 1168 2B",
+    "output": "Mengen: B-LOCATION, 1: O, Cemaziyelahir: O, 1168: O, 2B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Trabzon ma‘a Sürmene mutasarrıfı Ömer gâyet-i şehr-i âtîden iki ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ es-Seyyid Ali dâ‘îlerine ber-tevcîh-i esbak ibka olunup sene-i âtîye Rebîü’l-âhiri gurresinden a müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Trabzon: B-LOCATION, ma‘a: I-LOCATION, Sürmene: I-LOCATION, mutasarrıfı: O, Ömer: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, iki: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ali: I-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, âtîye: O, Rebîü’l-âhiri: O, gurresinden: O, a: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Turgut mutasarrıfı es-Seyyid Abdurrahman gâyet-i şehr-i mezburdan ref‘ muvakkiti Abdullah ibkaya talep olmağla yeri muvakkit-i aharı olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Mustafa dâ‘îlerine ber-tevcîh-i sabık tenciz ve ibka olunup sene-i âtîye Muharremü’l-harâm’ı gurresinden ancak altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Turgut: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Abdurrahman: I-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, muvakkiti: O, Abdullah: B-PERSON, ibkaya: O, talep: O, olmağla: O, yeri: O, muvakkit-i: O, aharı: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mustafa: B-PERSON, dâ‘îlerine: O, ber-tevcîh-i: O, sabık: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, âtîye: O, Muharremü’l-harâm’ı: O, gurresinden: O, ancak: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i ma‘îşet Karahisâr-ı Behramşah mutasarrıfı Ali’nin fevti ihbâr-ı sikât ile mütehakkık olmağın gâyet-i şehr-i mezburdan yeri ber-vech-i ma‘îşet Palas mutasarrıfı iken üzerinden ref‘ olunmağla mağdur olup mefluç ve alîl olan sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Mehmed dâ‘îlerine bâ-işâret-i aliyye hazreti şeyhülislam-i allâmetü’l-enâm-i sellemehü’l-meliki’l-azizi’l-allâm ber-vech-i ma‘îşet tevcih olunup sene-i âtîye Muharremü’l-harâm’ı gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, ma‘îşet: O, Karahisâr-ı: B-LOCATION, Behramşah: I-LOCATION, mutasarrıfı: O, Ali’nin: B-PERSON, fevti: O, ihbâr-ı: O, sikât: O, ile: O, mütehakkık: O, olmağın: O, gâyet-i: O, şehr-i: O, mezburdan: O, yeri: O, ber-vech-i: O, ma‘îşet: O, Palas: B-LOCATION, mutasarrıfı: O, iken: O, üzerinden: O, ref‘: O, olunmağla: O, mağdur: O, olup: O, mefluç: O, ve: O, alîl: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, dâ‘îlerine: O, bâ-işâret-i: O, aliyye: O, hazreti: O, şeyhülislam-i: O, allâmetü’l-enâm-i: O, sellemehü’l-meliki’l-azizi’l-allâm: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, sene-i: O, âtîye: O, Muharremü’l-harâm’ı: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çemişgezek 1 Muharrem 1169 36B",
+    "output": "Çemişgezek: B-LOCATION, 1: O, Muharrem: O, 1169: O, 36B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Çemişgezek mutasarrıfı es-Seyyid Mustafa gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i sabık ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Ali dâ‘îlerine ber-tevcih-i sabık tenciz ve ibka olunup sene-i mezbûre Saferü'l-hayrı gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Çemişgezek: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Mustafa: I-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, sabık: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ali: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, sabık: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Saferü'l-hayrı: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Silifke mutasarrıfı Ali gâyet-i şehr-i âtîden bakiyye dokuz ay ve muvakkitleri Osman ve Ahmet on dörder ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Kırili mutasarrıfı iken özründen ref‘ olunup serlevha-i yesâra maişet olmağla mağdur sıfırü’l-yed kalan sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ahmet dâ‘îlerine gadri bedeli misliyle tevcih olunup ba‘de hulûl-i vaktihî ancak sekiz ay mutasarrıf olup bakiyye-i müddet-i örfiyesini kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Silifke: B-LOCATION, mutasarrıfı: O, Ali: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, dokuz: O, ay: O, ve: O, muvakkitleri: O, Osman: B-PERSON, ve: O, Ahmet: B-PERSON, on: O, dörder: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Kırili: B-LOCATION, mutasarrıfı: O, iken: O, özründen: O, ref‘: O, olunup: O, serlevha-i: O, yesâra: O, maişet: O, olmağla: O, mağdur: O, sıfırü’l-yed: O, kalan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, gadri: O, bedeli: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, sekiz: O, ay: O, mutasarrıf: O, olup: O, bakiyye-i: O, müddet-i: O, örfiyesini: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i ma‘îşet Mandalyat mutasarrıfı el-Hac Feyzullah fevt olmağla gâyet-i şehr-i mezburdan yeri evlâd-u ulemadan mahall-i merhamet ve sezâvar-ı âtıfet olan müteveffa-yı mezbûrun evlâdı Abdülbaki ve Mustafa ve Raşit dâ‘îlerine iştiraken tevcih ve kebirleri olan Abdülbaki’nin müraselesiyle zabt olunmak üzere sadıra olan işâret-i aliyye-i hazret-i Şeyhülislam-i mucibince ber-vech-i ma‘îşet tevcih olunup sene-i mezbûre Saferü'l-hayrı gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, ma‘îşet: O, Mandalyat: B-LOCATION, mutasarrıfı: O, el-Hac: B-PERSON, Feyzullah: I-PERSON, fevt: O, olmağla: O, gâyet-i: O, şehr-i: O, mezburdan: O, yeri: O, evlâd-u: O, ulemadan: O, mahall-i: O, merhamet: O, ve: O, sezâvar-ı: O, âtıfet: O, olan: O, müteveffa-yı: O, mezbûrun: O, evlâdı: O, Abdülbaki: B-PERSON, ve: O, Mustafa: B-PERSON, ve: O, Raşit: B-PERSON, dâ‘îlerine: O, iştiraken: O, tevcih: O, ve: O, kebirleri: O, olan: O, Abdülbaki’nin: B-PERSON, müraselesiyle: O, zabt: O, olunmak: O, üzere: O, sadıra: O, olan: O, işâret-i: O, aliyye-i: O, hazret-i: O, Şeyhülislam-i: O, mucibince: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Saferü'l-hayrı: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Senir ma‘a Döşenme mutasarrıfı es-Seyyid Abdülkadir gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ömer dâîlerinin müdde-i mu‘ayyenesi olan on iki ay zamanını iki ay dahi med ve zam ile ibka olunup sene-i mezbûre Rebîü’l-âhiri gurresinden ancak on dört ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Senir: B-LOCATION, ma‘a: I-LOCATION, Döşenme: I-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Abdülkadir: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ömer: I-PERSON, dâîlerinin: O, müdde-i: O, mu‘ayyenesi: O, olan: O, on: O, iki: O, ay: O, zamanını: O, iki: O, ay: O, dahi: O, med: O, ve: O, zam: O, ile: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Rebîü’l-âhiri: O, gurresinden: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kars-ı Zülkadriye mutasarrıfı Mehmed Arif aharı kazaya nakl olunmağla gâyet-i şehr-i mezburdan yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Süleyman dâ‘îlerine ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Saferü'l-hayrı gurresinden ancak sekiz ay mutasarrıf olup bakiyye on iki ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kars-ı: B-LOCATION, Zülkadriye: I-LOCATION, mutasarrıfı: O, Mehmed: B-PERSON, Arif: I-PERSON, aharı: O, kazaya: O, nakl: O, olunmağla: O, gâyet-i: O, şehr-i: O, mezburdan: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Süleyman: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Saferü'l-hayrı: O, gurresinden: O, ancak: O, sekiz: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, on: O, iki: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yavebolu 1 Muharrem 1169 38A",
+    "output": "Yavebolu: B-LOCATION, 1: O, Muharrem: O, 1169: O, 38A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Akhisar-ı Saruhan mutasarrıfı Hasan gâyet-i şehr-i mezburdan ref‘ ve yeri yevmî iki yüz akçe ile Hama kazâsından hakîkî ve i‘tibârî otuz altı ay infisâli olan istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Mehmed dâ‘îlerine misliyle tevcih olunup sene-i mezbûre Muharremü’l-harâm’ı gurresinden ancak altı ay mutasarrıf olup bakiyye-i müddet-i örfiyesini kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Akhisar-ı: B-LOCATION, Saruhan: I-LOCATION, mutasarrıfı: O, Hasan: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, Hama: B-LOCATION, kazâsından: O, hakîkî: O, ve: O, i‘tibârî: O, otuz: O, altı: O, ay: O, infisâli: O, olan: O, istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Muharremü’l-harâm’ı: O, gurresinden: O, ancak: O, altı: O, ay: O, mutasarrıf: O, olup: O, bakiyye-i: O, müddet-i: O, örfiyesini: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sivas-ili mutasarrıfı es-Seyyid Yahya gâyet-i şehr-i âtîden ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ el-Hac Ali dâ‘îlerine ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Rebîü’l-âhiri gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Sivas-ili: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Yahya: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, el-Hac: B-PERSON, Ali: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Rebîü’l-âhiri: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yürükân-ı Ankara 1 Safer 1169 39A",
+    "output": "Yürükân-ı: B-LOCATION, Ankara: I-LOCATION, 1: O, Safer: O, 1169: O, 39A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hayfa 1 Safer 1169 39A",
+    "output": "Hayfa: B-LOCATION, 1: O, Safer: O, 1169: O, 39A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kemer-i Hamid mutasarrıfı Halil gâyet-i şehr-i mezburdan ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Rasim Paşa Medresesi’nden altmış bir ay infisâli olan müte‘ayyinü'l-ehliye ve'l-istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Mustafa dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup sene-i mezbûre Rebî‘ü’l-evveli gurresinden ancak altı ay mutasarrıf olup bakiyye-i müddet-i örfiyesini kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kemer-i: B-LOCATION, Hamid: I-LOCATION, mutasarrıfı: O, Halil: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Rasim: O, Paşa: O, Medresesi’nden: O, altmış: O, bir: O, ay: O, infisâli: O, olan: O, müte‘ayyinü'l-ehliye: O, ve'l-istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mustafa: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Rebî‘ü’l-evveli: O, gurresinden: O, ancak: O, altı: O, ay: O, mutasarrıf: O, olup: O, bakiyye-i: O, müddet-i: O, örfiyesini: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Adem mutasarrıfı Osman ahar-ı kazaya nakil olunmağla gâyet-i şehr-i mezburdan yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Salih dâ‘îlerine ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Rebîü’l-âhiri gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Adem: B-LOCATION, mutasarrıfı: O, Osman: B-PERSON, ahar-ı: O, kazaya: O, nakil: O, olunmağla: O, gâyet-i: O, şehr-i: O, mezburdan: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Salih: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Rebîü’l-âhiri: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Derkene 1 Rebiulevvel 1169 40A",
+    "output": "Derkene: B-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 40A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i ma‘îşet Derkene mutasarrıfı Mehmed gâyet-i şehr-i mezburdan ref‘ ve yeri müdaresene-i kiram zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyan-ı re’fet-i cihandâri Mevlânâ Müsevvid Muhyiddin Efendi dâ‘îlerine bâ-işâret-i aliyye hazreti şeyhülislam-i allâmetü’l-enâm-i sellemehü’l-meliki’l-azizi’l-allâm ber-vech-i ma‘îşet tevcih olunup sene-i mezbûre Rebîü’l-âhiri gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, ma‘îşet: O, Derkene: B-LOCATION, mutasarrıfı: O, Mehmed: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, müdaresene-i: O, kiram: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyan-ı: O, re’fet-i: O, cihandâri: O, Mevlânâ: O, Müsevvid: B-PERSON, Muhyiddin: I-PERSON, Efendi: I-PERSON, dâ‘îlerine: O, bâ-işâret-i: O, aliyye: O, hazreti: O, şeyhülislam-i: O, allâmetü’l-enâm-i: O, sellemehü’l-meliki’l-azizi’l-allâm: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Rebîü’l-âhiri: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Karpuzlu 1 Rebiulevvel 1169 40B",
+    "output": "Karpuzlu: B-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 40B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şiran 1 Rebiulevvel 1169 41A",
+    "output": "Şiran: B-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 41A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kiğı ma‘a Tercan mutasarrıfı Hamza Paşazâde Lütfullah gâyet-i şehri âtîden bakiyye dört ay zamanını ba‘de't-tasarruf ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Şeyh Ekrem Medresesi’nden doksan dört ay infisâli olup ledel-imtihân istihkâkı nümayan olan sezâvar-ı inâyet-i şehriyârî Mevlâna Ali dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kiğı: B-LOCATION, ma‘a: I-LOCATION, Tercan: I-LOCATION, mutasarrıfı: O, Hamza: B-PERSON, Paşazâde: I-PERSON, Lütfullah: I-PERSON, gâyet-i: O, şehri: O, âtîden: O, bakiyye: O, dört: O, ay: O, zamanını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Şeyh: O, Ekrem: O, Medresesi’nden: O, doksan: O, dört: O, ay: O, infisâli: O, olup: O, ledel-imtihân: O, istihkâkı: O, nümayan: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, Ali: B-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürgüp ma‘a Nevşehir 1 Rebiulahir 1169 42B",
+    "output": "Ürgüp: B-LOCATION, ma‘a: I-LOCATION, Nevşehir: I-LOCATION, 1: O, Rebiulahir: O, 1169: O, 42B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ürgüp ma‘a Nevşehir mutasarrıfı Ahmet vefat etmekle gâyet-i şehr-i âtîden iki ay tevkîtle yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlâna es-Seyyid Ahmet dâ‘îlerine ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Şabani‘l-muazzamı gurresinden ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ürgüp: B-LOCATION, ma‘a: I-LOCATION, Nevşehir: I-LOCATION, mutasarrıfı: O, Ahmet: B-PERSON, vefat: O, etmekle: O, gâyet-i: O, şehr-i: O, âtîden: O, iki: O, ay: O, tevkîtle: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Darende mutasarrıfı Mustafa gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlâna Ahmet dâ‘îlerine ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Recebü'l-ferdi gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Darende: B-LOCATION, mutasarrıfı: O, Mustafa: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, Ahmet: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Recebü'l-ferdi: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Finike mutasarrıfı İbrahim gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlâna Lütfullah dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Cemaziyelulası gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Finike: B-LOCATION, mutasarrıfı: O, İbrahim: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlâna: O, Lütfullah: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Cemaziyelulası: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Siverek mutasarrıfı İbrahim gâyet-i şehr-i âtîden ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ali dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Recebü'l-ferdi gurresinden ancak on iki ay mutasarrıf olup bakiyye sekiz ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Siverek: B-LOCATION, mutasarrıfı: O, İbrahim: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ali: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Recebü'l-ferdi: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, sekiz: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ağros mutasarrıfı Yahya gâyet-i şehr-i mezburdan ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Ali dâ‘îlerine ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Cemaziyelahiresi gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ağros: B-LOCATION, mutasarrıfı: O, Yahya: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ali: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Cemaziyelahiresi: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İnegöl-i Bursa 1 Rebiulevvel 1169 15A",
+    "output": "İnegöl-i: B-LOCATION, Bursa: I-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 15A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Şuhud mutasarrıfı es-Seyyid Ali gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Derviş Ahmet dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Şabani‘l-muazzamı gurresinden ancak on iki ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Şuhud: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Ali: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Derviş: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ünye ma‘a Karaisalı 1 Cemaziyelevvel 1169 45A",
+    "output": "Ünye: B-LOCATION, ma‘a: I-LOCATION, Karaisalı: I-LOCATION, 1: O, Cemaziyelevvel: O, 1169: O, 45A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ortakçı mutasarrıfı es-Seyyid Süleyman gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Abdülbaki dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden ancak on ay mutasarrıf olup bakiyye on ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ortakçı: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Süleyman: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Abdülbaki: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, ancak: O, on: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, on: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Alaşehir mutasarrıfı Halil gâyet-i şehr-i âtîden ref‘ ve yeri muvakkiti olduğu kadıasker-i sabık ruznamçesinde mukayyet eşrâf-ı kuzât-ı kirâm-ı zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Mehmed dâ‘îlerine ber-tevcih-i sabık ibka olunup sene-i mezbûre mezbure Şabani‘l-muazzamı gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Alaşehir: B-LOCATION, mutasarrıfı: O, Halil: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, sabık: O, ruznamçesinde: O, mukayyet: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Mehmed: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, sabık: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, mezbure: O, Şabani‘l-muazzamı: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Develi 1 Cemaziyelahir 1169 46A",
+    "output": "Develi: B-LOCATION, 1: O, Cemaziyelahir: O, 1169: O, 46A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i ma‘îşet Bayburd-ı Karaman mutasarrıfı Ömer gâyet-i şehr-i mezburdan ref‘ ve yeri ulemadan müdaresene-i kiram zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyan-ı âtıfet-i cihandâri Mevlânâ Mehmed Zeynî dâ‘îlerine bâ-işâret-i aliyye hazreti şeyhülislam-i allâmetü’l-enâm-i sellemehü’l-meliki’l-azizi’l-allâm ber-vech-i ma‘îşet tevcih olunup mezbure Recebü'l-ferdi gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, ma‘îşet: O, Bayburd-ı: B-LOCATION, Karaman: I-LOCATION, mutasarrıfı: O, Ömer: B-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, ulemadan: O, müdaresene-i: O, kiram: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyan-ı: O, âtıfet-i: O, cihandâri: O, Mevlânâ: O, Mehmed: B-PERSON, Zeynî: I-PERSON, dâ‘îlerine: O, bâ-işâret-i: O, aliyye: O, hazreti: O, şeyhülislam-i: O, allâmetü’l-enâm-i: O, sellemehü’l-meliki’l-azizi’l-allâm: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, mezbure: O, Recebü'l-ferdi: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Onikidivan mutasarrıfı el-Hac Hüseyin gâyet-i şehr-i âtîden ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Mehmed Emin dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Şabani‘l-muazzamı gurresinden ancak on ay mutasarrıf olup bakiyye on ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Onikidivan: B-LOCATION, mutasarrıfı: O, el-Hac: B-PERSON, Hüseyin: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mehmed: B-PERSON, Emin: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, ancak: O, on: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, on: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kemer-i Hamid mutasarrıfı es-Seyyid Mustafa gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Mahmut dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden ancak on ay mutasarrıf olup bakiyye on ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Kemer-i: B-LOCATION, Hamid: I-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Mustafa: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mahmut: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, ancak: O, on: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, on: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i ma‘îşet Sağman mutasarrıfı es-Seyyid Haşim gâyet-i şehr-i mezburdan ref‘ ve yeri müdaresene-i kiram zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mustafa dâ‘îlerine bâ-işâret-i aliyye hazreti şeyhülislam-i allâmetü’l-enâm-i sellemehü’l-meliki’l-azizi’l-allâm ber-vech-i ma‘îşet tevcih olunup sene-i mezbûre Recebü'l-ferdi gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, ma‘îşet: O, Sağman: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Haşim: I-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, müdaresene-i: O, kiram: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mustafa: B-PERSON, dâ‘îlerine: O, bâ-işâret-i: O, aliyye: O, hazreti: O, şeyhülislam-i: O, allâmetü’l-enâm-i: O, sellemehü’l-meliki’l-azizi’l-allâm: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Recebü'l-ferdi: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i ma‘îşet Kalecik Keskini ve Konur ve Lakvan mutasarrıfı es-Seyyid Yahya gâyet-i şehr-i mezburdan ref‘ ve yeri müdaresene-i kiram zevi’l-ihtirâmdan sezâvar-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Mahmut dâ‘îlerine bâ-işâret-i aliyye hazreti şeyhülislam-i allâmetü’l-enâm-i sellemehü’l-meliki’l-azizi’l-allâm ber-vech-i ma‘îşet tevcih olunup sene-i mezbûre Şabani‘l-muazzamı gurresinden vech-i meşruh üzere mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ber-vech-i: O, ma‘îşet: O, Kalecik: B-LOCATION, Keskini: O, ve: O, Konur: B-LOCATION, ve: O, Lakvan: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Yahya: I-PERSON, gâyet-i: O, şehr-i: O, mezburdan: O, ref‘: O, ve: O, yeri: O, müdaresene-i: O, kiram: O, zevi’l-ihtirâmdan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Mahmut: B-PERSON, dâ‘îlerine: O, bâ-işâret-i: O, aliyye: O, hazreti: O, şeyhülislam-i: O, allâmetü’l-enâm-i: O, sellemehü’l-meliki’l-azizi’l-allâm: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, vech-i: O, meşruh: O, üzere: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Lazkiyetül-Arap 1 Recep 1169 48A",
+    "output": "Lazkiyetül-Arap: B-LOCATION, 1: O, Recep: O, 1169: O, 48A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Peçin mutasarrıfı Mustafa gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Ahmet dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Şevvâli’l-mükerremi gurresinden ancak on dört ay mutasarrıf olup bakiyye altı ay zamanını kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Peçin: B-LOCATION, mutasarrıfı: O, Mustafa: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ahmet: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Şevvâli’l-mükerremi: O, gurresinden: O, ancak: O, on: O, dört: O, ay: O, mutasarrıf: O, olup: O, bakiyye: O, altı: O, ay: O, zamanını: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sermin kadısı es-Seyyid Hüseyin sene-i mezbûre Zilhicceti’ş-şerîfesi gurresinden on ay ve muvakkitleri Halil Mehmed on dörder ay zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî yüz elli akçe ile Senir ma‘a Döşenbe mutasarrıfı iken hasb’el-iktizâ nakli lazım gelen sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ömer dâ‘îlerine bâ-terakkî yevmî iki yüz akçe ile bi-tariki’n-nakl tevcih olunup ba‘de hulûl-i vaktihî ancak altı ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Sermin: B-LOCATION, kadısı: O, es-Seyyid: B-PERSON, Hüseyin: I-PERSON, sene-i: O, mezbûre: O, Zilhicceti’ş-şerîfesi: O, gurresinden: O, on: O, ay: O, ve: O, muvakkitleri: O, Halil: B-PERSON, Mehmed: I-PERSON, on: O, dörder: O, ay: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, Senir: B-LOCATION, ma‘a: I-LOCATION, Döşenbe: I-LOCATION, mutasarrıfı: O, iken: O, hasb’el-iktizâ: O, nakli: O, lazım: O, gelen: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ömer: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, iki: O, yüz: O, akçe: O, ile: O, bi-tariki’n-nakl: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, ancak: O, altı: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Konas ma‘a Bağdadcık mutasarrıfı es-Seyyid Mahmut gâyet-i şehr-i âtîden ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Firuzağa Medresesi’nden kırk üç ay infisâli olan müte‘ayyinü'l-ehliye ve'l-istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ Ahmet Ata dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden ancak altı ay mutasarrıf olup bakiyye-i müddet-i örfiyesini kazâ-yı âhardan tekmîl eylemek ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Konas: B-LOCATION, ma‘a: I-LOCATION, Bağdadcık: I-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Mahmut: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Firuzağa: O, Medresesi’nden: O, kırk: O, üç: O, ay: O, infisâli: O, olan: O, müte‘ayyinü'l-ehliye: O, ve'l-istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Ahmet: B-PERSON, Ata: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, ancak: O, altı: O, ay: O, mutasarrıf: O, olup: O, bakiyye-i: O, müddet-i: O, örfiyesini: O, kazâ-yı: O, âhardan: O, tekmîl: O, eylemek: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ayaş 1 Recep 1169 49B Ayaş mutasarrıfı es-Seyyid Mehmed Şakir gâyet-i şehr-i âtîden iki ay tevkîtle ref‘ ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ es-Seyyid Ali dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Zilka‘deti’ş-şerîfesi gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ayaş: B-LOCATION, 1: O, Recep: O, 1169: O, 49B: O, Ayaş: B-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, Şakir: I-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, iki: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, es-Seyyid: B-PERSON, Ali: I-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Zilka‘deti’ş-şerîfesi: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Uluborlu mutasarrıfı Halil’in fevti ihbâr-ı sikât ile mütehakkık olmağla gâyet-i şehr-i âtîden yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ eş-Şeyh Ahmet dâîlerinin müddet-i mu‘ayyenesi olan on ay zamanını dört ay dahi med ve zam ile ber-tevcih-i esbak tenciz ve ibka olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden ancak on döry ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Uluborlu: B-LOCATION, mutasarrıfı: O, Halil’in: B-PERSON, fevti: O, ihbâr-ı: O, sikât: O, ile: O, mütehakkık: O, olmağla: O, gâyet-i: O, şehr-i: O, âtîden: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, eş-Şeyh: B-PERSON, Ahmet: I-PERSON, dâîlerinin: O, müddet-i: O, mu‘ayyenesi: O, olan: O, on: O, ay: O, zamanını: O, dört: O, ay: O, dahi: O, med: O, ve: O, zam: O, ile: O, ber-tevcih-i: O, esbak: O, tenciz: O, ve: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, ancak: O, on: O, döry: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Circe ma‘a İbrim 1 Şevval 1168 52A",
+    "output": "Circe: B-LOCATION, ma‘a: I-LOCATION, İbrim: I-LOCATION, 1: O, Şevval: O, 1168: O, 52A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diyar-ı Mısriyye'den Mahalletü'l-Kübra kadısı Ömer sene-i mezbûre Şabani‘l-muazzamı gurresinden seneteyn ve muvakkiti sabıka-i serlevha-i yesar Mehmed kezâlik seneteyn zamanlarını ba‘de't-tasarruf ref‘ ve yerleri yevmî dört yüz doksan dokuz akçe ile Reşîd kazâsından otuz yedi ay hakîkî infisâli olup sabıka-i serlevha-i canib-i yesar olan eşrâf-ı kuzât-ı kirâm-ı zevi'l- ihtirâmdan sezâvâr-ı inâyet-i şehriyârî ve şâyeste-i mükerremet-i tacidâri Mevlânâ Mehmed Necip dâ‘îlerine misliyle tevcih olunup ba‘de hulûl-i vaktihî tevâbi‘-i kadîmesiyle seneteyn-i kâmileteyn mutasarrıf olup ve yine Diyar-ı Mısriyye’den Tahta-i Münşiye kazası muvakkiti Mejmet sene-i âtîye Ramazânü'l-mübâreki gurresinden seneteyn zamanını ba‘de't-tasarruf ref‘inden zikr olunan Mahalletü'l-Kübra kazasına ilhak olunmağla ba‘de hulûl-i vaktihî mülhak-ı mezkuru dahi tevâbi‘-i kadîmesiyle seneteyn-i kâmileteyn mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Diyar-ı: O, Mısriyye'den: B-LOCATION, Mahalletü'l-Kübra: O, kadısı: O, Ömer: B-PERSON, sene-i: O, mezbûre: O, Şabani‘l-muazzamı: O, gurresinden: O, seneteyn: O, ve: O, muvakkiti: O, sabıka-i: O, serlevha-i: O, yesar: O, Mehmed: B-PERSON, kezâlik: O, seneteyn: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yerleri: O, yevmî: O, dört: O, yüz: O, doksan: O, dokuz: O, akçe: O, ile: O, Reşîd: B-LOCATION, kazâsından: O, otuz: O, yedi: O, ay: O, hakîkî: O, infisâli: O, olup: O, sabıka-i: O, serlevha-i: O, canib-i: O, yesar: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi'l-: O, ihtirâmdan: O, sezâvâr-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyeste-i: O, mükerremet-i: O, tacidâri: O, Mevlânâ: O, Mehmed: B-PERSON, Necip: I-PERSON, dâ‘îlerine: O, misliyle: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, tevâbi‘-i: O, kadîmesiyle: O, seneteyn-i: O, kâmileteyn: O, mutasarrıf: O, olup: O, ve: O, yine: O, Diyar-ı: O, Mısriyye’den: B-LOCATION, Tahta-i: B-LOCATION, Münşiye: I-LOCATION, kazası: O, muvakkiti: O, Mejmet: B-PERSON, sene-i: O, âtîye: O, Ramazânü'l-mübâreki: O, gurresinden: O, seneteyn: O, zamanını: O, ba‘de't-tasarruf: O, ref‘inden: O, zikr: O, olunan: O, Mahalletü'l-Kübra: O, kazasına: O, ilhak: O, olunmağla: O, ba‘de: O, hulûl-i: O, vaktihî: O, mülhak-ı: O, mezkuru: O, dahi: O, tevâbi‘-i: O, kadîmesiyle: O, seneteyn-i: O, kâmileteyn: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diyar-ı Mısriyye'den Beni Haram mutasarrıfı es-Seyyid Hüseyin ibkaya rağbet ettiğinden mâ‘adâ bî-berât olmağla gâyet-i şehr-i âtîden bir ay tevkîtle ref‘ ve yeri hâlâ serlavha-i canib-i yesâr olan eşrâf-ı kuzât-ı kirâm-ı zevi'l- ihtirâmdan sezâvâr-ı inâyet-i şehriyârî ve şâyan-ı ref‘eti cihandâri Mevlânâ es-Seyyid Mehmed dâ‘îlerine kânûn-ı kadîm üzere ber-vech-i ma‘îşet tevcih olunup sene-i mezbûre Rebîü’l-âhiri gurresinden tevâbi‘-i kadîmesiyle ancak on iki ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Diyar-ı: O, Mısriyye'den: B-LOCATION, Beni: B-LOCATION, Haram: I-LOCATION, mutasarrıfı: O, es-Seyyid: B-PERSON, Hüseyin: I-PERSON, ibkaya: O, rağbet: O, ettiğinden: O, mâ‘adâ: O, bî-berât: O, olmağla: O, gâyet-i: O, şehr-i: O, âtîden: O, bir: O, ay: O, tevkîtle: O, ref‘: O, ve: O, yeri: O, hâlâ: O, serlavha-i: O, canib-i: O, yesâr: O, olan: O, eşrâf-ı: O, kuzât-ı: O, kirâm-ı: O, zevi'l-: O, ihtirâmdan: O, sezâvâr-ı: O, inâyet-i: O, şehriyârî: O, ve: O, şâyan-ı: O, ref‘eti: O, cihandâri: O, Mevlânâ: O, es-Seyyid: B-PERSON, Mehmed: I-PERSON, dâ‘îlerine: O, kânûn-ı: O, kadîm: O, üzere: O, ber-vech-i: O, ma‘îşet: O, tevcih: O, olunup: O, sene-i: O, mezbûre: O, Rebîü’l-âhiri: O, gurresinden: O, tevâbi‘-i: O, kadîmesiyle: O, ancak: O, on: O, iki: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diyar-ı Mısriyye’den ber-vech-i ilhak Nehrariye mutasarrıfı Musa gâyet-i şehr-i âtîden bakiyye altı ay ve mıvakkiti Hafız Mehmed seneteyn zamanlarını ba‘de't-tasarruf ref‘ ve yeri yevmî kırk akçe ile İstanbul’da Eyüb Ağa Medresesi’nden tûl-î infisâli olan müte‘ayyinü'l-ehliye ve'l-istihkâk sezâvar-ı inâyet-i şehriyârî Mevlânâ Said Mehmed dâ‘îlerine bâ-terakkî yevmî yüz elli akçe ile tevcih olunup ba‘de hulûl-i vaktihî tevâbi‘-i kadîmesiyle seneteyn-i kamileteyn mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Diyar-ı: O, Mısriyye’den: B-LOCATION, ber-vech-i: O, ilhak: O, Nehrariye: B-LOCATION, mutasarrıfı: O, Musa: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, altı: O, ay: O, ve: O, mıvakkiti: O, Hafız: B-PERSON, Mehmed: I-PERSON, seneteyn: O, zamanlarını: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, yevmî: O, kırk: O, akçe: O, ile: O, İstanbul’da: B-LOCATION, Eyüb: O, Ağa: O, Medresesi’nden: O, tûl-î: O, infisâli: O, olan: O, müte‘ayyinü'l-ehliye: O, ve'l-istihkâk: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Said: B-PERSON, Mehmed: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, yüz: O, elli: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, tevâbi‘-i: O, kadîmesiyle: O, seneteyn-i: O, kamileteyn: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Artukâbâd 1 Recep 1169 25A",
+    "output": "Artukâbâd: B-LOCATION, 1: O, Recep: O, 1169: O, 25A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kars-ı Erzurum 1 Rebiulevvel 1169 40A",
+    "output": "Kars-ı: B-LOCATION, Erzurum: I-LOCATION, 1: O, Rebiulevvel: O, 1169: O, 40A: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ladik mutasarrıfı Ahmet gâyet-i şehr-i âtîden ref‘ve yeri muvakkiti olduğu kadıasker-i esbak ruznamçesinde mukayyet sezâvar-ı inâyet-i şehriyârî Mevlânâ Mustafa dâ‘îlerine ber-tevcih-i esbak ibka olunup sene-i mezbûre Ramazânü'l-mübâreki gurresinden müddet-i örfiyye-i kamile mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Ladik: B-LOCATION, mutasarrıfı: O, Ahmet: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, ref‘ve: O, yeri: O, muvakkiti: O, olduğu: O, kadıasker-i: O, esbak: O, ruznamçesinde: O, mukayyet: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, Mustafa: B-PERSON, dâ‘îlerine: O, ber-tevcih-i: O, esbak: O, ibka: O, olunup: O, sene-i: O, mezbûre: O, Ramazânü'l-mübâreki: O, gurresinden: O, müddet-i: O, örfiyye-i: O, kamile: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Beni Harâm 1 Rebiulahir 1169 53B",
+    "output": "Beni: B-LOCATION, Harâm: I-LOCATION, 1: O, Rebiulahir: O, 1169: O, 53B: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Diyar-ı Mısriyye’den Minye mutasarrıfı Mustafa gâyet-i şehr-i âtîden bakiyye yedi ay ve muvakkitleri es-Seyyid Ahmet ve es-Seyyid Mustafa seneteyn-i müddetlerin ba‘de't-tasarruf ref‘ ve yeri iki yüz akçe ile Beni Haram kazâsından on altı ay hakîkî infisâli olan sezâvar-ı inâyet-i şehriyârî Mevlânâ el-Hac Ahmet dâ‘îlerine bâ-terakkî yevmî üç yüz akçe ile tevcih olunup ba‘de hulûl-i vaktihî tevâbi‘-i kadîmesiyle yirmi beş ay mutasarrıf olmak ricâsına ba‘de'l-arz sadaka buyruldu",
+    "output": "Diyar-ı: O, Mısriyye’den: B-LOCATION, Minye: B-LOCATION, mutasarrıfı: O, Mustafa: B-PERSON, gâyet-i: O, şehr-i: O, âtîden: O, bakiyye: O, yedi: O, ay: O, ve: O, muvakkitleri: O, es-Seyyid: B-PERSON, Ahmet: I-PERSON, ve: O, es-Seyyid: B-PERSON, Mustafa: I-PERSON, seneteyn-i: O, müddetlerin: O, ba‘de't-tasarruf: O, ref‘: O, ve: O, yeri: O, iki: O, yüz: O, akçe: O, ile: O, Beni: B-LOCATION, Haram: I-LOCATION, kazâsından: O, on: O, altı: O, ay: O, hakîkî: O, infisâli: O, olan: O, sezâvar-ı: O, inâyet-i: O, şehriyârî: O, Mevlânâ: O, el-Hac: B-PERSON, Ahmet: I-PERSON, dâ‘îlerine: O, bâ-terakkî: O, yevmî: O, üç: O, yüz: O, akçe: O, ile: O, tevcih: O, olunup: O, ba‘de: O, hulûl-i: O, vaktihî: O, tevâbi‘-i: O, kadîmesiyle: O, yirmi: O, beş: O, ay: O, mutasarrıf: O, olmak: O, ricâsına: O, ba‘de'l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Yüreğir kazâsına ber-vech-i te’bid mutasarrıf olan İbrahim ehl-i ilim ve dindar ve kudemâ-yı tarîkden pir ve ihtiyar olup azlini icâb eder hali yoğiken Hüseyin nam kimesne bir tarîkle alıp gadr eyledüğinden mâʻadâ mezbûr Hüseyin ecânib-i tarîkden olduğu sikât ihbar etmeğin ref‘ olunup kazâ-yı mezbûr mülhakatıyla Mevlânâ-yı mezbûr İbrahim da‘ilerine ber-vech-i te’bid mutasarrıf olmak ricasına ba‘de’l-arz buyruldu",
+    "output": "Yüreğir: B-LOCATION, kazâsına: O, ber-vech-i: O, te’bid: O, mutasarrıf: O, olan: O, İbrahim: B-PERSON, ehl-i: O, ilim: O, ve: O, dindar: O, ve: O, kudemâ-yı: O, tarîkden: O, pir: O, ve: O, ihtiyar: O, olup: O, azlini: O, icâb: O, eder: O, hali: O, yoğiken: O, Hüseyin: B-PERSON, nam: O, kimesne: O, bir: O, tarîkle: O, alıp: O, gadr: O, eyledüğinden: O, mâʻadâ: O, mezbûr: O, Hüseyin: B-PERSON, ecânib-i: O, tarîkden: O, olduğu: O, sikât: O, ihbar: O, etmeğin: O, ref‘: O, olunup: O, kazâ-yı: O, mezbûr: O, mülhakatıyla: O, Mevlânâ-yı: O, mezbûr: O, İbrahim: B-PERSON, da‘ilerine: O, ber-vech-i: O, te’bid: O, mutasarrıf: O, olmak: O, ricasına: O, ba‘de’l-arz: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Derkenar: Mezbûr Mustafa’nın tevcih olunan 3 ay zamanı ibka ve muvakkiti olan İvaz sene-i mezbûre Şabanı gurresinde mutasarrıf olmak buyruldu",
+    "output": "Derkenar:: O, Mezbûr: B-PERSON, Mustafa’nın: I-PERSON, tevcih: O, olunan: O, 3: O, ay: O, zamanı: O, ibka: O, ve: O, muvakkiti: O, olan: O, İvaz: B-PERSON, sene-i: O, mezbûre: O, Şabanı: O, gurresinde: O, mutasarrıf: O, olmak: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sonisa kadısı Salih bî-berât mutasarrıf olmağın gurre-i şehirden üç ay tevkitle ref‘ ve yeri yetmiş akça ile Ovayüzü kazâsından otuz dört ay infisâli ve yedi ay sitanesi olan Resul da‘ilerine yevmî seksen akça ve tevkit-i mezbûr ve müddet-i örfiyye ile buyruldu",
+    "output": "Sonisa: B-LOCATION, kadısı: O, Salih: B-PERSON, bî-berât: O, mutasarrıf: O, olmağın: O, gurre-i: O, şehirden: O, üç: O, ay: O, tevkitle: O, ref‘: O, ve: O, yeri: O, yetmiş: O, akça: O, ile: O, Ovayüzü: B-LOCATION, kazâsından: O, otuz: O, dört: O, ay: O, infisâli: O, ve: O, yedi: O, ay: O, sitanesi: O, olan: O, Resul: B-PERSON, da‘ilerine: O, yevmî: O, seksen: O, akça: O, ve: O, tevkit-i: O, mezbûr: O, ve: O, müddet-i: O, örfiyye: O, ile: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kavak kadısı Bafra’da Emirü’l-Hac Medresesi’nden munfasıl olup şeyhü’l-islâm hazretleri imtihan buyurduklarına istihkâkı zâhir olan Mehmed da‘ilerine te’bid olunmak üzere işaret-i aliyyeleri ile ba‘de’l-arz sadaka buyruldu",
+    "output": "Kavak: B-LOCATION, kadısı: O, Bafra’da: B-LOCATION, Emirü’l-Hac: O, Medresesi’nden: O, munfasıl: O, olup: O, şeyhü’l-islâm: O, hazretleri: O, imtihan: O, buyurduklarına: O, istihkâkı: O, zâhir: O, olan: O, Mehmed: B-PERSON, da‘ilerine: O, te’bid: O, olunmak: O, üzere: O, işaret-i: O, aliyyeleri: O, ile: O, ba‘de’l-arz: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hoşalay kazâsına Yoros kazâsı hilâf-ı kanun ilhâk olunmağla ifrâz ve ruus-ı hümâyûn ile Cemaleddin müderris olup müstehakk-ı âtıfet-i şehriyârî olan Salih da‘ilerine fakir ve alîl olmağla kazâ ihtiyar etmeğin faziletlü şeyhü’l-islâm hazretlerinin işaretleri üzere yevmî yüz elli akça ber-vech-i te’bid sadaka buyruldu",
+    "output": "Hoşalay: B-LOCATION, kazâsına: O, Yoros: B-LOCATION, kazâsı: O, hilâf-ı: O, kanun: O, ilhâk: O, olunmağla: O, ifrâz: O, ve: O, ruus-ı: O, hümâyûn: O, ile: O, Cemaleddin: B-PERSON, müderris: O, olup: O, müstehakk-ı: O, âtıfet-i: O, şehriyârî: O, olan: O, Salih: B-PERSON, da‘ilerine: O, fakir: O, ve: O, alîl: O, olmağla: O, kazâ: O, ihtiyar: O, etmeğin: O, faziletlü: O, şeyhü’l-islâm: O, hazretlerinin: O, işaretleri: O, üzere: O, yevmî: O, yüz: O, elli: O, akça: O, ber-vech-i: O, te’bid: O, sadaka: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Hacı Hamza kadısı Mehmed ferâğın i‘lâm etmeğin gurre-i şehirden ref‘ ve yeri yetmiş akça ile Katar Sarayı kazâsından on bir sene infisâli ve dokuz ay sitanesi olan Mevlânâ Osman a‘ilerine yevmî seksen akça ile tevkit-i mezbûr ve müddet-i örfiyye ile buyruldu",
+    "output": "Hacı: B-LOCATION, Hamza: I-LOCATION, kadısı: O, Mehmed: B-PERSON, ferâğın: O, i‘lâm: O, etmeğin: O, gurre-i: O, şehirden: O, ref‘: O, ve: O, yeri: O, yetmiş: O, akça: O, ile: O, Katar: B-LOCATION, Sarayı: I-LOCATION, kazâsından: O, on: O, bir: O, sene: O, infisâli: O, ve: O, dokuz: O, ay: O, sitanesi: O, olan: O, Mevlânâ: O, Osman: B-PERSON, a‘ilerine: O, yevmî: O, seksen: O, akça: O, ile: O, tevkit-i: O, mezbûr: O, ve: O, müddet-i: O, örfiyye: O, ile: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ayandon kadısı Mehmed’in müddeti halle karib olmağla gurre-i şehirden beş ay tevkitle ref‘ ve yeri yüz otuz akça ile Sürmene kazâsından on iki sene infisâli ve yirmi ay sitanesi olan Mevlânâ Süleyman da‘ilerine yevmî yüz elli akça ve tevkit-i mezbûr ve müddet-i örfiyye ile buyruldu",
+    "output": "Ayandon: B-LOCATION, kadısı: O, Mehmed’in: B-PERSON, müddeti: O, halle: O, karib: O, olmağla: O, gurre-i: O, şehirden: O, beş: O, ay: O, tevkitle: O, ref‘: O, ve: O, yeri: O, yüz: O, otuz: O, akça: O, ile: O, Sürmene: B-LOCATION, kazâsından: O, on: O, iki: O, sene: O, infisâli: O, ve: O, yirmi: O, ay: O, sitanesi: O, olan: O, Mevlânâ: O, Süleyman: B-PERSON, da‘ilerine: O, yevmî: O, yüz: O, elli: O, akça: O, ve: O, tevkit-i: O, mezbûr: O, ve: O, müddet-i: O, örfiyye: O, ile: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ber-vech-i te’bid Kiğı kazâsına mutasarrıf olan Derviş Mehmed da‘ileri kudemâ-yı tarîkden pir ve ihtiyar olup kazâ-yı mezbûr ahâra tevcih olunmağla sıfırü’l-yed kalmağın gurre-i şehirden dört ay tevkitle ref‘ ve yine kazâ-yı mezbûr ve mezbûr Derviş Mehmed a‘ilerine yevmî yüz elli akça ile ber-vech-i te’bid ve tekâüd mutasarrıf olmak buyruldu",
+    "output": "Ber-vech-i: O, te’bid: O, Kiğı: B-LOCATION, kazâsına: O, mutasarrıf: O, olan: O, Derviş: B-PERSON, Mehmed: I-PERSON, da‘ileri: O, kudemâ-yı: O, tarîkden: O, pir: O, ve: O, ihtiyar: O, olup: O, kazâ-yı: O, mezbûr: O, ahâra: O, tevcih: O, olunmağla: O, sıfırü’l-yed: O, kalmağın: O, gurre-i: O, şehirden: O, dört: O, ay: O, tevkitle: O, ref‘: O, ve: O, yine: O, kazâ-yı: O, mezbûr: O, ve: O, mezbûr: O, Derviş: B-PERSON, Mehmed: I-PERSON, a‘ilerine: O, yevmî: O, yüz: O, elli: O, akça: O, ile: O, ber-vech-i: O, te’bid: O, ve: O, tekâüd: O, mutasarrıf: O, olmak: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Haru kadısı Mehmed’in müddet-i muayyenesi halle karib olmağın gurre-i şehirden dört ay tevkitle ref‘ ve yeri yevmî yüz elli akça ile Ergene kazâsından dört sene infisâli ve kâmil sitanesi olan Mevlânâ Ahmed a‘ilerine misli ve tevkit-i mezbûr ve müddet-i örfiyye ile buyruldu",
+    "output": "Haru: B-LOCATION, kadısı: O, Mehmed’in: B-PERSON, müddet-i: O, muayyenesi: O, halle: O, karib: O, olmağın: O, gurre-i: O, şehirden: O, dört: O, ay: O, tevkitle: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akça: O, ile: O, Ergene: B-LOCATION, kazâsından: O, dört: O, sene: O, infisâli: O, ve: O, kâmil: O, sitanesi: O, olan: O, Mevlânâ: O, Ahmed: B-PERSON, a‘ilerine: O, misli: O, ve: O, tevkit-i: O, mezbûr: O, ve: O, müddet-i: O, örfiyye: O, ile: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ortakçı kazâsı müstakil kazâ olup ziham-ı mülâzemetine binâen mukaddemâ ifrâz olunup ve kazasker-i sâbık ruznâmesinde dahi mülhâk olunup hâlî olduğu sikât ihbarı ile mütekâid olmağın yevmî yüz akça ile Siroz kazâsından otuz ay infisâli ve on sekiz ay sitanesi olan Ahmed da‘ilerine yevmî yüz otuz akça ve tevkit-i mezbûr ve şehr-i âtî gurresinden müddet-i örfiyyesi tamamına değin mutasarrıf olmak buyruldu",
+    "output": "Ortakçı: B-LOCATION, kazâsı: O, müstakil: O, kazâ: O, olup: O, ziham-ı: O, mülâzemetine: O, binâen: O, mukaddemâ: O, ifrâz: O, olunup: O, ve: O, kazasker-i: O, sâbık: O, ruznâmesinde: O, dahi: O, mülhâk: O, olunup: O, hâlî: O, olduğu: O, sikât: O, ihbarı: O, ile: O, mütekâid: O, olmağın: O, yevmî: O, yüz: O, akça: O, ile: O, Siroz: B-LOCATION, kazâsından: O, otuz: O, ay: O, infisâli: O, ve: O, on: O, sekiz: O, ay: O, sitanesi: O, olan: O, Ahmed: B-PERSON, da‘ilerine: O, yevmî: O, yüz: O, otuz: O, akça: O, ve: O, tevkit-i: O, mezbûr: O, ve: O, şehr-i: O, âtî: O, gurresinden: O, müddet-i: O, örfiyyesi: O, tamamına: O, değin: O, mutasarrıf: O, olmak: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Divriği kadısı Ali’nin Divân-ı Hümâyûn’a şükâtı gelmeğin bâ-ferman-ı âlî muntasıf-ı şehr-i mezbûra tevkitle ref‘ ve yeri yevmî yüz elli akça ile Sis kazâsından kırk ay infisâli ve yirmi yedi ay sitanesi olan Mevlânâ Abdurrahman da‘ilerine yevmî iki yüz akça ve tevkit-i mezbûr ile ancak sekiz ay mutasarrıf olup bakıyyesi Eskişehir’de tekmil ricasına buyruldu",
+    "output": "Divriği: B-LOCATION, kadısı: O, Ali’nin: B-PERSON, Divân-ı: O, Hümâyûn’a: O, şükâtı: O, gelmeğin: O, bâ-ferman-ı: O, âlî: O, muntasıf-ı: O, şehr-i: O, mezbûra: O, tevkitle: O, ref‘: O, ve: O, yeri: O, yevmî: O, yüz: O, elli: O, akça: O, ile: O, Sis: B-LOCATION, kazâsından: O, kırk: O, ay: O, infisâli: O, ve: O, yirmi: O, yedi: O, ay: O, sitanesi: O, olan: O, Mevlânâ: O, Abdurrahman: B-PERSON, da‘ilerine: O, yevmî: O, iki: O, yüz: O, akça: O, ve: O, tevkit-i: O, mezbûr: O, ile: O, ancak: O, sekiz: O, ay: O, mutasarrıf: O, olup: O, bakıyyesi: O, Eskişehir’de: B-LOCATION, tekmil: O, ricasına: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Derkenar: Mezbûr Abdurrahman hüsnü’s-sülûk müddet-i muayyenesine dört ay zam olunmak buyruldu",
+    "output": "Derkenar:: O, Mezbûr: O, Abdurrahman: B-PERSON, hüsnü’s-sülûk: O, müddet-i: O, muayyenesine: O, dört: O, ay: O, zam: O, olunmak: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Dodurga kadısı Ramazan bu sene-i mübârekede me’mur olduğu kürekçi emrinde tekâsül etmeğin bâ-ferman-ı âlî ref‘ ve yeri kırk akça ile İstanbul’da Takyeci Üveys Medresesi’nden on beş sene infisâli ve on altı ay sitanesi olan Mehmed da‘ilerine kazâ-yı mezbûrun kürekçisi bedelini kendi malından edâ etmeğin yüz otuz akça ve tevkit-i mezbûr ve müddet-i örfiyye ile buyruldu",
+    "output": "Dodurga: B-LOCATION, kadısı: O, Ramazan: B-PERSON, bu: O, sene-i: O, mübârekede: O, me’mur: O, olduğu: O, kürekçi: O, emrinde: O, tekâsül: O, etmeğin: O, bâ-ferman-ı: O, âlî: O, ref‘: O, ve: O, yeri: O, kırk: O, akça: O, ile: O, İstanbul’da: B-LOCATION, Takyeci: O, Üveys: O, Medresesi’nden: O, on: O, beş: O, sene: O, infisâli: O, ve: O, on: O, altı: O, ay: O, sitanesi: O, olan: O, Mehmed: B-PERSON, da‘ilerine: O, kazâ-yı: O, mezbûrun: O, kürekçisi: O, bedelini: O, kendi: O, malından: O, edâ: O, etmeğin: O, yüz: O, otuz: O, akça: O, ve: O, tevkit-i: O, mezbûr: O, ve: O, müddet-i: O, örfiyye: O, ile: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İnşaallah-u teâlâ sene-i âtîyede cânib-i Şam’dan tavaf-ı Beytullahi’l-haram ve ziyaret-i Ravza-i Seyyidü’l-en‘am murad eden hüccac beyninde vâkî‘ umûr-ı şer‘iyyeyi istima‘a kadı nasb olunmak lâzım olmağın sene-i sâbıkada yine Mahmil-i Şerîf kadısı olan es-seyyid Abdülkerim da‘ilerine mu‘tad-ı kadim-i sultânî ve şeyhü’l-islâm hazretlerinin işaret-i aliyyeleri üzere yevmî dört yüz doksan dokuz akça ve emsali mutasarrıf olduğu vech üzere mutasarrıf olmak ricasına buyruldu",
+    "output": "İnşaallah-u: O, teâlâ: O, sene-i: O, âtîyede: O, cânib-i: B-LOCATION, Şam’dan: I-LOCATION, tavaf-ı: O, Beytullahi’l-haram: O, ve: O, ziyaret-i: O, Ravza-i: O, Seyyidü’l-en‘am: O, murad: O, eden: O, hüccac: O, beyninde: O, vâkî‘: O, umûr-ı: O, şer‘iyyeyi: O, istima‘a: O, kadı: O, nasb: O, olunmak: O, lâzım: O, olmağın: O, sene-i: O, sâbıkada: O, yine: O, Mahmil-i: O, Şerîf: O, kadısı: O, olan: O, es-seyyid: O, Abdülkerim: B-PERSON, da‘ilerine: O, mu‘tad-ı: O, kadim-i: O, sultânî: O, ve: O, şeyhü’l-islâm: O, hazretlerinin: O, işaret-i: O, aliyyeleri: O, üzere: O, yevmî: O, dört: O, yüz: O, doksan: O, dokuz: O, akça: O, ve: O, emsali: O, mutasarrıf: O, olduğu: O, vech: O, üzere: O, mutasarrıf: O, olmak: O, ricasına: O, buyruldu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Derkenar: Mezbûr Ahmed rızâsıyla iki ay zamanından fariğ olmağla mûmâ-ileyhin tevkiti yetmiş yedi Rebîü’l-evveline kasr olundu",
+    "output": "Derkenar:: O, Mezbûr: O, Ahmed: B-PERSON, rızâsıyla: O, iki: O, ay: O, zamanından: O, fariğ: O, olmağla: O, mûmâ-ileyhin: O, tevkiti: O, yetmiş: O, yedi: O, Rebîü’l-evveline: O, kasr: O, olundu: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Derkenar: Kazâ-yı mezbûr şeyhü’l-islâm-ı sellemeü’s-selâm hazretlerinin işaret-i aliyyeleri üzere Medine-i Amid’de Aparlı müderrisi İsa’ya ber-vech-i te’bid ruûs-ı hümâyûnla bin yetmiş beş Rebîü’l-evvelinde tevcih olunmuştur",
+    "output": "Derkenar:: O, Kazâ-yı: O, mezbûr: O, şeyhü’l-islâm-ı: O, sellemeü’s-selâm: O, hazretlerinin: O, işaret-i: O, aliyyeleri: O, üzere: O, Medine-i: B-LOCATION, Amid’de: I-LOCATION, Aparlı: B-LOCATION, müderrisi: O, İsa’ya: B-PERSON, ber-vech-i: O, te’bid: O, ruûs-ı: O, hümâyûnla: O, bin: O, yetmiş: O, beş: O, Rebîü’l-evvelinde: O, tevcih: O, olunmuştur: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sabıka İstanbul Ebubekir Efendi-zade Osman Efendi hazretlerine kayd ile inabeye izin verilmişdir .",
+    "output": "Sabıka: O, İstanbul: B-LOCATION, Ebubekir: B-PERSON, Efendi-zade: I-PERSON, Osman: I-PERSON, Efendi: I-PERSON, hazretlerine: O, kayd: O, ile: O, inabeye: O, izin: O, verilmişdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sabıka İstanbul kadısı saadetlü semahatlü Feyzullah Nafiz Efendi hazretleri tarafına izz-ü-kayd ile inabeye mezundur .",
+    "output": "Sabıka: O, İstanbul: B-LOCATION, kadısı: O, saadetlü: O, semahatlü: O, Feyzullah: B-PERSON, Nafiz: I-PERSON, Efendi: I-PERSON, hazretleri: O, tarafına: O, izz-ü-kayd: O, ile: O, inabeye: O, mezundur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Sabıka piraye-bahş-ı sadr-ı vala-yı fetva devletlü inayetlü atafetlü Abdullah efendimiz hazretlerine izz-ü-kayd ile inabeye izin verilmişdir .",
+    "output": "Sabıka: O, piraye-bahş-ı: O, sadr-ı: O, vala-yı: O, fetva: O, devletlü: O, inayetlü: O, atafetlü: O, Abdullah: B-PERSON, efendimiz: I-PERSON, hazretlerine: O, izz-ü-kayd: O, ile: O, inabeye: O, izin: O, verilmişdir: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Anadolu kazaskeri izzetli ve faziletlü efendi hazretleri , sefer-i hümayun vaki kudat efendilere merhameten mutasarrıf üzerinden menasıbı tevcih olunmak mutad olmağla sadır olan hatt-ı hümayun-ı saadet-makrun mucebince bu sefer-i hümayunda dahi mutasarrıf üzerinden tevcih-i menasıba mezun ve murahhas olmuşsızdır .",
+    "output": "Anadolu: B-LOCATION, kazaskeri: O, izzetli: O, ve: O, faziletlü: O, efendi: O, hazretleri: O, ,: O, sefer-i: O, hümayun: O, vaki: O, kudat: O, efendilere: O, merhameten: O, mutasarrıf: O, üzerinden: O, menasıbı: O, tevcih: O, olunmak: O, mutad: O, olmağla: O, sadır: O, olan: O, hatt-ı: O, hümayun-ı: O, saadet-makrun: O, mucebince: O, bu: O, sefer-i: O, hümayunda: O, dahi: O, mutasarrıf: O, üzerinden: O, tevcih-i: O, menasıba: O, mezun: O, ve: O, murahhas: O, olmuşsızdır: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Manisa kadısı ve Antalya kadısı ve Turhanbat kadısı .",
+    "output": "Manisa: B-LOCATION, kadısı: O, ve: O, Antalya: B-LOCATION, kadısı: O, ve: O, Turhanbat: B-LOCATION, kadısı: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ve irtişa ve cehl ve adem-ül-itikad ile meşhur olan on sekiz oğlu zikr olunan kazayadan birisinde gezüb Güzelhisar kadısı yokdur .",
+    "output": "Ve: O, irtişa: O, ve: O, cehl: O, ve: O, adem-ül-itikad: O, ile: O, meşhur: O, olan: O, on: O, sekiz: O, oğlu: O, zikr: O, olunan: O, kazayadan: O, birisinde: O, gezüb: O, Güzelhisar: B-LOCATION, kadısı: O, yokdur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Bu babda dahi ihtimam olunub altmış üç ( 963 ) senesinde müteveffa Abdurrahman nevbetinde kaç nefer kimesne mülazım olmuşlar ise yine ol mikdar alunub ziyade alınmaya .",
+    "output": "Bu: O, babda: O, dahi: O, ihtimam: O, olunub: O, altmış: O, üç: O, (: O, 963: O, ): O, senesinde: O, müteveffa: O, Abdurrahman: B-PERSON, nevbetinde: O, kaç: O, nefer: O, kimesne: O, mülazım: O, olmuşlar: O, ise: O, yine: O, ol: O, mikdar: O, alunub: O, ziyade: O, alınmaya: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Ve Semaniye ve ma-fevkinde olan mevali min bad danişmende emrinde taharri idüb hücreden ziyade danişmend alınmaya .",
+    "output": "Ve: O, Semaniye: B-LOCATION, ve: O, ma-fevkinde: O, olan: O, mevali: O, min: O, bad: O, danişmende: O, emrinde: O, taharri: O, idüb: O, hücreden: O, ziyade: O, danişmend: O, alınmaya: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İş bu sene recebinde Müftî Bahâ’î Efendi’ye hatt-ı hümâyûn vârid olup yazmışlar ki , ‘‘ Siz ki dâ‘imiz müftî efendisiz , kuzâtın mansıbı beşer altışar kat olunduğu mesmû‘-ı hümâyûnum olmuştur .",
+    "output": "İş: O, bu: O, sene: O, recebinde: O, Müftî: O, Bahâ’î: B-PERSON, Efendi’ye: I-PERSON, hatt-ı: O, hümâyûn: O, vârid: O, olup: O, yazmışlar: O, ki: O, ,: O, ‘‘: O, Siz: O, ki: O, dâ‘imiz: O, müftî: O, efendisiz: O, ,: O, kuzâtın: O, mansıbı: O, beşer: O, altışar: O, kat: O, olunduğu: O, mesmû‘-ı: O, hümâyûnum: O, olmuştur: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "Kudat-ı Anadolu’dan birkaç nefer kadı selefleri olan Mehmed Said Efendi’den şikayet edüp kendileri Asitane’de mülazemetde iken asla mülazemeti olmayanların hilaf-ı kanun ve mugayir-i hatt-ı hümayun ayaklarına mansıb gönderib mülazemetde olup menasıba müstahik olan fukaranın mağdur oldukların ilam eylediler .",
+    "output": "Kudat-ı: O, Anadolu’dan: B-LOCATION, birkaç: O, nefer: O, kadı: O, selefleri: O, olan: O, Mehmed: B-PERSON, Said: I-PERSON, Efendi’den: I-PERSON, şikayet: O, edüp: O, kendileri: O, Asitane’de: B-LOCATION, mülazemetde: O, iken: O, asla: O, mülazemeti: O, olmayanların: O, hilaf-ı: O, kanun: O, ve: O, mugayir-i: O, hatt-ı: O, hümayun: O, ayaklarına: O, mansıb: O, gönderib: O, mülazemetde: O, olup: O, menasıba: O, müstahik: O, olan: O, fukaranın: O, mağdur: O, oldukların: O, ilam: O, eylediler: O, .: O"
+  },
+  {
+    "instruction": "Aşağıdaki cümledeki kelimelere doğru NER etiketlerini ekleyin.",
+    "input": "İzzetlü ve faziletlü Anadolu kadıaskeri efendi hilâf-ı kânun ve mugâyir-i hatt-ı hümâyûn eğer bilâ-mülâzemet tevcih olanlar ve eğer ecnebi olanları ve teslis olanları an-asl ilgâ idüp mülâzemetde olan müstahikkine tevcih idüp merfû‘ ve mülgât olanlara ne müddetden ve ne vechile tevcîh olunmuş ise müstahik olanlara kezâlik öyle tevcîh idüp kânun üzere temessüklerin viresüz diyu .",
+    "output": "İzzetlü: O, ve: O, faziletlü: O, Anadolu: B-LOCATION, kadıaskeri: O, efendi: O, hilâf-ı: O, kânun: O, ve: O, mugâyir-i: O, hatt-ı: O, hümâyûn: O, eğer: O, bilâ-mülâzemet: O, tevcih: O, olanlar: O, ve: O, eğer: O, ecnebi: O, olanları: O, ve: O, teslis: O, olanları: O, an-asl: O, ilgâ: O, idüp: O, mülâzemetde: O, olan: O, müstahikkine: O, tevcih: O, idüp: O, merfû‘: O, ve: O, mülgât: O, olanlara: O, ne: O, müddetden: O, ve: O, ne: O, vechile: O, tevcîh: O, olunmuş: O, ise: O, müstahik: O, olanlara: O, kezâlik: O, öyle: O, tevcîh: O, idüp: O, kânun: O, üzere: O, temessüklerin: O, viresüz: O, diyu: O, .: O"
+  }
+]
