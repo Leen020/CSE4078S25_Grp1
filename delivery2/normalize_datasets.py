@@ -16,7 +16,9 @@ entity_map = {
     "location": "LOCATION",
     "org": "ORGANIZATION",
     "organization": "ORGANIZATION",
-    "misc": "MISC"
+    "misc": "MISC",
+    "fac": "FACILITY",
+    "facility": "FACILITY",
 }
 
 def normalize_tag(tag, prev_entity="O"):
@@ -48,7 +50,7 @@ def process_file(filepath, output_path):
     ext = filepath.suffix.lower()
 
     if ext == ".csv":
-        df = pd.read_csv(filepath, encoding="utf-8", errors="replace")
+        df = pd.read_csv(filepath, encoding="utf-8")
         if "tag" in df.columns:
             df["tag"] = process_tags(df["tag"])
         elif "label" in df.columns:

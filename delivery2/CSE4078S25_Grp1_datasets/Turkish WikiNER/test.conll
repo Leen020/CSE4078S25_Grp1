@@ -6,9 +6,9 @@ kadeh O
 kaldırır O
 . O
 
-İsviçre B-FAC
-Federal I-FAC
-Sarayı I-FAC
+İsviçre B-FACILITY
+Federal I-FACILITY
+Sarayı I-FACILITY
 İsviçre B-ORGANIZATION
 Federal I-ORGANIZATION
 Meclisi I-ORGANIZATION
@@ -739,10 +739,10 @@ ilgi O
 odağıdır O
 . O
 
-Florya B-FAC
-Metin I-FAC
-Oktay I-FAC
-Tesisleri I-FAC
+Florya B-FACILITY
+Metin I-FACILITY
+Oktay I-FACILITY
+Tesisleri I-FACILITY
 Galatasaray B-ORGANIZATION
 Spor I-ORGANIZATION
 Kulübü I-ORGANIZATION
@@ -1181,8 +1181,8 @@ nedeniyle O
 kent O
 bölündü O
 ve O
-Berlin B-FAC
-Duvarı'nın I-FAC
+Berlin B-FACILITY
+Duvarı'nın I-FACILITY
 1961'te B-DATE
 yapılmasıyla O
 şehir O
@@ -1879,8 +1879,8 @@ Gülyüz I-PERSON
 . O
 
 Deprem O
-Stel B-FAC
-Ormanı'ndaki I-FAC
+Stel B-FACILITY
+Ormanı'ndaki I-FACILITY
 stellerin O
 birçoğuna O
 hasar O
@@ -2175,8 +2175,8 @@ idmanlara O
 çağırıldı O
 . O
 
-Angkor B-FAC
-Vat I-FAC
+Angkor B-FACILITY
+Vat I-FACILITY
 , O
 Kamboçya'nın B-GPE
 Siem B-GPE
@@ -2628,10 +2628,10 @@ hapis O
 kalırlar O
 . O
 
-Joshua B-FAC
-Tree I-FAC
-Ulusal I-FAC
-Parkı I-FAC
+Joshua B-FACILITY
+Tree I-FACILITY
+Ulusal I-FACILITY
+Parkı I-FACILITY
 , O
 ABD'nin B-GPE
 California B-GPE
@@ -2780,8 +2780,8 @@ imza O
 attı O
 . O
 
-Pelitköy B-FAC
-Mezar I-FAC
+Pelitköy B-FACILITY
+Mezar I-FACILITY
 . O
 
 Ayrıca O
@@ -2842,9 +2842,9 @@ ayırt O
 etmiştir O
 . O
 
-El B-FAC
-Vakrah I-FAC
-Stadyumunda I-FAC
+El B-FACILITY
+Vakrah I-FACILITY
+Stadyumunda I-FACILITY
 çoğunlukla O
 futbol O
 müsabakaları O
@@ -3301,8 +3301,8 @@ kemirgen O
 çeşididir O
 . O
 
-Tombul B-FAC
-Camii I-FAC
+Tombul B-FACILITY
+Camii I-FACILITY
 şu O
 an O
 restore O
@@ -3592,19 +3592,19 @@ J. B-PERSON
 R I-PERSON
 . O
 
-Stockton B-FAC
-ve I-FAC
-Darlington I-FAC
-Trenyolu I-FAC
-( I-FAC
-S&DR I-FAC
-) I-FAC
+Stockton B-FACILITY
+ve I-FACILITY
+Darlington I-FACILITY
+Trenyolu I-FACILITY
+( I-FACILITY
+S&DR I-FACILITY
+) I-FACILITY
 , O
-Witton B-FAC
-Park I-FAC
-Colliery I-FAC
-" I-FAC
-den I-FAC
+Witton B-FACILITY
+Park I-FACILITY
+Colliery I-FACILITY
+" I-FACILITY
+den I-FACILITY
 ve O
 Batı B-GPE
 Durham I-GPE
@@ -4967,8 +4967,8 @@ müziğinden O
 etkilenmiştir O
 . O
 
-Estdio B-FAC
-Nacional I-FAC
+Estdio B-FACILITY
+Nacional I-FACILITY
 , O
 Portekiz'in B-GPE
 başkenti O
@@ -5131,8 +5131,8 @@ düzenlemektedir O
 Hohenschönhausen B-GPE
 ve O
 Lichtenberg B-GPE
-Berlin B-FAC
-Duvarı I-FAC
+Berlin B-FACILITY
+Duvarı I-FACILITY
 yıkılmadan O
 önce O
 Doğu B-GPE
@@ -5460,10 +5460,10 @@ alınarak O
 tasarlanmıştır O
 . O
 
-Trakai B-FAC
-Tarihi I-FAC
-Milli I-FAC
-Parkı I-FAC
+Trakai B-FACILITY
+Tarihi I-FACILITY
+Milli I-FACILITY
+Parkı I-FACILITY
 Litvanya'daki B-GPE
 beş B-CARDINAL
 milli O
@@ -5736,8 +5736,8 @@ amaçlıyordu O
 
 Stepanavan'da B-GPE
 bulunan O
-Lori B-FAC
-Kalesi I-FAC
+Lori B-FACILITY
+Kalesi I-FACILITY
 10. B-DATE
 yüzyılda I-DATE
 inşaa O
@@ -6302,10 +6302,10 @@ Ağustos I-DATE
 tarihleri O
 arasında O
 İzmir'deki B-GPE
-Alsancak B-FAC
-Atatürk I-FAC
-Yüzme I-FAC
-Tesisleri'nde I-FAC
+Alsancak B-FACILITY
+Atatürk I-FACILITY
+Yüzme I-FACILITY
+Tesisleri'nde I-FACILITY
 yapıldı O
 . O
 
@@ -6397,8 +6397,8 @@ bir O
 kesti O
 . O
 
-Lappeenranta B-FAC
-Havalimanı I-FAC
+Lappeenranta B-FACILITY
+Havalimanı I-FACILITY
 Finlandiya'nın B-GPE
 Lappeenranta B-GPE
 şehrindeki O
@@ -7484,8 +7484,8 @@ kabul O
 edilen O
 sehrin O
 " O
-Devoinshire B-FAC
-Parki I-FAC
+Devoinshire B-FACILITY
+Parki I-FACILITY
 " O
 kortlarinda O
 oynanan O
@@ -7589,14 +7589,14 @@ kazanmışlardır O
 
 Okulun O
 ünlü O
-Tabiat B-FAC
-Bilgisi I-FAC
-Müzesi'ni I-FAC
+Tabiat B-FACILITY
+Bilgisi I-FACILITY
+Müzesi'ni I-FACILITY
 ( O
 şimdi O
-Doğa B-FAC
-Bilimleri I-FAC
-Merkezi I-FAC
+Doğa B-FACILITY
+Bilimleri I-FACILITY
+Merkezi I-FACILITY
 ) O
 Frère B-PERSON
 Possesseur I-PERSON
@@ -9188,8 +9188,8 @@ atıfta O
 bulunmak O
 amacıyla O
 bir O
-Roma B-FAC
-amfitiyatrosu I-FAC
+Roma B-FACILITY
+amfitiyatrosu I-FACILITY
 eklendi O
 . O
 
@@ -9294,7 +9294,7 @@ Burgas I-GPE
 güneydoğu B-GPE
 Bulgaristan'da I-GPE
 , O
-Karadeniz B-FAC
+Karadeniz B-FACILITY
 kıyısında O
 bulunan O
 bir O
@@ -10122,10 +10122,10 @@ yıl O
 sergilendikten O
 sonra O
 Toronto'daki B-GPE
-Art B-FAC
-Gallery I-FAC
-of I-FAC
-Ontario'ya I-FAC
+Art B-FACILITY
+Gallery I-FACILITY
+of I-FACILITY
+Ontario'ya I-FACILITY
 ödünç O
 verilmesi O
 amaçlanıyordu O
@@ -10549,17 +10549,17 @@ felsefeye O
 adamıştır O
 . O
 
-Bunkardan B-FAC
-Chipping I-FAC
-Barnet I-FAC
-Kilisesi'nin I-FAC
+Bunkardan B-FACILITY
+Chipping I-FACILITY
+Barnet I-FACILITY
+Kilisesi'nin I-FACILITY
 yapımı O
 1250'ye B-DATE
 değin O
 uzanır O
 ; O
-Monken B-FAC
-Hadley I-FAC
+Monken B-FACILITY
+Hadley I-FACILITY
 adı O
 kilisenin O
 , O
@@ -11303,8 +11303,8 @@ olduğunu O
 belirtti O
 . O
 
-İpek B-FAC
-Yolu I-FAC
+İpek B-FACILITY
+Yolu I-FACILITY
 Asya'yı B-GPE
 Avrupa'ya B-GPE
 bağlayan O
@@ -12020,12 +12020,12 @@ olduğuna O
 inanılır O
 ve O
 antik O
-Çadır B-FAC
-Tapınak I-FAC
-Mişkan'daki I-FAC
+Çadır B-FACILITY
+Tapınak I-FACILITY
+Mişkan'daki I-FACILITY
 ve O
-Kudüs B-FAC
-Tapınağı'ndaki I-FAC
+Kudüs B-FACILITY
+Tapınağı'ndaki I-FACILITY
 Menora B-PERSON
 adlı O
 şamdanın O
@@ -12654,8 +12654,8 @@ Saskatchewan B-GPE
 veManitoba O
 . O
 
-Atatürk B-FAC
-Barajı'nın I-FAC
+Atatürk B-FACILITY
+Barajı'nın I-FACILITY
 bir O
 kısmı O
 Adıyaman B-GPE
@@ -12782,8 +12782,8 @@ kadar O
 takılabilir O
 . O
 
-Lappeenranta B-FAC
-Havalimanı I-FAC
+Lappeenranta B-FACILITY
+Havalimanı I-FACILITY
 Finlandiya'daki B-GPE
 en O
 eski O
@@ -12902,10 +12902,10 @@ değiştirildi O
 . O
 
 Maçlarını O
-İzmir B-FAC
-Halkapınar I-FAC
-Spor I-FAC
-Salonu'nda I-FAC
+İzmir B-FACILITY
+Halkapınar I-FACILITY
+Spor I-FACILITY
+Salonu'nda I-FACILITY
 yapmaktadırlar O
 . O
 
@@ -12948,9 +12948,9 @@ siyaset B-TITLE
 adamı I-TITLE
 . O
 
-İdil B-FAC
-ticaret I-FAC
-yolu I-FAC
+İdil B-FACILITY
+ticaret I-FACILITY
+yolu I-FACILITY
 yakınında O
 konumlanan O
 Bulgar'dan B-GPE
@@ -13195,9 +13195,9 @@ yasaklandı O
 
 Neubau'da B-GPE
 bulunan O
-Justizpalast B-FAC
-Adliye I-FAC
-Sarayı I-FAC
+Justizpalast B-FACILITY
+Adliye I-FACILITY
+Sarayı I-FACILITY
 1875 B-DATE
 ile I-DATE
 1881 I-DATE
@@ -13764,15 +13764,15 @@ bakımdan O
 olağanüstü O
 önemine O
 rağmen O
-Kırkgöz B-FAC
-Kemeri I-FAC
-köprüsü I-FAC
+Kırkgöz B-FACILITY
+Kemeri I-FACILITY
+köprüsü I-FACILITY
 , O
 veya O
 diğer O
 adıyla O
-Limyra B-FAC
-Köprüsü I-FAC
+Limyra B-FACILITY
+Köprüsü I-FACILITY
 Türkiye'de B-GPE
 çok O
 az O
@@ -13856,11 +13856,11 @@ Kış I-EVENT
 Olimpiyatları'nda I-EVENT
 kayaklı O
 koşu O
-Laura B-FAC
-Biathlon I-FAC
-ve I-FAC
-Kayak I-FAC
-Kompleksi'ta I-FAC
+Laura B-FACILITY
+Biathlon I-FACILITY
+ve I-FACILITY
+Kayak I-FACILITY
+Kompleksi'ta I-FACILITY
 yapılmıştır O
 . O
 823 B-DATE
@@ -14048,16 +14048,16 @@ karşılar O
 ve O
 Alan'ı B-PERSON
 " O
-İyi B-FAC
-Aydınlanmış I-FAC
-Oda I-FAC
-" I-FAC
-ya I-FAC
-( I-FAC
-Well I-FAC
-Lit I-FAC
-Room I-FAC
-) I-FAC
+İyi B-FACILITY
+Aydınlanmış I-FACILITY
+Oda I-FACILITY
+" I-FACILITY
+ya I-FACILITY
+( I-FACILITY
+Well I-FACILITY
+Lit I-FACILITY
+Room I-FACILITY
+) I-FACILITY
 götürür O
 . O
 
@@ -14735,10 +14735,10 @@ taktikler O
 geliştirdi O
 . O
 
-Sekizinci B-FAC
-Kilometre I-FAC
-İlçe I-FAC
-Stadyumu I-FAC
+Sekizinci B-FACILITY
+Kilometre I-FACILITY
+İlçe I-FACILITY
+Stadyumu I-FACILITY
 , O
 Azerbaycan'ın B-GPE
 Bakü B-GPE
@@ -15020,8 +15020,8 @@ adlı O
 yolcu O
 uçağı O
 , O
-Gatwick B-FAC
-Havaalanı I-FAC
+Gatwick B-FACILITY
+Havaalanı I-FACILITY
 yakınlarında O
 düştü O
 . O
@@ -15484,10 +15484,10 @@ Sucre B-GPE
 Bolivya'nın B-GPE
 Yargıtay'ı O
 olan O
-Corte B-FAC
-Suprema I-FAC
-de I-FAC
-Justicia'yı I-FAC
+Corte B-FACILITY
+Suprema I-FACILITY
+de I-FACILITY
+Justicia'yı I-FACILITY
 barındırdığı O
 gibi O
 , O
@@ -16468,8 +16468,8 @@ başkanlığındaki O
 Halk B-ORGANIZATION
 Mahkemesi'nin I-ORGANIZATION
 kararıyla O
-Plötzensee B-FAC
-Hapishanesinde I-FAC
+Plötzensee B-FACILITY
+Hapishanesinde I-FACILITY
 piyano O
 teliyle O
 asılarak O
@@ -16768,15 +16768,15 @@ uyarlanması O
 Temmuz B-DATE
 2009 I-DATE
 tarihinde O
-5. B-FAC
-Avenue I-FAC
-Theatre I-FAC
-da I-FAC
-( I-FAC
-5. I-FAC
-Avenue I-FAC
-Tiyatrosu I-FAC
-) I-FAC
+5. B-FACILITY
+Avenue I-FACILITY
+Theatre I-FACILITY
+da I-FACILITY
+( I-FACILITY
+5. I-FACILITY
+Avenue I-FACILITY
+Tiyatrosu I-FACILITY
+) I-FACILITY
 Seattle B-GPE
 , I-GPE
 Washington'da I-GPE
@@ -17089,9 +17089,9 @@ yılında I-DATE
 albümüdür O
 . O
 
-Tarsus B-FAC
-Etnografya I-FAC
-Müzesi I-FAC
+Tarsus B-FACILITY
+Etnografya I-FACILITY
+Müzesi I-FACILITY
 . O
 
 Tractatus'un B-WORK_OF_ART
@@ -17461,8 +17461,8 @@ biridir O
 . O
 
 Kudüs'te B-GPE
-Tapınak B-FAC
-Dağı'ndaki I-FAC
+Tapınak B-FACILITY
+Dağı'ndaki I-FACILITY
 Birinci B-ORDINAL
 ve O
 İkinci B-ORDINAL
@@ -17933,9 +17933,9 @@ bölgesindeki O
 Northfleet B-GPE
 Gravesend'de I-GPE
 bulunan O
-Stonebridge B-FAC
-Road I-FAC
-stadyumunda I-FAC
+Stonebridge B-FACILITY
+Road I-FACILITY
+stadyumunda I-FACILITY
 oynar O
 . O
 
@@ -18202,8 +18202,8 @@ sınırları O
 içinde O
 yer O
 alan O
-Gwalior B-FAC
-Kalesi I-FAC
+Gwalior B-FACILITY
+Kalesi I-FACILITY
 tarih O
 boyunca O
 birçok O
