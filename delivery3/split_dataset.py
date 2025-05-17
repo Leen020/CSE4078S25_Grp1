@@ -15,7 +15,7 @@ with open(output_testset_path, "w", encoding="utf-8") as f:
     json.dump(test_data, f, ensure_ascii=False, indent=2)
 
 train_data = full_data[num_test_samples:]
-with open("CSE4078S25_GrpX_train_AlpacaStyle.json", "w", encoding="utf-8") as f:
+with open("CSE4078S25_Grp1_train_AlpacaStyle.json", "w", encoding="utf-8") as f:
     json.dump(train_data, f, ensure_ascii=False, indent=2)
 
 print(f"Test dataset saved to {output_testset_path} with ({len(test_data)} samples)")
